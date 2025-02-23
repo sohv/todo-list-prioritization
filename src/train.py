@@ -20,7 +20,7 @@ action_size = env.action_space.n
 agent = DQNAgent(state_size, action_size)
 
 # Training parameters
-episodes = 2000
+episodes = 3000
 batch_size = 32
 
 # Track rewards for plotting
