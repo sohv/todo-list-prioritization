@@ -1,0 +1,10 @@
+# configuration file for hyperparameters and paths
+
+hyperparameters:
+  gamma: 0.95
+  epsilon: 1.0
+  epsilon_min: 0.01
+  epsilon_decay: 0.995
+  learning_rate: 0.001
+  episodes: 1000
+  batch_size: 32

@@ -1,0 +1,8 @@
+env/
+venv/
+
+echo "env/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "*.dylib" >> .gitignore
+echo "*.so" >> .gitignore
+echo "*.a" >> .gitignore
