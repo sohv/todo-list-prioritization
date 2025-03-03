@@ -8,7 +8,7 @@ tasks = pd.DataFrame({
     'deadline': pd.date_range(start='2023-11-25', periods=200, freq='D'),
     'priority': np.random.choice([1, 2, 3], size=200),
     'estimated_time': np.random.uniform(0.5, 5.0, size=200),
-    'category': np.random.choice(['work', 'personal', 'health', 'study'], size=200)
+    'category': np.random.choice(['work', 'personal', 'misc', 'study'], size=200)
 })
 
 # Generate user behavior data
