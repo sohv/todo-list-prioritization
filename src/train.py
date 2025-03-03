@@ -2,7 +2,6 @@ import sys
 import os
 import matplotlib.pyplot as plt 
 
-# Add the project root directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import numpy as np
@@ -15,7 +14,7 @@ tasks, user_behavior = load_data()
 
 # Initialize environment and agent
 env = TodoListEnv(tasks, user_behavior)
-state_size = env.observation_space.shape[0]  # Use shape[0] for flattened state size
+state_size = env.observation_space.shape[0]
 action_size = env.action_space.n
 agent = DQNAgent(state_size, action_size)
 
@@ -48,7 +47,6 @@ for e in range(episodes):
     if len(agent.memory) > batch_size:
         agent.replay(batch_size)
     
-    # Save the model
     if e % 10 == 0:
         agent.model.save("models/dqn_model.h5")
 

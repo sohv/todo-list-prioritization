@@ -2,7 +2,6 @@
 import sys
 import os
 
-# Add the project root directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import numpy as np
@@ -10,7 +9,6 @@ from src.environment import TodoListEnv
 from src.dqn_agent import DQNAgent
 from src.utils import load_data
 
-# Load data
 tasks, user_behavior = load_data()
 
 # Initialize environment and agent
