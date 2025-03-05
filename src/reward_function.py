@@ -1,5 +1,3 @@
-# src/reward_function.py
-
 def calculate_reward(task, user_behavior, current_task_index):
     """
     Calculate reward for prioritizing and completing a task.
@@ -32,10 +30,8 @@ def calculate_reward(task, user_behavior, current_task_index):
     else:
         completion_bonus = -priority * 5  # Big penalty for lateness
 
-    # Optional small penalty for frequent task switching
     switching_penalty = -1 if current_task_index > 0 else 0
 
-    # Total reward calculation
     reward = prioritization_reward + completion_bonus + switching_penalty
 
     return reward
