@@ -1,180 +1,222 @@
 import sys
 import os
-import matplotlib.pyplot as plt 
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+import tensorflow as tf
 import numpy as np
-from src.environment import TodoListEnv
-from src.dqn_agent import DQNAgent
-from src.utils import load_data
+import pandas as pd
+import matplotlib.pyplot as plt
+from environment import TodoListEnv
+from dqn_agent import DQNAgent
 
 def create_directories():
     """Create necessary directories for saving models and plots"""
-    directories = ['models', 'plots']
+    directories = ['models', 'plots', 'logs']
     for directory in directories:
         os.makedirs(directory, exist_ok=True)
 
-# Load data
-tasks, user_behavior = load_data()
-
-# Create necessary directories
-create_directories()
-
-# Initialize environment and agent
-env = TodoListEnv(tasks, user_behavior)
-state_size = env.observation_space.shape[0]
-action_size = env.action_space.n
-agent = DQNAgent(state_size, action_size)
-
-# Training parameters
-episodes = 3000
-batch_size = 32
-save_interval = 100  # Save model every 100 episodes
-plot_interval = 50   # Update plot every 50 episodes
-
-# Add these new parameters
-warmup_episodes = 100  # Collect experiences before training
-min_reward_threshold = -1000  # Minimum acceptable reward
-max_steps = 100
-validation_interval = 50  # How often to validate performance
-
-# Initialize metrics
-episode_rewards = []
-running_avg_rewards = []
-validation_rewards = []
-
-def validate_agent(env, agent, num_episodes=5):
-    """Run validation episodes without exploration"""
-    val_rewards = []
-    for _ in range(num_episodes):
-        state = env.reset()
-        state = np.reshape(state, [1, state_size])
-        episode_reward = 0
-        for _ in range(max_steps):
-            action = agent.act(state, training=False)  # No exploration
-            next_state, reward, done, _ = env.step(action)
-            next_state = np.reshape(next_state, [1, state_size])
-            episode_reward += reward
-            state = next_state
-            if done:
-                break
-        val_rewards.append(episode_reward)
-    return np.mean(val_rewards)
-
-# Training loop
-best_avg_reward = float('-inf')
-no_improvement_count = 0
-
-for e in range(episodes):
-    state = env.reset()
-    state = np.reshape(state, [1, state_size])
-    total_reward = 0
+def train_model(
+    train_data_dir="data/train",
+    episodes=4000,
+    batch_size=128,
+    save_interval=100,
+    plot_interval=50,
+    max_steps_per_episode=100
+):
+    """
+    Train the DQN agent on the training dataset with status-aware tracking.
+    """
+    print("Starting training process...")
     
-    # Warmup period: pure exploration
-    if e < warmup_episodes:
-        agent.epsilon = 1.0
+    # Create necessary directories
+    create_directories()
     
-    for time in range(max_steps):
-        action = agent.act(state)
-        next_state, reward, done, _ = env.step(action)
-        next_state = np.reshape(next_state, [1, state_size])
+    try:
+        # Load training data
+        print("Loading training data...")
+        train_tasks = pd.read_csv(os.path.join(train_data_dir, 'tasks.csv'))
+        train_behavior = pd.read_csv(os.path.join(train_data_dir, 'user_behavior.csv'))
+        print(f"Loaded {len(train_tasks)} training tasks")
         
-        # Clip extreme rewards
-        reward = np.clip(reward, min_reward_threshold, abs(min_reward_threshold))
+        # Print training data statistics
+        print("\nTraining Data Statistics:")
+        print("\nTask Status Distribution:")
+        print(train_tasks['status'].value_counts(normalize=True))
+        print("\nPriority Distribution:")
+        print(train_tasks['priority'].value_counts())
+        print("\nDeadline Range:")
+        print(f"Earliest: {train_tasks['deadline'].min()}")
+        print(f"Latest: {train_tasks['deadline'].max()}")
         
-        agent.remember(state, action, reward, next_state, done)
-        state = next_state
-        total_reward += reward
+        # Initialize environment
+        print("\nInitializing environment...")
+        env = TodoListEnv(train_tasks, train_behavior)
+        state_size = env.observation_space.shape[0]
+        action_size = env.action_space.n
+        print(f"Environment initialized with state size: {state_size}, action size: {action_size}")
         
-        if done:
-            break
-    
-    # Store episode reward
-    episode_rewards.append(total_reward)
-    
-    # Calculate running average
-    if len(episode_rewards) > 100:
-        avg_reward = np.mean(episode_rewards[-100:])
-    else:
-        avg_reward = np.mean(episode_rewards)
-    running_avg_rewards.append(avg_reward)
-    
-    # Training
-    if len(agent.memory) > batch_size and e >= warmup_episodes:
-        agent.replay(batch_size)
-    
-    # Validation
-    if (e + 1) % validation_interval == 0:
-        val_reward = validate_agent(env, agent)
-        validation_rewards.append(val_reward)
+        # Initialize agent
+        print("\nInitializing agent...")
+        agent = DQNAgent(state_size, action_size)
         
-        # Early stopping check
-        if val_reward > best_avg_reward:
-            best_avg_reward = val_reward
-            agent.model.save(f"models/dqn_model_best.keras")
-            no_improvement_count = 0
-        else:
-            no_improvement_count += 1
+        # Training metrics
+        episode_rewards = []
+        running_avg_rewards = []
+        status_based_rewards = {
+            'completed': [],
+            'in_progress': [],
+            'todo': []
+        }
         
-        # If no improvement for a while, reduce learning rate
-        if no_improvement_count >= 5:
-            agent.learning_rate *= 0.5
-            print(f"Reducing learning rate to {agent.learning_rate}")
-            no_improvement_count = 0
-    
-    # Print progress
-    print(f"Episode: {e+1}/{episodes}, Steps: {time+1}, Reward: {total_reward:.2f}, "
-          f"Avg Reward: {avg_reward:.2f}, Epsilon: {agent.epsilon:.3f}")
-    
-    # Save model periodically
-    if (e + 1) % save_interval == 0:
-        model_path = f"models/dqn_model_episode_{e+1}.keras"
-        agent.model.save(model_path)
-        print(f"Model saved to {model_path}")
-    
-    # Plot progress periodically
-    if (e + 1) % plot_interval == 0:
-        plt.figure(figsize=(12, 5))
+        # Open log file
+        log_file = open("logs/training_log.txt", "w")
         
-        # Plot episode rewards
-        plt.subplot(1, 2, 1)
+        # Training loop
+        print("\nStarting training loop...")
+        for e in range(episodes):
+            state = env.reset()
+            state = np.reshape(state, [1, state_size])
+            total_reward = 0
+            episode_status_rewards = {
+                'completed': 0,
+                'in_progress': 0,
+                'todo': 0
+            }
+            
+            for time in range(max_steps_per_episode):
+                # Get action
+                action = agent.act(state)
+                
+                # Get task status
+                task_status = train_tasks.iloc[action]['status']
+                
+                # Take step
+                next_state, reward, done, _ = env.step(action)
+                next_state = np.reshape(next_state, [1, state_size])
+                
+                # Track reward by status
+                episode_status_rewards[task_status] += reward
+                
+                # Store experience
+                agent.remember(state, action, reward, next_state, done)
+                
+                # Update state and reward
+                state = next_state
+                total_reward += reward
+                
+                if done:
+                    break
+            
+            # Train on batch
+            if len(agent.memory) > batch_size:
+                agent.replay(batch_size)
+            
+            # Store metrics
+            episode_rewards.append(total_reward)
+            for status, reward in episode_status_rewards.items():
+                status_based_rewards[status].append(reward)
+            
+            # Calculate running average
+            if len(episode_rewards) > 100:
+                avg_reward = np.mean(episode_rewards[-100:])
+            else:
+                avg_reward = np.mean(episode_rewards)
+            running_avg_rewards.append(avg_reward)
+            
+            # Log progress
+            log_message = (
+                f"Episode: {e+1}/{episodes}\n"
+                f"Steps: {time+1}, Total Reward: {total_reward:.2f}\n"
+                f"Running Avg Reward: {avg_reward:.2f}, Epsilon: {agent.epsilon:.3f}\n"
+                f"Status Rewards: completed={episode_status_rewards['completed']:.2f}, "
+                f"in_progress={episode_status_rewards['in_progress']:.2f}, "
+                f"todo={episode_status_rewards['todo']:.2f}\n"
+                f"------------------------\n"
+            )
+            print(log_message)
+            log_file.write(log_message)
+            
+            # Save model periodically
+            if (e + 1) % save_interval == 0:
+                model_path = f"models/dqn_model_episode_{e+1}.keras"
+                agent.model.save(model_path)
+                print(f"Model saved to {model_path}")
+            
+            # Plot progress periodically
+            if (e + 1) % plot_interval == 0:
+                plt.figure(figsize=(15, 5))
+                
+                # Plot episode rewards
+                plt.subplot(1, 3, 1)
+                plt.plot(episode_rewards)
+                plt.xlabel('Episode')
+                plt.ylabel('Total Reward')
+                plt.title('Episode Rewards')
+                
+                # Plot running average
+                plt.subplot(1, 3, 2)
+                plt.plot(running_avg_rewards)
+                plt.xlabel('Episode')
+                plt.ylabel('Average Reward (last 100 episodes)')
+                plt.title('Running Average Reward')
+                
+                # Plot status-based rewards
+                plt.subplot(1, 3, 3)
+                for status, rewards in status_based_rewards.items():
+                    plt.plot(rewards, label=status)
+                plt.xlabel('Episode')
+                plt.ylabel('Reward by Status')
+                plt.title('Status-based Rewards')
+                plt.legend()
+                
+                plt.tight_layout()
+                plt.savefig(f'plots/training_progress_episode_{e+1}.png')
+                plt.close()
+        
+        # Save final model
+        final_model_path = "models/dqn_model_final.keras"
+        agent.model.save(final_model_path)
+        print(f"\nTraining completed! Final model saved to {final_model_path}")
+        
+        # Close log file
+        log_file.close()
+        
+        # Create final plots
+        plt.figure(figsize=(15, 5))
+        
+        plt.subplot(1, 3, 1)
         plt.plot(episode_rewards)
         plt.xlabel('Episode')
         plt.ylabel('Total Reward')
-        plt.title('Episode Rewards')
+        plt.title('Training Rewards')
         
-        # Plot running average
-        plt.subplot(1, 2, 2)
+        plt.subplot(1, 3, 2)
         plt.plot(running_avg_rewards)
         plt.xlabel('Episode')
-        plt.ylabel('Average Reward (last 100 episodes)')
+        plt.ylabel('Average Reward')
         plt.title('Running Average Reward')
         
+        plt.subplot(1, 3, 3)
+        for status, rewards in status_based_rewards.items():
+            plt.plot(rewards, label=status)
+        plt.xlabel('Episode')
+        plt.ylabel('Reward by Status')
+        plt.title('Status-based Rewards')
+        plt.legend()
+        
         plt.tight_layout()
-        plt.savefig(f'plots/training_progress_episode_{e+1}.png')
+        plt.savefig('plots/final_training_results.png')
         plt.close()
+        
+    except Exception as e:
+        print(f"Error during training: {str(e)}")
+        import traceback
+        traceback.print_exc()
 
-# Save final model
-final_model_path = "models/dqn_model_final.keras"
-agent.model.save(final_model_path)
-print(f"Training completed! Final model saved to {final_model_path}")
-
-# Create final plots
-plt.figure(figsize=(12, 5))
-
-plt.subplot(1, 2, 1)
-plt.plot(episode_rewards)
-plt.xlabel('Episode')
-plt.ylabel('Total Reward')
-plt.title('Training Rewards')
-
-plt.subplot(1, 2, 2)
-plt.plot(running_avg_rewards)
-plt.xlabel('Episode')
-plt.ylabel('Average Reward (last 100 episodes)')
-plt.title('Running Average Reward')
-
-plt.tight_layout()
-plt.savefig('plots/final_training_results.png')
-plt.close()
+if __name__ == "__main__":
+    train_model(
+        train_data_dir="data/train",
+        episodes=4000,
+        batch_size=128,
+        save_interval=100,
+        plot_interval=50,
+        max_steps_per_episode=100
+    )
