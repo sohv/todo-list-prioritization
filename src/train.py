@@ -145,8 +145,8 @@ def train_model(
             
             # Save model periodically
             if (e + 1) % save_interval == 0:
-                model_path = f"models/dqn_model_episode_{e+1}.keras"
-                agent.model.save(model_path)  # Save as .keras format
+                model_path = f"models/dqn_model_episode_{e+1}.pt"
+                agent.save(model_path)
                 print(f"Model saved to {model_path}")
             
             # Plot progress periodically
@@ -181,8 +181,8 @@ def train_model(
                 plt.close()
         
         # Save final model
-        final_model_path = "models/dqn_model_final.keras"
-        agent.model.save(final_model_path)
+        final_model_path = "models/dqn_model_final.pt"
+        agent.save(final_model_path)
         print(f"\nTraining completed! Final model saved to {final_model_path}")
         
         # Close log file

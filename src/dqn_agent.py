@@ -180,6 +180,10 @@ class DQNAgent:
         # Ensure directory exists
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         
+        # Ensure the file has the correct extension
+        if not (filepath.endswith('.pt') or filepath.endswith('.pth')):
+            filepath = f"{filepath}.pt"
+        
         # Save model state dict
         torch.save({
             'model_state_dict': self.dqn_model.state_dict(),
@@ -204,4 +208,7 @@ class DQNAgent:
     # For compatibility with TensorFlow code
     def model_save(self, filepath):
         """Compatibility method for TF's model.save()"""
+        # Convert .keras extension to .pt if present
+        if filepath.endswith('.keras'):
+            filepath = filepath[:-6] + '.pt'
         self.save(filepath)
