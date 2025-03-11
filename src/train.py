@@ -1,15 +1,20 @@
 import sys
 import os
-import tensorflow as tf
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import torch
 from environment import TodoListEnv
 from dqn_agent import DQNAgent
 
-# Set the device to MPS if available
-device_name = '/device:GPU:0' if tf.config.list_physical_devices('GPU') else '/cpu:0'
-print(f"Using device: {device_name}")
+# Set the device to MPS
+device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+
+# Move your model and data to the MPS device
+# model.to(device)
+# data = data.to(device)
+
+print(f"Using device: {device}")
 
 def create_directories():
     """Create necessary directories for saving models and plots"""
@@ -59,7 +64,7 @@ def train_model(
         
         # Initialize agent
         print("\nInitializing agent...")
-        agent = DQNAgent(state_size, action_size)
+        agent = DQNAgent(state_size, action_size, device=device)
         
         # Training metrics
         episode_rewards = []

@@ -16,14 +16,19 @@ def calculate_reward(task, user_behavior, current_task_index):
     priority = task['priority']
     status = task['status']
     deadline = pd.to_datetime(task['deadline'])
+    estimated_time = task['estimated_time']
     
-    # Get completion time from user behavior
+    # Check if task exists in user_behavior
+    task_in_behavior = user_behavior['task_id'].isin([task_id]).any()
+    
+    if not task_in_behavior:
+        # If task not in user_behavior, use a default approach
+        return _default_reward(task, priority, status, deadline, estimated_time, current_task_index)
+    
+    # Get completion time from user_behavior
     completion_time = user_behavior.loc[
         user_behavior['task_id'] == task_id, 'completion_time'
     ].values[0]
-    
-    # Get estimated time for the task
-    estimated_time = task['estimated_time']
     
     # Calculate base reward based on task status
     if status == 'completed':
@@ -37,6 +42,39 @@ def calculate_reward(task, user_behavior, current_task_index):
     switching_penalty = -5 if current_task_index > 0 else 0
     
     return reward + switching_penalty
+
+def _default_reward(task, priority, status, deadline, estimated_time, current_task_index):
+    """Calculate a default reward when task is not in user_behavior."""
+    start_date = pd.to_datetime(task['start_date'])
+    days_remaining = (deadline - start_date).days
+    
+    # Base reward based on priority and status
+    status_multiplier = {
+        'completed': 2.0,
+        'in_progress': 1.5,
+        'todo': 1.0
+    }
+    
+    # Deadline urgency (higher for closer deadlines)
+    if days_remaining <= 7:
+        urgency = 3.0
+    elif days_remaining <= 14:
+        urgency = 2.0
+    elif days_remaining <= 30:
+        urgency = 1.5
+    else:
+        urgency = 1.0
+    
+    # Calculate base reward
+    base_reward = priority * 10 * status_multiplier[status] * urgency
+    
+    # Estimated time component (prefer shorter tasks)
+    time_factor = max(0.5, 1.0 - (estimated_time / 10))
+    
+    # Switching penalty
+    switching_penalty = -5 if current_task_index > 0 else 0
+    
+    return base_reward * time_factor + switching_penalty
 
 def _reward_for_completed_task(task, completion_time, estimated_time, priority, deadline):
     """Calculate reward for a completed task."""
@@ -79,9 +117,15 @@ def _reward_for_in_progress_task(task, user_behavior, completion_time, estimated
     """Calculate reward for an in-progress task."""
     # For in-progress tasks, use current progress and time spent
     start_date = pd.to_datetime(task['start_date'])
-    actual_start_date = pd.to_datetime(user_behavior.loc[
-        user_behavior['task_id'] == task['task_id'], 'actual_start_date'
-    ].values[0])
+    
+    # Check if actual_start_date exists in user_behavior
+    if 'actual_start_date' in user_behavior.columns:
+        actual_start_date = pd.to_datetime(user_behavior.loc[
+            user_behavior['task_id'] == task['task_id'], 'actual_start_date'
+        ].values[0])
+    else:
+        # Use start_date if actual_start_date not available
+        actual_start_date = start_date
     
     # Use start_date as the current date for calculation
     current_date = start_date

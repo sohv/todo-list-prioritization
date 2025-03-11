@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import torch
 from gym import Env, spaces
 from datetime import datetime
 
@@ -7,11 +8,14 @@ from datetime import datetime
 from reward_function import calculate_reward
 
 class TodoListEnv(Env):
-    def __init__(self, tasks, user_behavior):
+    def __init__(self, tasks, user_behavior, device=None):
         super(TodoListEnv, self).__init__()
         self.tasks = tasks
         self.user_behavior = user_behavior
         self.current_task_index = 0
+        
+        # Set device (CPU or MPS)
+        self.device = device if device is not None else torch.device("mps" if torch.backends.mps.is_available() else "cpu")
         
         # Convert deadline to datetime and calculate days remaining
         self.tasks['deadline'] = pd.to_datetime(self.tasks['deadline'])

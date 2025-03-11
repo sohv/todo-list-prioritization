@@ -1,14 +1,13 @@
 import sys
 import os
-import tensorflow as tf
+import torch
 import numpy as np
 import pandas as pd
 from environment import TodoListEnv
 from dqn_agent import DQNAgent
-from utils import load_data
 
 def evaluate_model(
-    model_path="models/dqn_model_final.keras",
+    model_path="models/dqn_model_final.pt",
     test_data_dir="data/test",
     num_episodes=5,
     max_steps_per_episode=20
@@ -19,6 +18,10 @@ def evaluate_model(
     print("Starting evaluation on test data...")
     
     try:
+        # Set device
+        device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+        print(f"Using device: {device}")
+        
         # Load test data
         print("Loading test data...")
         test_tasks = pd.read_csv(os.path.join(test_data_dir, 'tasks.csv'))
@@ -37,23 +40,19 @@ def evaluate_model(
         
         # Initialize environment with test data
         print("\nInitializing environment...")
-        env = TodoListEnv(test_tasks, test_behavior)
+        env = TodoListEnv(test_tasks, test_behavior, device=device)
         state_size = env.observation_space.shape[0]
         action_size = env.action_space.n
         print(f"Environment initialized with state size: {state_size}, action size: {action_size}")
         
         # Initialize agent
         print("\nInitializing agent...")
-        agent = DQNAgent(state_size, action_size)
+        agent = DQNAgent(state_size, action_size, device=device)
         
         # Load trained model
         print(f"Loading model from {model_path}")
         try:
-            agent.model = tf.keras.models.load_model(model_path, compile=False)
-            agent.model.compile(
-                optimizer=tf.keras.optimizers.Adam(learning_rate=agent.learning_rate),
-                loss='huber'
-            )
+            agent.load(model_path)
             print("Model loaded successfully")
         except Exception as e:
             print(f"Error loading model: {e}")
@@ -185,7 +184,7 @@ def evaluate_model(
 
 if __name__ == "__main__":
     evaluate_model(
-        model_path="models/dqn_model_final.keras",
+        model_path="models/dqn_model_final.pt",
         test_data_dir="data/test",
         num_episodes=5,
         max_steps_per_episode=20
