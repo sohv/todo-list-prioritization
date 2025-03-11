@@ -4,7 +4,7 @@ from gym import Env, spaces
 from datetime import datetime
 
 # Import reward function from external file
-from src.reward_function import calculate_reward
+from reward_function import calculate_reward
 
 class TodoListEnv(Env):
     def __init__(self, tasks, user_behavior):

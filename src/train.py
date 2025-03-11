@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 from environment import TodoListEnv
 from dqn_agent import DQNAgent
 
+# Set the device to MPS if available
+device_name = '/device:GPU:0' if tf.config.list_physical_devices('GPU') else '/cpu:0'
+print(f"Using device: {device_name}")
+
 def create_directories():
     """Create necessary directories for saving models and plots"""
     directories = ['models', 'plots', 'logs']
@@ -137,7 +141,7 @@ def train_model(
             # Save model periodically
             if (e + 1) % save_interval == 0:
                 model_path = f"models/dqn_model_episode_{e+1}.keras"
-                agent.model.save(model_path)
+                agent.model.save(model_path)  # Save as .keras format
                 print(f"Model saved to {model_path}")
             
             # Plot progress periodically
