@@ -1,7 +1,6 @@
 env/
 venv/
 models/
-plots/
 src/__pycache__/
 
 echo "env/" >> .gitignore
