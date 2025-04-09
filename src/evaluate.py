@@ -12,23 +12,16 @@ def evaluate_model(
     num_episodes=5,
     max_steps_per_episode=20
 ):
-    """
-    Evaluate the trained model on test data with status-aware evaluation.
-    """
     print("Starting evaluation on test data...")
     
     try:
-        # Set device
         device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
         print(f"Using device: {device}")
-        
-        # Load test data
         print("Loading test data...")
         test_tasks = pd.read_csv(os.path.join(test_data_dir, 'tasks.csv'))
         test_behavior = pd.read_csv(os.path.join(test_data_dir, 'user_behavior.csv'))
         print(f"Loaded {len(test_tasks)} test tasks")
         
-        # Print test data statistics
         print("\nTest Data Statistics:")
         print("\nTask Status Distribution:")
         print(test_tasks['status'].value_counts(normalize=True))
@@ -38,18 +31,14 @@ def evaluate_model(
         print(f"Earliest: {test_tasks['deadline'].min()}")
         print(f"Latest: {test_tasks['deadline'].max()}")
         
-        # Initialize environment with test data
         print("\nInitializing environment...")
         env = TodoListEnv(test_tasks, test_behavior, device=device)
         state_size = env.observation_space.shape[0]
         action_size = env.action_space.n
         print(f"Environment initialized with state size: {state_size}, action size: {action_size}")
         
-        # Initialize agent
         print("\nInitializing agent...")
         agent = DQNAgent(state_size, action_size, device=device)
-        
-        # Load trained model
         print(f"Loading model from {model_path}")
         try:
             agent.load(model_path)
@@ -58,7 +47,7 @@ def evaluate_model(
             print(f"Error loading model: {e}")
             return
         
-        # Evaluation metrics
+        # evaluation metrics
         episode_rewards = []
         episode_lengths = []
         action_frequencies = np.zeros(action_size)
@@ -68,7 +57,6 @@ def evaluate_model(
             'todo': []
         }
         
-        # Run evaluation episodes
         print("\nStarting evaluation episodes...")
         for episode in range(num_episodes):
             print(f"\nEpisode {episode + 1}/{num_episodes}")
@@ -85,26 +73,16 @@ def evaluate_model(
                 }
                 
                 while steps < max_steps_per_episode:
-                    # Get and validate action
                     action = agent.act(state, training=False)
                     if action >= action_size:
                         print(f"  Warning: Invalid action {action}, clipping to valid range")
                         action = action % action_size
-                    
-                    # Track action
                     action_frequencies[action] += 1
                     episode_actions.append(action)
-                    
-                    # Get task status for the chosen action
                     task_status = test_tasks.iloc[action]['status']
-                    
-                    # Take step
                     next_state, reward, done, _ = env.step(action)
-                    
-                    # Track reward by status
                     episode_status_rewards[task_status] += reward
                     
-                    # Print step information
                     print(f"  Step {steps + 1}:")
                     print(f"    Action: {action}")
                     print(f"    Task Status: {task_status}")
@@ -123,13 +101,11 @@ def evaluate_model(
                 if steps >= max_steps_per_episode:
                     print(f"  Warning: Episode hit max steps ({max_steps_per_episode})")
                 
-                # Store episode metrics
                 episode_rewards.append(total_reward)
                 episode_lengths.append(steps)
                 for status, reward in episode_status_rewards.items():
                     status_based_rewards[status].append(reward)
                 
-                # Episode summary
                 print(f"\n  Episode {episode + 1} Summary:")
                 print(f"    Steps: {steps}")
                 print(f"    Total Reward: {total_reward:.2f}")
@@ -145,7 +121,6 @@ def evaluate_model(
                 traceback.print_exc()
                 continue
         
-        # Detailed evaluation summary
         if episode_rewards:
             print("\nDetailed Evaluation Summary:")
             
