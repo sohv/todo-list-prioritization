@@ -1,5 +1,5 @@
 <!-- Project documentation -->
-# Adaptive Task prioritization in To-do Lists using Reinforcement Learning
+# Adaptive Task prioritization in To-Do List
 
 A RL-based task prioritization system that helps optimize task scheduling based on deadlines, priorities, and estimated completion times.
 
