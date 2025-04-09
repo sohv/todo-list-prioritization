@@ -34,7 +34,7 @@ A RL-based task prioritization system that helps optimize task scheduling based 
 
 ## Requirements
 
-- Python 3.12
+- Python >=3.12
 - Dependencies listed in `requirements.txt`:
   - numpy
   - pandas
