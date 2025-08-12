@@ -15,7 +15,7 @@ def evaluate_model(
     print("Starting evaluation on test data...")
     
     try:
-        device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print(f"Using device: {device}")
         print("Loading test data...")
         test_tasks = pd.read_csv(os.path.join(test_data_dir, 'tasks.csv'))
