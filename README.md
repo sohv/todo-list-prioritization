@@ -47,18 +47,27 @@ A RL-based task prioritization system that helps optimize task scheduling based 
 1. Clone the repository:
 ```bash
 git clone https://github.com/sohv/todo-list-prioritization.git
-cd todo-agent
+cd todo-list-prioritization
 ```
 
-2. Create and activate a virtual environment:
+2. Install uv (if not already installed):
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# On macOS and Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# On Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-3. Install dependencies:
+3. Create and activate a virtual environment with uv:
 ```bash
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+4. Install dependencies:
+```bash
+uv pip install -r requirements.txt
 ```
 
 ## Usage
