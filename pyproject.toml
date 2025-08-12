@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo-list-prioritization"
+version = "0.1.0"
+description = "AI-powered todo list prioritization using reinforcement learning"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas", 
+    "gymnasium",
+    "torch",
+    "matplotlib",
+    "tensorboard",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "flake8>=4.0",
+]
