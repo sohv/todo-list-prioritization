@@ -1,0 +1,11 @@
+user_id,name,persona,efficiency_rating,task_switching_penalty,prefers_batch,work_hours
+user_001,Bob Smith,deadline_driven,1.1779257921161397,0.5,True,"(7, 19)"
+user_002,Emma Davis,deadline_driven,1.139196365086843,0.5,True,"(7, 19)"
+user_003,David Brown,efficiency_focused,1.0581100947678923,0.8,True,"(9, 17)"
+user_004,Bob Martinez,flexible_worker,0.7935967122017216,0.3,False,"(8, 20)"
+user_005,Bob Anderson,deadline_driven,0.9755493351795202,0.5,True,"(7, 19)"
+user_006,Grace Smith,efficiency_focused,1.0606690070459253,0.8,True,"(9, 17)"
+user_007,Alice Johnson,collaborative,1.0905330837693117,0.4,False,"(9, 18)"
+user_008,David Davis,efficiency_focused,1.2819459112971967,0.8,True,"(9, 17)"
+user_009,Iris Anderson,collaborative,1.2631316254094502,0.4,False,"(9, 18)"
+user_010,Alice Martinez,flexible_worker,0.8090949803242603,0.3,False,"(8, 20)"
