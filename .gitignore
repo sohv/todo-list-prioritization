@@ -1,10 +1,24 @@
+# Virtual environments
 env/
 venv/
+.venv/
+
+# Models and cache
 models/
 src/__pycache__/
+__pycache__/
 
-echo "env/" >> .gitignore
-echo "venv/" >> .gitignore
-echo "*.dylib" >> .gitignore
-echo "*.so" >> .gitignore
-echo "*.a" >> .gitignore
+# Compiled extensions
+*.dylib
+*.so
+*.a
+
+# uv lock file should be committed
+# uv.lock
+
+src/todo_list_prioritization.egg-info/
+uv_setup.md 
+actor_critic.md
+reward_function.md
+reward_comparison.md
+dataset_analysis.md
