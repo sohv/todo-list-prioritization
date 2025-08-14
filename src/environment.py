@@ -8,11 +8,12 @@ from datetime import datetime
 from .reward_function import calculate_reward
 
 class TodoListEnv(Env):
-    def __init__(self, tasks, user_behavior, device=None):
+    def __init__(self, tasks, user_behavior, device=None, max_tasks_per_episode=1000):
         super(TodoListEnv, self).__init__()
         self.original_tasks = tasks.copy()
         self.user_behavior = user_behavior
         self.device = device if device is not None else torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.max_tasks_per_episode = max_tasks_per_episode
         
         # Process initial tasks
         self.original_tasks['deadline'] = pd.to_datetime(self.original_tasks['deadline'])
@@ -22,22 +23,34 @@ class TodoListEnv(Env):
         self.available_tasks = None
         self.completed_tasks = []
         self.episode_step = 0
+        self.task_mapping = {}  # Map episode indices to original task indices
         
-        # Fixed action and observation spaces based on maximum possible tasks
-        self.max_tasks = len(self.original_tasks)
-        self.action_space = spaces.Discrete(self.max_tasks)
+        # Fixed action and observation spaces based on maximum tasks per episode
+        self.action_space = spaces.Discrete(self.max_tasks_per_episode)
         # State: [task_features..., action_mask]
         self.observation_space = spaces.Box(
             low=-10, high=10, 
-            shape=(self.max_tasks * 4 + self.max_tasks,), 
+            shape=(self.max_tasks_per_episode * 4 + self.max_tasks_per_episode,), 
             dtype=np.float32
         )
 
     def reset(self, seed=None):
         super().reset(seed=seed)
         
-        # Reset available tasks (only incomplete tasks)
-        self.available_tasks = self.original_tasks.copy()
+        # Sample a subset of tasks for this episode
+        if len(self.original_tasks) > self.max_tasks_per_episode:
+            sampled_indices = np.random.choice(
+                len(self.original_tasks), 
+                size=self.max_tasks_per_episode, 
+                replace=False
+            )
+            self.available_tasks = self.original_tasks.iloc[sampled_indices].copy()
+            # Create mapping from episode indices to original indices
+            self.task_mapping = {i: orig_idx for i, orig_idx in enumerate(sampled_indices)}
+        else:
+            self.available_tasks = self.original_tasks.copy()
+            self.task_mapping = {i: i for i in range(len(self.original_tasks))}
+        
         self.completed_tasks = []
         self.episode_step = 0
         
@@ -72,8 +85,8 @@ class TodoListEnv(Env):
         self.episode_step += 1
         
         # Episode ends when no tasks left or max steps reached
-        done = len(self.available_tasks) == 0 or self.episode_step >= self.max_tasks
-        truncated = self.episode_step >= self.max_tasks and len(self.available_tasks) > 0
+        done = len(self.available_tasks) == 0 or self.episode_step >= self.max_tasks_per_episode
+        truncated = self.episode_step >= self.max_tasks_per_episode and len(self.available_tasks) > 0
         
         return self._get_state(), reward, done, truncated, {}
     
@@ -84,7 +97,7 @@ class TodoListEnv(Env):
         
         current_date = datetime.now()
         
-        for i in range(self.max_tasks):
+        for i in range(self.max_tasks_per_episode):
             if i < len(self.available_tasks):
                 task = self.available_tasks.iloc[i]
                 
