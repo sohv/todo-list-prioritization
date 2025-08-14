@@ -241,12 +241,12 @@ class DQNAgent:
         if experiences is None:
             return None
             
-        # Convert experiences to tensors
-        states = torch.FloatTensor([e.state for e in experiences]).to(self.device)
-        actions = torch.LongTensor([e.action for e in experiences]).to(self.device)
-        rewards = torch.FloatTensor([e.reward for e in experiences]).to(self.device)
-        next_states = torch.FloatTensor([e.next_state for e in experiences]).to(self.device)
-        dones = torch.BoolTensor([e.done for e in experiences]).to(self.device)
+        # Convert experiences to tensors (efficiently using numpy arrays first)
+        states = torch.FloatTensor(np.array([e.state for e in experiences])).to(self.device)
+        actions = torch.LongTensor(np.array([e.action for e in experiences])).to(self.device)
+        rewards = torch.FloatTensor(np.array([e.reward for e in experiences])).to(self.device)
+        next_states = torch.FloatTensor(np.array([e.next_state for e in experiences])).to(self.device)
+        dones = torch.BoolTensor(np.array([e.done for e in experiences])).to(self.device)
         weights = torch.FloatTensor(weights).to(self.device)
         
         # Current Q values

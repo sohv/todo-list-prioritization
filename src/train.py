@@ -9,10 +9,6 @@ from .dqn_agent import DQNAgent
 
 # use NVIDIA GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# model.to(device)
-# data = data.to(device)
-
 print(f"Using device: {device}")
 
 def create_directories():
