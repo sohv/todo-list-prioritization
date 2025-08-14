@@ -203,7 +203,9 @@ class DQNAgent:
         if training and np.random.rand() <= self.epsilon:
             # Random action from valid actions only
             if valid_actions is not None and len(valid_actions) > 0:
-                return np.random.choice(valid_actions)
+                # Use faster random selection for large action spaces
+                random_idx = np.random.randint(0, len(valid_actions))
+                return valid_actions[random_idx]
             return np.random.choice(self.action_size)
         
         # Get Q-values
@@ -218,12 +220,19 @@ class DQNAgent:
         
         # Apply action masking if provided
         if valid_actions is not None and len(valid_actions) > 0:
-            # Mask invalid actions with very negative values
-            masked_q_values = q_values.clone()
-            valid_mask = torch.zeros(self.action_size, dtype=torch.bool)
-            valid_mask[valid_actions] = True
-            masked_q_values[0, ~valid_mask] = -float('inf')
-            return torch.argmax(masked_q_values[0]).item()
+            # For efficiency with large action spaces, directly index valid actions
+            if len(valid_actions) > 1000:  # Use efficient approach for large action spaces
+                valid_actions_tensor = torch.tensor(valid_actions, device=self.device)
+                valid_q_values = q_values[0, valid_actions_tensor]
+                best_valid_idx = torch.argmax(valid_q_values).item()
+                return valid_actions[best_valid_idx]
+            else:
+                # Original masking approach for smaller action spaces
+                masked_q_values = q_values.clone()
+                valid_mask = torch.zeros(self.action_size, dtype=torch.bool, device=self.device)
+                valid_mask[valid_actions] = True
+                masked_q_values[0, ~valid_mask] = -float('inf')
+                return torch.argmax(masked_q_values[0]).item()
         
         return torch.argmax(q_values[0]).item()
     
