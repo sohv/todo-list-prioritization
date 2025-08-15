@@ -112,8 +112,9 @@ def create_training_plots(episode_rewards, episode_lengths, loss_history,
 def train_model(
     train_data_dir="data/train",
     test_data_dir="data/test", 
-    episodes=1000,
-    batch_size=128,
+    episodes=2000,
+    batch_size=64,
+    save_interval=100,
     plot_interval=50,
     validation_interval=200,
     early_stopping_patience=500
@@ -264,6 +265,12 @@ def train_model(
                     print(f"Early stopping at episode {episode+1}")
                     break
             
+            # Model checkpointing
+            if (episode + 1) % save_interval == 0:
+                model_path = f"models/dqn_model_episode_{episode+1}.pt"
+                agent.save(model_path)
+                print(f"Model saved to {model_path}")
+            
             # Plotting
             if (episode + 1) % plot_interval == 0:
                 create_training_plots(
@@ -302,8 +309,9 @@ if __name__ == "__main__":
     train_model(
         train_data_dir="data/train",
         test_data_dir="data/test",
-        episodes=1000,
-        batch_size=128,
+        episodes=2000,
+        batch_size=64,
+        save_interval=100,
         plot_interval=50,
         validation_interval=200,
         early_stopping_patience=500

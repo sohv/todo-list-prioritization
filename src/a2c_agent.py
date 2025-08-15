@@ -209,14 +209,20 @@ class A2CAgent:
         self.state_dim = state_dim
         self.max_tasks = max_tasks
         self.device = device if device else torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.lr_actor = lr_actor
+        self.lr_critic = lr_critic
         
         # Networks
-        self.actor = ActorNetwork(state_dim, max_tasks).to(self.device)
-        self.critic = CriticNetwork(state_dim).to(self.device)
+        self._create_networks()
+        
+    def _create_networks(self):
+        """Create actor and critic networks"""
+        self.actor = ActorNetwork(self.state_dim, self.max_tasks).to(self.device)
+        self.critic = CriticNetwork(self.state_dim).to(self.device)
         
         # Optimizers
-        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=lr_actor)
-        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=lr_critic)
+        self.actor_optimizer = optim.Adam(self.actor.parameters(), lr=self.lr_actor)
+        self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=self.lr_critic)
         
         # Experience storage
         self.states = []
@@ -393,7 +399,23 @@ class A2CAgent:
     def load(self, filepath):
         """Load model"""
         if os.path.exists(filepath):
-            checkpoint = torch.load(filepath, map_location=self.device)
+            checkpoint = torch.load(filepath, map_location=self.device, weights_only=False)
+            
+            # Check if hyperparameters are saved and if dimensions match
+            if 'hyperparameters' in checkpoint:
+                saved_state_dim = checkpoint['hyperparameters']['state_dim']
+                saved_max_tasks = checkpoint['hyperparameters']['max_tasks']
+                
+                if saved_state_dim != self.state_dim or saved_max_tasks != self.max_tasks:
+                    print(f"Warning: A2C model dimension mismatch!")
+                    print(f"  Saved: state_dim={saved_state_dim}, max_tasks={saved_max_tasks}")
+                    print(f"  Current: state_dim={self.state_dim}, max_tasks={self.max_tasks}")
+                    print(f"  Updating model with saved dimensions...")
+                    
+                    # Update dimensions and recreate networks
+                    self.state_dim = saved_state_dim
+                    self.max_tasks = saved_max_tasks
+                    self._create_networks()
             
             self.actor.load_state_dict(checkpoint['actor_state_dict'])
             self.critic.load_state_dict(checkpoint['critic_state_dict'])

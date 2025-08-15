@@ -136,17 +136,17 @@ class DQNAgent:
         self.state_size = state_size
         self.action_size = action_size
         
-        # Improved replay buffer with prioritized experience replay - reduced bias
-        self.memory = PrioritizedReplayBuffer(50000, alpha=0.5)
+        # Improved replay buffer with prioritized experience replay
+        self.memory = PrioritizedReplayBuffer(50000, alpha=0.6)
         
-        # Hyperparameters - Stabilized for better training
+        # Hyperparameters
         self.gamma = 0.99  
         self.epsilon = 1.0 
-        self.epsilon_min = 0.05  # Increased for more exploration
-        self.epsilon_decay = 0.998  # Slower decay to maintain exploration longer
-        self.learning_rate = 0.00005  # Reduced learning rate for stability
-        self.tau = 0.001  # Slower soft updates for stability
-        self.update_frequency = 8  # Update every N steps
+        self.epsilon_min = 0.01
+        self.epsilon_decay = 0.995  # Slower decay for better exploration
+        self.learning_rate = 0.0001  # Lower learning rate for stability
+        self.tau = 0.005  # Faster target network updates
+        self.update_frequency = 4  # Update every N steps
         self.target_update_frequency = 1000  # Hard update target network
         
         # Training metrics
@@ -161,8 +161,14 @@ class DQNAgent:
         print(f"DQNAgent using device: {self.device}")
         
         # Double DQN setup
-        self.dqn_model = DQNetwork(state_size, action_size).to(self.device)
-        self.target_model = DQNetwork(state_size, action_size).to(self.device)
+        self._create_networks()
+        
+        self._model_wrapper_instance = self._ModelWrapper(self)
+    
+    def _create_networks(self):
+        """Create DQN networks"""
+        self.dqn_model = DQNetwork(self.state_size, self.action_size).to(self.device)
+        self.target_model = DQNetwork(self.state_size, self.action_size).to(self.device)
         self.optimizer = optim.AdamW(
             self.dqn_model.parameters(), 
             lr=self.learning_rate,
@@ -172,8 +178,6 @@ class DQNAgent:
         
         # Initialize target network
         self.hard_update_target_model()
-        
-        self._model_wrapper_instance = self._ModelWrapper(self)
     
     @property
     def model(self):
@@ -329,7 +333,24 @@ class DQNAgent:
     
     def load(self, filepath):
         if os.path.exists(filepath):
-            checkpoint = torch.load(filepath, map_location=self.device)
+            checkpoint = torch.load(filepath, map_location=self.device, weights_only=False)
+            
+            # Check if dimensions match the saved model
+            if 'state_size' in checkpoint and 'action_size' in checkpoint:
+                saved_state_size = checkpoint['state_size']
+                saved_action_size = checkpoint['action_size']
+                
+                if saved_state_size != self.state_size or saved_action_size != self.action_size:
+                    print(f"Warning: DQN model dimension mismatch!")
+                    print(f"  Saved: state_size={saved_state_size}, action_size={saved_action_size}")
+                    print(f"  Current: state_size={self.state_size}, action_size={self.action_size}")
+                    print(f"  Recreating model with saved dimensions...")
+                    
+                    # Update dimensions and recreate networks
+                    self.state_size = saved_state_size
+                    self.action_size = saved_action_size
+                    self._create_networks()
+            
             self.dqn_model.load_state_dict(checkpoint['model_state_dict'])
             self.target_model.load_state_dict(checkpoint['target_model_state_dict'])
             self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])

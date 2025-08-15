@@ -150,19 +150,19 @@ def train_a2c_model(
             # Log progress
             if episode % 10 == 0 or episode < 10:
                 elapsed_time = time.time() - start_time
+                log_message = (
+                    f"Episode {episode+1}/{episodes} - "
+                    f"Reward: {total_reward:.3f}, Length: {episode_length}, "
+                    f"Avg Reward: {avg_reward:.3f}, Avg Length: {avg_length:.1f}, "
+                    f"Time: {elapsed_time:.1f}s"
+                )
                 
-                # Calculate average losses
-                avg_actor_loss = np.mean(actor_losses[-100:]) if actor_losses else 0.0
-                avg_critic_loss = np.mean(critic_losses[-100:]) if critic_losses else 0.0
-                avg_entropy = np.mean(entropies[-100:]) if entropies else 0.0
-                
-                log_message = f"""Episode: {episode+1}/{episodes}
-Tasks Completed: {episode_length}, Total Reward: {total_reward:.3f}
-Episode Length: {episode_length}, Avg Reward (last {window_size}): {avg_reward:.3f}
-Avg Episode Length: {avg_length:.1f}
-Actor Loss: {avg_actor_loss:.6f}, Critic Loss: {avg_critic_loss:.6f}, Entropy: {avg_entropy:.3f}
-Time Elapsed: {elapsed_time:.1f}s
-------------------------"""
+                if actor_losses:
+                    log_message += f", Actor Loss: {np.mean(actor_losses[-10:]):.6f}"
+                if critic_losses:
+                    log_message += f", Critic Loss: {np.mean(critic_losses[-10:]):.6f}"
+                if entropies:
+                    log_message += f", Entropy: {np.mean(entropies[-10:]):.3f}"
                 
                 print(log_message)
                 log_file.write(log_message + "\n")
@@ -394,7 +394,7 @@ def create_a2c_plots(episode_rewards, episode_lengths, actor_losses, critic_loss
         axes[1, 2].set_title('Validation Performance')
     
     plt.tight_layout()
-    plt.savefig(f'plots/a2c/a2c_training_progress_{suffix}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'plots/a2c_training_progress_{suffix}.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def create_a3c_plots(agent):
@@ -518,11 +518,11 @@ if __name__ == "__main__":
     
     # Train A2C
     a2c_agent = train_a2c_model(
-        episodes=1000,  # Match DQN episodes
-        max_steps_per_episode=300,  # Match DQN tasks per episode
-        update_frequency=20,  # Reasonable for A2C
-        save_interval=100,
-        plot_interval=50
+        episodes=500,  # Reduced for testing
+        max_steps_per_episode=200,
+        update_frequency=10,
+        save_interval=50,
+        plot_interval=25
     )
     
     print("\n" + "="*60 + "\n")

@@ -8,7 +8,7 @@ from datetime import datetime
 from .reward_function import calculate_reward
 
 class TodoListEnv(Env):
-    def __init__(self, tasks, user_behavior, device=None, max_tasks_per_episode=300):
+    def __init__(self, tasks, user_behavior, device=None, max_tasks_per_episode=1000):
         super(TodoListEnv, self).__init__()
         self.original_tasks = tasks.copy()
         self.user_behavior = user_behavior

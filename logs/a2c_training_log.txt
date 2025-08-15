@@ -1,401 +1,768 @@
 Episode: 1/1000
-Tasks Completed: 300, Total Reward: 136.480
-Episode Length: 300, Avg Reward (last 1): 136.480
+Tasks Completed: 300, Total Reward: 137.240
+Episode Length: 300, Avg Reward (last 1): 137.240
 Avg Episode Length: 300.0
-Actor Loss: 7.060871, Critic Loss: 5.987597, Entropy: 5.697
-Time Elapsed: 8.6s
+Actor Loss: 7.155202, Critic Loss: 8.267300, Entropy: 5.695
+Time Elapsed: 8.8s
 ------------------------
 Episode: 2/1000
-Tasks Completed: 300, Total Reward: 132.520
-Episode Length: 300, Avg Reward (last 2): 134.500
+Tasks Completed: 300, Total Reward: 134.380
+Episode Length: 300, Avg Reward (last 2): 135.810
 Avg Episode Length: 300.0
-Actor Loss: -5.872440, Critic Loss: 18.926052, Entropy: 5.684
-Time Elapsed: 16.5s
+Actor Loss: -4.696078, Critic Loss: 23.347818, Entropy: 5.658
+Time Elapsed: 17.0s
 ------------------------
 Episode: 3/1000
-Tasks Completed: 300, Total Reward: 133.080
-Episode Length: 300, Avg Reward (last 3): 134.027
+Tasks Completed: 300, Total Reward: 132.800
+Episode Length: 300, Avg Reward (last 3): 134.807
 Avg Episode Length: 300.0
-Actor Loss: -2.424972, Critic Loss: 13.418637, Entropy: 5.665
-Time Elapsed: 24.5s
+Actor Loss: -2.023610, Critic Loss: 16.452498, Entropy: 5.589
+Time Elapsed: 25.2s
 ------------------------
 Episode: 4/1000
-Tasks Completed: 300, Total Reward: 143.000
-Episode Length: 300, Avg Reward (last 4): 136.270
+Tasks Completed: 300, Total Reward: 132.840
+Episode Length: 300, Avg Reward (last 4): 134.315
 Avg Episode Length: 300.0
-Actor Loss: -3.002724, Critic Loss: 11.215025, Entropy: 5.651
-Time Elapsed: 32.5s
+Actor Loss: -2.689180, Critic Loss: 13.599424, Entropy: 5.472
+Time Elapsed: 33.4s
 ------------------------
 Episode: 5/1000
-Tasks Completed: 300, Total Reward: 127.940
-Episode Length: 300, Avg Reward (last 5): 134.604
+Tasks Completed: 300, Total Reward: 136.700
+Episode Length: 300, Avg Reward (last 5): 134.792
 Avg Episode Length: 300.0
-Actor Loss: -3.440242, Critic Loss: 9.691878, Entropy: 5.639
-Time Elapsed: 40.4s
+Actor Loss: -2.205761, Critic Loss: 11.349253, Entropy: 5.339
+Time Elapsed: 41.5s
 ------------------------
 Episode: 6/1000
-Tasks Completed: 300, Total Reward: 135.160
-Episode Length: 300, Avg Reward (last 6): 134.697
+Tasks Completed: 300, Total Reward: 119.800
+Episode Length: 300, Avg Reward (last 6): 132.293
 Avg Episode Length: 300.0
-Actor Loss: -3.362096, Critic Loss: 8.595757, Entropy: 5.625
-Time Elapsed: 48.4s
+Actor Loss: -1.570942, Critic Loss: 9.888961, Entropy: 5.273
+Time Elapsed: 49.8s
 ------------------------
 Episode: 7/1000
-Tasks Completed: 300, Total Reward: 129.500
-Episode Length: 300, Avg Reward (last 7): 133.954
+Tasks Completed: 300, Total Reward: 134.200
+Episode Length: 300, Avg Reward (last 7): 132.566
 Avg Episode Length: 300.0
-Actor Loss: -3.200931, Critic Loss: 7.507113, Entropy: 5.612
-Time Elapsed: 56.3s
+Actor Loss: -2.974458, Critic Loss: 8.312257, Entropy: 5.171
+Time Elapsed: 57.9s
 ------------------------
 Episode: 8/1000
-Tasks Completed: 300, Total Reward: 130.460
-Episode Length: 300, Avg Reward (last 8): 133.518
+Tasks Completed: 300, Total Reward: 132.440
+Episode Length: 300, Avg Reward (last 8): 132.550
 Avg Episode Length: 300.0
-Actor Loss: -1.828171, Critic Loss: 4.173327, Entropy: 5.586
-Time Elapsed: 64.2s
+Actor Loss: -0.678839, Critic Loss: 4.572674, Entropy: 5.109
+Time Elapsed: 66.1s
 ------------------------
 Episode: 9/1000
-Tasks Completed: 300, Total Reward: 129.200
-Episode Length: 300, Avg Reward (last 9): 133.038
+Tasks Completed: 300, Total Reward: 126.500
+Episode Length: 300, Avg Reward (last 9): 131.878
 Avg Episode Length: 300.0
-Actor Loss: -0.758774, Critic Loss: 3.072605, Entropy: 5.540
-Time Elapsed: 72.1s
+Actor Loss: -0.058048, Critic Loss: 2.930142, Entropy: 5.033
+Time Elapsed: 74.2s
 ------------------------
 Episode: 10/1000
-Tasks Completed: 300, Total Reward: 131.400
-Episode Length: 300, Avg Reward (last 10): 132.874
+Tasks Completed: 300, Total Reward: 131.820
+Episode Length: 300, Avg Reward (last 10): 131.872
 Avg Episode Length: 300.0
-Actor Loss: -0.980424, Critic Loss: 2.469329, Entropy: 5.471
-Time Elapsed: 80.0s
+Actor Loss: -0.376620, Critic Loss: 2.503674, Entropy: 4.966
+Time Elapsed: 82.3s
 ------------------------
 Episode: 11/1000
-Tasks Completed: 300, Total Reward: 129.440
-Episode Length: 300, Avg Reward (last 11): 132.562
+Tasks Completed: 300, Total Reward: 132.020
+Episode Length: 300, Avg Reward (last 11): 131.885
 Avg Episode Length: 300.0
-Actor Loss: -0.215547, Critic Loss: 2.478344, Entropy: 5.460
-Time Elapsed: 88.0s
+Actor Loss: -0.581718, Critic Loss: 2.267887, Entropy: 4.870
+Time Elapsed: 90.6s
 ------------------------
 Episode: 21/1000
-Tasks Completed: 300, Total Reward: 143.780
-Episode Length: 300, Avg Reward (last 21): 133.087
+Tasks Completed: 300, Total Reward: 145.220
+Episode Length: 300, Avg Reward (last 21): 133.739
 Avg Episode Length: 300.0
-Actor Loss: -0.406695, Critic Loss: 1.603514, Entropy: 5.332
-Time Elapsed: 167.3s
+Actor Loss: -0.554132, Critic Loss: 2.287245, Entropy: 5.279
+Time Elapsed: 172.4s
 ------------------------
 Episode: 31/1000
-Tasks Completed: 300, Total Reward: 138.820
-Episode Length: 300, Avg Reward (last 31): 133.364
+Tasks Completed: 300, Total Reward: 130.700
+Episode Length: 300, Avg Reward (last 31): 132.990
 Avg Episode Length: 300.0
-Actor Loss: -0.066146, Critic Loss: 1.987804, Entropy: 5.412
-Time Elapsed: 246.2s
+Actor Loss: 0.103038, Critic Loss: 1.847408, Entropy: 3.556
+Time Elapsed: 253.0s
 ------------------------
 Episode: 41/1000
-Tasks Completed: 300, Total Reward: 128.800
-Episode Length: 300, Avg Reward (last 41): 132.561
+Tasks Completed: 300, Total Reward: 138.900
+Episode Length: 300, Avg Reward (last 41): 132.876
 Avg Episode Length: 300.0
-Actor Loss: -0.744127, Critic Loss: 1.822270, Entropy: 5.494
-Time Elapsed: 326.1s
+Actor Loss: -0.660762, Critic Loss: 1.829655, Entropy: 4.740
+Time Elapsed: 335.1s
 ------------------------
 Episode: 51/1000
-Tasks Completed: 300, Total Reward: 134.200
-Episode Length: 300, Avg Reward (last 51): 132.645
+Tasks Completed: 300, Total Reward: 129.560
+Episode Length: 300, Avg Reward (last 51): 133.113
 Avg Episode Length: 300.0
-Actor Loss: 0.069218, Critic Loss: 1.924713, Entropy: 5.607
-Time Elapsed: 407.9s
+Actor Loss: 0.347501, Critic Loss: 1.524318, Entropy: 3.748
+Time Elapsed: 419.0s
 ------------------------
 Episode: 61/1000
-Tasks Completed: 300, Total Reward: 132.280
-Episode Length: 300, Avg Reward (last 61): 133.005
+Tasks Completed: 300, Total Reward: 127.760
+Episode Length: 300, Avg Reward (last 61): 132.604
 Avg Episode Length: 300.0
-Actor Loss: 0.844316, Critic Loss: 1.870170, Entropy: 5.518
-Time Elapsed: 488.6s
+Actor Loss: -0.175318, Critic Loss: 1.509467, Entropy: 5.246
+Time Elapsed: 499.7s
 ------------------------
 Episode: 71/1000
-Tasks Completed: 300, Total Reward: 127.840
-Episode Length: 300, Avg Reward (last 71): 132.936
+Tasks Completed: 300, Total Reward: 136.980
+Episode Length: 300, Avg Reward (last 71): 132.728
 Avg Episode Length: 300.0
-Actor Loss: 0.244939, Critic Loss: 1.817907, Entropy: 5.558
-Time Elapsed: 568.0s
+Actor Loss: 0.044785, Critic Loss: 1.525577, Entropy: 2.745
+Time Elapsed: 580.7s
 ------------------------
 Episode: 81/1000
-Tasks Completed: 300, Total Reward: 124.740
-Episode Length: 300, Avg Reward (last 81): 132.863
+Tasks Completed: 300, Total Reward: 134.460
+Episode Length: 300, Avg Reward (last 81): 133.014
 Avg Episode Length: 300.0
-Actor Loss: 0.286720, Critic Loss: 1.478513, Entropy: 4.974
-Time Elapsed: 646.9s
+Actor Loss: -0.059362, Critic Loss: 1.641747, Entropy: 5.465
+Time Elapsed: 663.1s
 ------------------------
 Episode: 91/1000
-Tasks Completed: 300, Total Reward: 125.920
-Episode Length: 300, Avg Reward (last 91): 132.699
+Tasks Completed: 300, Total Reward: 126.980
+Episode Length: 300, Avg Reward (last 91): 132.547
 Avg Episode Length: 300.0
-Actor Loss: -0.496162, Critic Loss: 1.591123, Entropy: 5.584
-Time Elapsed: 726.2s
+Actor Loss: -0.300872, Critic Loss: 1.581643, Entropy: 5.478
+Time Elapsed: 746.0s
 ------------------------
 Episode: 101/1000
-Tasks Completed: 300, Total Reward: 130.100
-Episode Length: 300, Avg Reward (last 100): 132.520
+Tasks Completed: 300, Total Reward: 128.780
+Episode Length: 300, Avg Reward (last 100): 132.638
 Avg Episode Length: 300.0
-Actor Loss: -0.180067, Critic Loss: 1.318127, Entropy: 4.965
-Time Elapsed: 808.1s
+Actor Loss: -0.674064, Critic Loss: 1.537648, Entropy: 5.195
+Time Elapsed: 829.4s
 ------------------------
 Episode: 111/1000
-Tasks Completed: 300, Total Reward: 131.200
-Episode Length: 300, Avg Reward (last 100): 132.591
+Tasks Completed: 300, Total Reward: 136.180
+Episode Length: 300, Avg Reward (last 100): 132.856
 Avg Episode Length: 300.0
-Actor Loss: 0.100483, Critic Loss: 1.279525, Entropy: 5.574
-Time Elapsed: 888.7s
+Actor Loss: 1.113253, Critic Loss: 1.618384, Entropy: 3.679
+Time Elapsed: 911.8s
 ------------------------
 Episode: 121/1000
-Tasks Completed: 300, Total Reward: 142.580
-Episode Length: 300, Avg Reward (last 100): 132.858
+Tasks Completed: 300, Total Reward: 140.440
+Episode Length: 300, Avg Reward (last 100): 132.697
 Avg Episode Length: 300.0
-Actor Loss: -0.769167, Critic Loss: 1.509590, Entropy: 5.522
-Time Elapsed: 969.0s
+Actor Loss: 0.820872, Critic Loss: 1.723026, Entropy: 4.270
+Time Elapsed: 993.5s
 ------------------------
 Episode: 131/1000
-Tasks Completed: 300, Total Reward: 133.180
-Episode Length: 300, Avg Reward (last 100): 132.718
+Tasks Completed: 300, Total Reward: 137.580
+Episode Length: 300, Avg Reward (last 100): 132.684
 Avg Episode Length: 300.0
-Actor Loss: 0.043217, Critic Loss: 1.638292, Entropy: 5.653
-Time Elapsed: 1050.4s
+Actor Loss: -0.142538, Critic Loss: 1.441594, Entropy: 4.599
+Time Elapsed: 1075.7s
 ------------------------
 Episode: 141/1000
-Tasks Completed: 300, Total Reward: 120.200
-Episode Length: 300, Avg Reward (last 100): 132.672
+Tasks Completed: 300, Total Reward: 131.020
+Episode Length: 300, Avg Reward (last 100): 132.714
 Avg Episode Length: 300.0
-Actor Loss: 0.364175, Critic Loss: 1.420370, Entropy: 5.181
-Time Elapsed: 1130.5s
+Actor Loss: 0.012600, Critic Loss: 1.330426, Entropy: 5.537
+Time Elapsed: 1156.6s
 ------------------------
 Episode: 151/1000
-Tasks Completed: 300, Total Reward: 135.380
-Episode Length: 300, Avg Reward (last 100): 132.646
+Tasks Completed: 300, Total Reward: 123.640
+Episode Length: 300, Avg Reward (last 100): 132.398
 Avg Episode Length: 300.0
-Actor Loss: 0.234850, Critic Loss: 1.631367, Entropy: 3.446
-Time Elapsed: 1212.6s
+Actor Loss: 0.006576, Critic Loss: 1.713738, Entropy: 5.156
+Time Elapsed: 1240.3s
 ------------------------
 Episode: 161/1000
-Tasks Completed: 300, Total Reward: 121.320
-Episode Length: 300, Avg Reward (last 100): 132.234
+Tasks Completed: 300, Total Reward: 135.020
+Episode Length: 300, Avg Reward (last 100): 132.466
 Avg Episode Length: 300.0
-Actor Loss: -0.022741, Critic Loss: 1.371026, Entropy: 4.514
-Time Elapsed: 1292.8s
+Actor Loss: -0.028918, Critic Loss: 1.547852, Entropy: 5.500
+Time Elapsed: 1322.6s
 ------------------------
 Episode: 171/1000
-Tasks Completed: 300, Total Reward: 135.840
-Episode Length: 300, Avg Reward (last 100): 132.392
+Tasks Completed: 300, Total Reward: 141.340
+Episode Length: 300, Avg Reward (last 100): 132.715
 Avg Episode Length: 300.0
-Actor Loss: 0.208126, Critic Loss: 1.343079, Entropy: 5.238
-Time Elapsed: 1372.8s
+Actor Loss: -0.487884, Critic Loss: 1.394440, Entropy: 5.010
+Time Elapsed: 1404.1s
 ------------------------
 Episode: 181/1000
-Tasks Completed: 300, Total Reward: 127.800
-Episode Length: 300, Avg Reward (last 100): 131.978
+Tasks Completed: 300, Total Reward: 136.360
+Episode Length: 300, Avg Reward (last 100): 132.479
 Avg Episode Length: 300.0
-Actor Loss: 0.909778, Critic Loss: 1.324494, Entropy: 5.416
-Time Elapsed: 1452.4s
+Actor Loss: 0.082115, Critic Loss: 1.264766, Entropy: 4.772
+Time Elapsed: 1485.2s
 ------------------------
 Episode: 191/1000
-Tasks Completed: 300, Total Reward: 129.960
-Episode Length: 300, Avg Reward (last 100): 131.917
+Tasks Completed: 300, Total Reward: 135.880
+Episode Length: 300, Avg Reward (last 100): 132.893
 Avg Episode Length: 300.0
-Actor Loss: 0.253405, Critic Loss: 1.295356, Entropy: 5.540
-Time Elapsed: 1532.1s
+Actor Loss: -0.039733, Critic Loss: 1.541464, Entropy: 3.330
+Time Elapsed: 1567.4s
 ------------------------
 Validation Score: 43.040
 Episode: 201/1000
-Tasks Completed: 300, Total Reward: 129.820
-Episode Length: 300, Avg Reward (last 100): 132.192
+Tasks Completed: 300, Total Reward: 128.640
+Episode Length: 300, Avg Reward (last 100): 132.793
 Avg Episode Length: 300.0
-Actor Loss: 0.078672, Critic Loss: 1.389346, Entropy: 3.326
-Time Elapsed: 1619.0s
+Actor Loss: -0.124026, Critic Loss: 0.832234, Entropy: 0.366
+Time Elapsed: 1656.8s
 ------------------------
 Episode: 211/1000
-Tasks Completed: 300, Total Reward: 130.820
-Episode Length: 300, Avg Reward (last 100): 131.931
+Tasks Completed: 300, Total Reward: 129.820
+Episode Length: 300, Avg Reward (last 100): 132.671
 Avg Episode Length: 300.0
-Actor Loss: 0.114737, Critic Loss: 0.957943, Entropy: 5.442
-Time Elapsed: 1696.6s
+Actor Loss: -0.047881, Critic Loss: 1.079679, Entropy: 0.389
+Time Elapsed: 1738.7s
 ------------------------
 Episode: 221/1000
-Tasks Completed: 300, Total Reward: 135.840
-Episode Length: 300, Avg Reward (last 100): 131.583
+Tasks Completed: 300, Total Reward: 138.400
+Episode Length: 300, Avg Reward (last 100): 132.661
 Avg Episode Length: 300.0
-Actor Loss: -0.497759, Critic Loss: 1.355060, Entropy: 5.524
-Time Elapsed: 1775.0s
+Actor Loss: -0.118272, Critic Loss: 0.790487, Entropy: 0.546
+Time Elapsed: 1821.2s
 ------------------------
 Episode: 231/1000
-Tasks Completed: 300, Total Reward: 130.920
-Episode Length: 300, Avg Reward (last 100): 131.577
+Tasks Completed: 300, Total Reward: 128.880
+Episode Length: 300, Avg Reward (last 100): 132.838
 Avg Episode Length: 300.0
-Actor Loss: -0.613574, Critic Loss: 1.205102, Entropy: 5.397
-Time Elapsed: 1854.7s
+Actor Loss: -0.024839, Critic Loss: 1.126158, Entropy: 0.662
+Time Elapsed: 1903.1s
 ------------------------
 Episode: 241/1000
-Tasks Completed: 300, Total Reward: 130.240
-Episode Length: 300, Avg Reward (last 100): 132.015
+Tasks Completed: 300, Total Reward: 125.480
+Episode Length: 300, Avg Reward (last 100): 132.586
 Avg Episode Length: 300.0
-Actor Loss: 0.225692, Critic Loss: 1.444637, Entropy: 5.316
-Time Elapsed: 1932.7s
+Actor Loss: 0.188301, Critic Loss: 1.298031, Entropy: 3.877
+Time Elapsed: 1984.1s
 ------------------------
 Episode: 251/1000
-Tasks Completed: 300, Total Reward: 139.760
-Episode Length: 300, Avg Reward (last 100): 132.081
+Tasks Completed: 300, Total Reward: 133.100
+Episode Length: 300, Avg Reward (last 100): 132.850
 Avg Episode Length: 300.0
-Actor Loss: 0.485339, Critic Loss: 1.256465, Entropy: 5.277
-Time Elapsed: 2012.7s
+Actor Loss: 0.371688, Critic Loss: 1.100709, Entropy: 2.855
+Time Elapsed: 2066.5s
 ------------------------
 Episode: 261/1000
-Tasks Completed: 300, Total Reward: 137.040
-Episode Length: 300, Avg Reward (last 100): 132.441
+Tasks Completed: 300, Total Reward: 130.520
+Episode Length: 300, Avg Reward (last 100): 132.870
 Avg Episode Length: 300.0
-Actor Loss: -0.352838, Critic Loss: 1.018217, Entropy: 5.432
-Time Elapsed: 2091.8s
+Actor Loss: -0.129330, Critic Loss: 1.127096, Entropy: 1.811
+Time Elapsed: 2148.0s
 ------------------------
 Episode: 271/1000
-Tasks Completed: 300, Total Reward: 137.740
-Episode Length: 300, Avg Reward (last 100): 132.523
+Tasks Completed: 300, Total Reward: 132.140
+Episode Length: 300, Avg Reward (last 100): 132.599
 Avg Episode Length: 300.0
-Actor Loss: -0.841928, Critic Loss: 1.272572, Entropy: 5.610
-Time Elapsed: 2170.1s
+Actor Loss: 0.088898, Critic Loss: 1.001755, Entropy: 1.739
+Time Elapsed: 2229.3s
 ------------------------
 Episode: 281/1000
-Tasks Completed: 300, Total Reward: 129.360
-Episode Length: 300, Avg Reward (last 100): 133.081
+Tasks Completed: 300, Total Reward: 134.940
+Episode Length: 300, Avg Reward (last 100): 132.823
 Avg Episode Length: 300.0
-Actor Loss: -0.008912, Critic Loss: 1.061828, Entropy: 5.522
-Time Elapsed: 2251.9s
+Actor Loss: -0.040393, Critic Loss: 0.870205, Entropy: 1.078
+Time Elapsed: 2310.6s
 ------------------------
 Episode: 291/1000
-Tasks Completed: 300, Total Reward: 132.600
-Episode Length: 300, Avg Reward (last 100): 133.466
+Tasks Completed: 300, Total Reward: 128.760
+Episode Length: 300, Avg Reward (last 100): 132.620
 Avg Episode Length: 300.0
-Actor Loss: -0.056071, Critic Loss: 0.684550, Entropy: 0.348
-Time Elapsed: 2342.1s
+Actor Loss: 0.068062, Critic Loss: 0.760464, Entropy: 0.623
+Time Elapsed: 2392.7s
 ------------------------
 Episode: 301/1000
-Tasks Completed: 300, Total Reward: 142.520
-Episode Length: 300, Avg Reward (last 100): 133.210
+Tasks Completed: 300, Total Reward: 134.260
+Episode Length: 300, Avg Reward (last 100): 132.558
 Avg Episode Length: 300.0
-Actor Loss: -0.000015, Critic Loss: 0.898892, Entropy: 0.004
-Time Elapsed: 2425.2s
+Actor Loss: 0.005754, Critic Loss: 1.001487, Entropy: 0.752
+Time Elapsed: 2475.7s
 ------------------------
 Episode: 311/1000
-Tasks Completed: 300, Total Reward: 125.420
-Episode Length: 300, Avg Reward (last 100): 133.641
+Tasks Completed: 300, Total Reward: 141.120
+Episode Length: 300, Avg Reward (last 100): 132.750
 Avg Episode Length: 300.0
-Actor Loss: 0.002707, Critic Loss: 0.792044, Entropy: 0.006
-Time Elapsed: 2505.4s
+Actor Loss: 0.274916, Critic Loss: 1.009002, Entropy: 0.328
+Time Elapsed: 2557.1s
 ------------------------
 Episode: 321/1000
-Tasks Completed: 300, Total Reward: 124.640
-Episode Length: 300, Avg Reward (last 100): 133.642
+Tasks Completed: 300, Total Reward: 138.640
+Episode Length: 300, Avg Reward (last 100): 132.946
 Avg Episode Length: 300.0
-Actor Loss: -0.009052, Critic Loss: 0.672232, Entropy: 1.228
-Time Elapsed: 2591.3s
+Actor Loss: 0.107218, Critic Loss: 0.842576, Entropy: 0.300
+Time Elapsed: 2637.5s
 ------------------------
 Episode: 331/1000
-Tasks Completed: 300, Total Reward: 132.340
-Episode Length: 300, Avg Reward (last 100): 133.714
+Tasks Completed: 300, Total Reward: 142.240
+Episode Length: 300, Avg Reward (last 100): 133.245
 Avg Episode Length: 300.0
-Actor Loss: 0.360582, Critic Loss: 0.903829, Entropy: 0.002
-Time Elapsed: 2675.5s
+Actor Loss: 0.303155, Critic Loss: 0.749538, Entropy: 0.289
+Time Elapsed: 2718.5s
 ------------------------
 Episode: 341/1000
-Tasks Completed: 300, Total Reward: 129.040
-Episode Length: 300, Avg Reward (last 100): 133.260
+Tasks Completed: 300, Total Reward: 133.000
+Episode Length: 300, Avg Reward (last 100): 133.161
 Avg Episode Length: 300.0
-Actor Loss: 0.315118, Critic Loss: 0.933002, Entropy: 0.004
-Time Elapsed: 2754.9s
+Actor Loss: -0.036616, Critic Loss: 0.786836, Entropy: 0.518
+Time Elapsed: 2800.2s
 ------------------------
 Episode: 351/1000
-Tasks Completed: 300, Total Reward: 133.040
-Episode Length: 300, Avg Reward (last 100): 133.098
+Tasks Completed: 300, Total Reward: 138.960
+Episode Length: 300, Avg Reward (last 100): 133.259
 Avg Episode Length: 300.0
-Actor Loss: 0.159956, Critic Loss: 1.058429, Entropy: 1.116
-Time Elapsed: 2836.3s
+Actor Loss: -0.025851, Critic Loss: 0.602168, Entropy: 0.601
+Time Elapsed: 2883.4s
 ------------------------
 Episode: 361/1000
-Tasks Completed: 300, Total Reward: 129.320
-Episode Length: 300, Avg Reward (last 100): 132.773
+Tasks Completed: 300, Total Reward: 129.980
+Episode Length: 300, Avg Reward (last 100): 133.315
 Avg Episode Length: 300.0
-Actor Loss: -0.214967, Critic Loss: 1.294207, Entropy: 5.456
-Time Elapsed: 2915.6s
+Actor Loss: 0.089730, Critic Loss: 0.571931, Entropy: 0.586
+Time Elapsed: 2963.4s
 ------------------------
 Episode: 371/1000
-Tasks Completed: 300, Total Reward: 127.700
-Episode Length: 300, Avg Reward (last 100): 132.608
+Tasks Completed: 300, Total Reward: 136.560
+Episode Length: 300, Avg Reward (last 100): 133.103
 Avg Episode Length: 300.0
-Actor Loss: -0.401424, Critic Loss: 1.369097, Entropy: 4.943
-Time Elapsed: 2995.0s
+Actor Loss: -0.189838, Critic Loss: 0.810765, Entropy: 0.648
+Time Elapsed: 3045.2s
 ------------------------
 Episode: 381/1000
-Tasks Completed: 300, Total Reward: 141.220
-Episode Length: 300, Avg Reward (last 100): 132.577
+Tasks Completed: 300, Total Reward: 130.840
+Episode Length: 300, Avg Reward (last 100): 132.975
 Avg Episode Length: 300.0
-Actor Loss: -0.608347, Critic Loss: 1.130334, Entropy: 5.094
-Time Elapsed: 3074.2s
+Actor Loss: -0.001728, Critic Loss: 0.841300, Entropy: 0.601
+Time Elapsed: 3127.0s
 ------------------------
 Episode: 391/1000
-Tasks Completed: 300, Total Reward: 139.120
-Episode Length: 300, Avg Reward (last 100): 131.970
+Tasks Completed: 300, Total Reward: 136.480
+Episode Length: 300, Avg Reward (last 100): 133.490
 Avg Episode Length: 300.0
-Actor Loss: 0.236445, Critic Loss: 1.139656, Entropy: 5.024
-Time Elapsed: 3154.6s
+Actor Loss: -0.003902, Critic Loss: 0.535952, Entropy: 0.765
+Time Elapsed: 3207.3s
 ------------------------
 Validation Score: 43.040
 Episode: 401/1000
-Tasks Completed: 300, Total Reward: 139.300
-Episode Length: 300, Avg Reward (last 100): 132.267
+Tasks Completed: 300, Total Reward: 127.260
+Episode Length: 300, Avg Reward (last 100): 133.178
 Avg Episode Length: 300.0
-Actor Loss: -0.006117, Critic Loss: 1.015689, Entropy: 4.984
-Time Elapsed: 3241.4s
+Actor Loss: -0.084162, Critic Loss: 0.694468, Entropy: 3.700
+Time Elapsed: 3294.5s
 ------------------------
 Episode: 411/1000
-Tasks Completed: 300, Total Reward: 127.220
-Episode Length: 300, Avg Reward (last 100): 131.891
+Tasks Completed: 300, Total Reward: 137.520
+Episode Length: 300, Avg Reward (last 100): 133.373
 Avg Episode Length: 300.0
-Actor Loss: 0.042803, Critic Loss: 1.130475, Entropy: 4.679
-Time Elapsed: 3320.9s
+Actor Loss: 0.405852, Critic Loss: 0.949140, Entropy: 4.629
+Time Elapsed: 3376.0s
 ------------------------
 Episode: 421/1000
-Tasks Completed: 300, Total Reward: 124.840
-Episode Length: 300, Avg Reward (last 100): 131.518
+Tasks Completed: 300, Total Reward: 130.520
+Episode Length: 300, Avg Reward (last 100): 132.915
 Avg Episode Length: 300.0
-Actor Loss: -0.376625, Critic Loss: 1.001115, Entropy: 4.609
-Time Elapsed: 3399.2s
+Actor Loss: 0.152179, Critic Loss: 1.019577, Entropy: 5.397
+Time Elapsed: 3457.9s
 ------------------------
 Episode: 431/1000
-Tasks Completed: 300, Total Reward: 133.580
-Episode Length: 300, Avg Reward (last 100): 131.344
+Tasks Completed: 300, Total Reward: 137.880
+Episode Length: 300, Avg Reward (last 100): 132.476
 Avg Episode Length: 300.0
-Actor Loss: 0.053139, Critic Loss: 0.883434, Entropy: 3.999
-Time Elapsed: 3478.9s
+Actor Loss: -0.233018, Critic Loss: 0.894293, Entropy: 5.144
+Time Elapsed: 3545.8s
 ------------------------
 Episode: 441/1000
-Tasks Completed: 300, Total Reward: 125.300
-Episode Length: 300, Avg Reward (last 100): 131.527
+Tasks Completed: 300, Total Reward: 143.500
+Episode Length: 300, Avg Reward (last 100): 133.170
 Avg Episode Length: 300.0
-Actor Loss: 0.385576, Critic Loss: 1.325013, Entropy: 0.685
-Time Elapsed: 3558.1s
+Actor Loss: 0.264053, Critic Loss: 1.071416, Entropy: 3.931
+Time Elapsed: 3630.1s
 ------------------------
 Episode: 451/1000
-Tasks Completed: 300, Total Reward: 140.380
-Episode Length: 300, Avg Reward (last 100): 131.698
+Tasks Completed: 300, Total Reward: 140.480
+Episode Length: 300, Avg Reward (last 100): 132.829
 Avg Episode Length: 300.0
-Actor Loss: 0.116505, Critic Loss: 0.998858, Entropy: 2.445
-Time Elapsed: 3638.7s
+Actor Loss: 0.298111, Critic Loss: 1.231521, Entropy: 0.561
+Time Elapsed: 3715.5s
 ------------------------
 Episode: 461/1000
-Tasks Completed: 300, Total Reward: 137.140
-Episode Length: 300, Avg Reward (last 100): 131.797
+Tasks Completed: 300, Total Reward: 132.620
+Episode Length: 300, Avg Reward (last 100): 132.971
 Avg Episode Length: 300.0
-Actor Loss: 0.056854, Critic Loss: 0.883589, Entropy: 4.199
-Time Elapsed: 3717.3s
+Actor Loss: 0.091799, Critic Loss: 0.861918, Entropy: 1.242
+Time Elapsed: 3798.3s
 ------------------------
 Episode: 471/1000
-Tasks Completed: 300, Total Reward: 135.100
-Episode Length: 300, Avg Reward (last 100): 131.914
+Tasks Completed: 300, Total Reward: 134.900
+Episode Length: 300, Avg Reward (last 100): 133.277
 Avg Episode Length: 300.0
-Actor Loss: 0.012735, Critic Loss: 1.018271, Entropy: 2.913
-Time Elapsed: 3797.3s
+Actor Loss: -0.137789, Critic Loss: 0.905906, Entropy: 2.719
+Time Elapsed: 3881.7s
 ------------------------
+Episode: 481/1000
+Tasks Completed: 300, Total Reward: 137.400
+Episode Length: 300, Avg Reward (last 100): 133.236
+Avg Episode Length: 300.0
+Actor Loss: 0.133032, Critic Loss: 0.818387, Entropy: 2.311
+Time Elapsed: 3965.4s
+------------------------
+Episode: 491/1000
+Tasks Completed: 300, Total Reward: 137.500
+Episode Length: 300, Avg Reward (last 100): 132.985
+Avg Episode Length: 300.0
+Actor Loss: 0.090767, Critic Loss: 0.850455, Entropy: 1.958
+Time Elapsed: 4049.1s
+------------------------
+Episode: 501/1000
+Tasks Completed: 300, Total Reward: 131.220
+Episode Length: 300, Avg Reward (last 100): 133.415
+Avg Episode Length: 300.0
+Actor Loss: 0.165305, Critic Loss: 0.783673, Entropy: 1.601
+Time Elapsed: 4133.5s
+------------------------
+Episode: 511/1000
+Tasks Completed: 300, Total Reward: 134.980
+Episode Length: 300, Avg Reward (last 100): 133.018
+Avg Episode Length: 300.0
+Actor Loss: -0.001914, Critic Loss: 0.775513, Entropy: 1.054
+Time Elapsed: 4215.3s
+------------------------
+Episode: 521/1000
+Tasks Completed: 300, Total Reward: 127.400
+Episode Length: 300, Avg Reward (last 100): 133.128
+Avg Episode Length: 300.0
+Actor Loss: 0.053177, Critic Loss: 0.775526, Entropy: 0.917
+Time Elapsed: 4299.5s
+------------------------
+Episode: 531/1000
+Tasks Completed: 300, Total Reward: 126.120
+Episode Length: 300, Avg Reward (last 100): 132.900
+Avg Episode Length: 300.0
+Actor Loss: -0.059818, Critic Loss: 0.846051, Entropy: 1.841
+Time Elapsed: 4382.3s
+------------------------
+Episode: 541/1000
+Tasks Completed: 300, Total Reward: 127.420
+Episode Length: 300, Avg Reward (last 100): 132.409
+Avg Episode Length: 300.0
+Actor Loss: -0.131119, Critic Loss: 0.615771, Entropy: 2.368
+Time Elapsed: 4464.3s
+------------------------
+Episode: 551/1000
+Tasks Completed: 300, Total Reward: 139.960
+Episode Length: 300, Avg Reward (last 100): 132.555
+Avg Episode Length: 300.0
+Actor Loss: 0.035402, Critic Loss: 0.635214, Entropy: 1.819
+Time Elapsed: 4550.2s
+------------------------
+Episode: 561/1000
+Tasks Completed: 300, Total Reward: 129.420
+Episode Length: 300, Avg Reward (last 100): 132.532
+Avg Episode Length: 300.0
+Actor Loss: -0.040590, Critic Loss: 0.859285, Entropy: 2.515
+Time Elapsed: 4633.1s
+------------------------
+Episode: 571/1000
+Tasks Completed: 300, Total Reward: 127.300
+Episode Length: 300, Avg Reward (last 100): 132.709
+Avg Episode Length: 300.0
+Actor Loss: -0.092619, Critic Loss: 0.685179, Entropy: 2.674
+Time Elapsed: 4723.8s
+------------------------
+Episode: 581/1000
+Tasks Completed: 300, Total Reward: 136.300
+Episode Length: 300, Avg Reward (last 100): 132.602
+Avg Episode Length: 300.0
+Actor Loss: 0.029835, Critic Loss: 0.516127, Entropy: 2.773
+Time Elapsed: 4815.1s
+------------------------
+Episode: 591/1000
+Tasks Completed: 300, Total Reward: 128.040
+Episode Length: 300, Avg Reward (last 100): 132.608
+Avg Episode Length: 300.0
+Actor Loss: -0.196417, Critic Loss: 0.616322, Entropy: 2.725
+Time Elapsed: 4907.8s
+------------------------
+Validation Score: 43.040
+Episode: 601/1000
+Tasks Completed: 300, Total Reward: 130.560
+Episode Length: 300, Avg Reward (last 100): 132.620
+Avg Episode Length: 300.0
+Actor Loss: 0.059468, Critic Loss: 0.666337, Entropy: 2.670
+Time Elapsed: 5001.5s
+------------------------
+Episode: 611/1000
+Tasks Completed: 300, Total Reward: 134.720
+Episode Length: 300, Avg Reward (last 100): 132.862
+Avg Episode Length: 300.0
+Actor Loss: 0.061032, Critic Loss: 0.462977, Entropy: 2.637
+Time Elapsed: 5082.8s
+------------------------
+Episode: 621/1000
+Tasks Completed: 300, Total Reward: 135.340
+Episode Length: 300, Avg Reward (last 100): 132.652
+Avg Episode Length: 300.0
+Actor Loss: 0.397449, Critic Loss: 0.946289, Entropy: 2.564
+Time Elapsed: 5165.3s
+------------------------
+Episode: 631/1000
+Tasks Completed: 300, Total Reward: 133.880
+Episode Length: 300, Avg Reward (last 100): 132.758
+Avg Episode Length: 300.0
+Actor Loss: -0.108560, Critic Loss: 0.657978, Entropy: 2.733
+Time Elapsed: 5247.0s
+------------------------
+Episode: 641/1000
+Tasks Completed: 300, Total Reward: 135.020
+Episode Length: 300, Avg Reward (last 100): 132.982
+Avg Episode Length: 300.0
+Actor Loss: 0.203002, Critic Loss: 0.891140, Entropy: 1.291
+Time Elapsed: 5327.5s
+------------------------
+Episode: 651/1000
+Tasks Completed: 300, Total Reward: 131.320
+Episode Length: 300, Avg Reward (last 100): 132.765
+Avg Episode Length: 300.0
+Actor Loss: 0.077440, Critic Loss: 0.733335, Entropy: 2.266
+Time Elapsed: 5411.2s
+------------------------
+Episode: 661/1000
+Tasks Completed: 300, Total Reward: 128.040
+Episode Length: 300, Avg Reward (last 100): 132.766
+Avg Episode Length: 300.0
+Actor Loss: 0.179931, Critic Loss: 0.854600, Entropy: 2.228
+Time Elapsed: 5493.3s
+------------------------
+Episode: 671/1000
+Tasks Completed: 300, Total Reward: 135.120
+Episode Length: 300, Avg Reward (last 100): 132.183
+Avg Episode Length: 300.0
+Actor Loss: -0.009719, Critic Loss: 0.590056, Entropy: 2.604
+Time Elapsed: 5575.3s
+------------------------
+Episode: 681/1000
+Tasks Completed: 300, Total Reward: 126.720
+Episode Length: 300, Avg Reward (last 100): 131.717
+Avg Episode Length: 300.0
+Actor Loss: -0.161553, Critic Loss: 0.795020, Entropy: 1.706
+Time Elapsed: 5656.5s
+------------------------
+Episode: 691/1000
+Tasks Completed: 300, Total Reward: 136.420
+Episode Length: 300, Avg Reward (last 100): 131.442
+Avg Episode Length: 300.0
+Actor Loss: -0.282640, Critic Loss: 0.682858, Entropy: 0.800
+Time Elapsed: 5739.0s
+------------------------
+Episode: 701/1000
+Tasks Completed: 300, Total Reward: 134.800
+Episode Length: 300, Avg Reward (last 100): 131.005
+Avg Episode Length: 300.0
+Actor Loss: 0.345200, Critic Loss: 0.909223, Entropy: 1.193
+Time Elapsed: 5823.5s
+------------------------
+Episode: 711/1000
+Tasks Completed: 300, Total Reward: 132.160
+Episode Length: 300, Avg Reward (last 100): 130.442
+Avg Episode Length: 300.0
+Actor Loss: -0.089069, Critic Loss: 0.684182, Entropy: 1.229
+Time Elapsed: 5904.3s
+------------------------
+Episode: 721/1000
+Tasks Completed: 300, Total Reward: 128.020
+Episode Length: 300, Avg Reward (last 100): 130.370
+Avg Episode Length: 300.0
+Actor Loss: 0.151015, Critic Loss: 0.545511, Entropy: 1.302
+Time Elapsed: 5985.3s
+------------------------
+Episode: 731/1000
+Tasks Completed: 300, Total Reward: 149.300
+Episode Length: 300, Avg Reward (last 100): 130.755
+Avg Episode Length: 300.0
+Actor Loss: 0.017511, Critic Loss: 0.557338, Entropy: 1.512
+Time Elapsed: 6067.7s
+------------------------
+Episode: 741/1000
+Tasks Completed: 300, Total Reward: 147.440
+Episode Length: 300, Avg Reward (last 100): 130.794
+Avg Episode Length: 300.0
+Actor Loss: 0.239421, Critic Loss: 0.681627, Entropy: 2.854
+Time Elapsed: 6149.8s
+------------------------
+Episode: 751/1000
+Tasks Completed: 300, Total Reward: 132.960
+Episode Length: 300, Avg Reward (last 100): 131.239
+Avg Episode Length: 300.0
+Actor Loss: 0.042638, Critic Loss: 0.676124, Entropy: 2.574
+Time Elapsed: 6235.2s
+------------------------
+Episode: 761/1000
+Tasks Completed: 300, Total Reward: 129.720
+Episode Length: 300, Avg Reward (last 100): 131.164
+Avg Episode Length: 300.0
+Actor Loss: 0.091236, Critic Loss: 0.706188, Entropy: 3.760
+Time Elapsed: 6318.0s
+------------------------
+Episode: 771/1000
+Tasks Completed: 300, Total Reward: 124.220
+Episode Length: 300, Avg Reward (last 100): 131.467
+Avg Episode Length: 300.0
+Actor Loss: -0.107134, Critic Loss: 0.800303, Entropy: 4.227
+Time Elapsed: 6400.5s
+------------------------
+Episode: 781/1000
+Tasks Completed: 300, Total Reward: 140.940
+Episode Length: 300, Avg Reward (last 100): 132.188
+Avg Episode Length: 300.0
+Actor Loss: -0.142457, Critic Loss: 0.784161, Entropy: 4.856
+Time Elapsed: 6482.5s
+------------------------
+Episode: 791/1000
+Tasks Completed: 300, Total Reward: 139.100
+Episode Length: 300, Avg Reward (last 100): 132.352
+Avg Episode Length: 300.0
+Actor Loss: -0.645790, Critic Loss: 0.945650, Entropy: 4.998
+Time Elapsed: 6563.7s
+------------------------
+Validation Score: 43.040
+Episode: 801/1000
+Tasks Completed: 300, Total Reward: 132.540
+Episode Length: 300, Avg Reward (last 100): 132.624
+Avg Episode Length: 300.0
+Actor Loss: -0.251365, Critic Loss: 0.920147, Entropy: 4.599
+Time Elapsed: 6654.8s
+------------------------
+Episode: 811/1000
+Tasks Completed: 300, Total Reward: 132.000
+Episode Length: 300, Avg Reward (last 100): 133.193
+Avg Episode Length: 300.0
+Actor Loss: 0.233893, Critic Loss: 0.694502, Entropy: 3.854
+Time Elapsed: 6738.9s
+------------------------
+Episode: 821/1000
+Tasks Completed: 300, Total Reward: 126.140
+Episode Length: 300, Avg Reward (last 100): 133.360
+Avg Episode Length: 300.0
+Actor Loss: -0.111752, Critic Loss: 0.677172, Entropy: 3.410
+Time Elapsed: 6821.6s
+------------------------
+Episode: 831/1000
+Tasks Completed: 300, Total Reward: 142.320
+Episode Length: 300, Avg Reward (last 100): 133.420
+Avg Episode Length: 300.0
+Actor Loss: 0.315841, Critic Loss: 0.670712, Entropy: 4.251
+Time Elapsed: 6904.3s
+------------------------
+Episode: 841/1000
+Tasks Completed: 300, Total Reward: 135.520
+Episode Length: 300, Avg Reward (last 100): 133.352
+Avg Episode Length: 300.0
+Actor Loss: -0.520120, Critic Loss: 0.816842, Entropy: 4.953
+Time Elapsed: 6988.1s
+------------------------
+Episode: 851/1000
+Tasks Completed: 300, Total Reward: 131.140
+Episode Length: 300, Avg Reward (last 100): 133.289
+Avg Episode Length: 300.0
+Actor Loss: -0.604286, Critic Loss: 0.847450, Entropy: 5.102
+Time Elapsed: 7074.2s
+------------------------
+Episode: 861/1000
+Tasks Completed: 300, Total Reward: 123.740
+Episode Length: 300, Avg Reward (last 100): 132.906
+Avg Episode Length: 300.0
+Actor Loss: -0.534697, Critic Loss: 0.730406, Entropy: 4.924
+Time Elapsed: 7156.2s
+------------------------
+Episode: 871/1000
+Tasks Completed: 300, Total Reward: 129.740
+Episode Length: 300, Avg Reward (last 100): 133.042
+Avg Episode Length: 300.0
+Actor Loss: -0.019515, Critic Loss: 0.626053, Entropy: 5.081
+Time Elapsed: 7238.8s
+------------------------
+Episode: 881/1000
+Tasks Completed: 300, Total Reward: 141.240
+Episode Length: 300, Avg Reward (last 100): 133.089
+Avg Episode Length: 300.0
+Actor Loss: -0.043739, Critic Loss: 0.511314, Entropy: 3.889
+Time Elapsed: 7322.7s
+------------------------
+Episode: 891/1000
+Tasks Completed: 300, Total Reward: 130.100
+Episode Length: 300, Avg Reward (last 100): 132.970
+Avg Episode Length: 300.0
+Actor Loss: 0.200500, Critic Loss: 0.525230, Entropy: 3.758
+Time Elapsed: 7406.3s
+------------------------
+Episode: 901/1000
+Tasks Completed: 300, Total Reward: 133.840
+Episode Length: 300, Avg Reward (last 100): 132.964
+Avg Episode Length: 300.0
+Actor Loss: 0.251661, Critic Loss: 0.754419, Entropy: 2.384
+Time Elapsed: 7491.8s
+------------------------
+Episode: 911/1000
+Tasks Completed: 300, Total Reward: 129.900
+Episode Length: 300, Avg Reward (last 100): 132.921
+Avg Episode Length: 300.0
+Actor Loss: 0.110840, Critic Loss: 0.722158, Entropy: 2.787
+Time Elapsed: 7575.2s
+------------------------
+Episode: 921/1000
+Tasks Completed: 300, Total Reward: 133.980
+Episode Length: 300, Avg Reward (last 100): 133.083
+Avg Episode Length: 300.0
+Actor Loss: -0.084559, Critic Loss: 0.730949, Entropy: 2.329
+Time Elapsed: 7658.2s
+------------------------
+Episode: 931/1000
+Tasks Completed: 300, Total Reward: 137.520
+Episode Length: 300, Avg Reward (last 100): 133.280
+Avg Episode Length: 300.0
+Actor Loss: -0.019258, Critic Loss: 0.647990, Entropy: 3.460
+Time Elapsed: 7740.8s
+------------------------
+Episode: 941/1000
+Tasks Completed: 300, Total Reward: 127.680
+Episode Length: 300, Avg Reward (last 100): 133.246
+Avg Episode Length: 300.0
+Actor Loss: -0.039062, Critic Loss: 0.532079, Entropy: 3.450
+Time Elapsed: 7823.5s
+------------------------
+Episode: 951/1000
+Tasks Completed: 300, Total Reward: 138.200
+Episode Length: 300, Avg Reward (last 100): 133.158
+Avg Episode Length: 300.0
+Actor Loss: 0.586332, Critic Loss: 0.679791, Entropy: 4.146
+Time Elapsed: 7910.1s
+------------------------
+Episode: 961/1000
+Tasks Completed: 300, Total Reward: 141.800
+Episode Length: 300, Avg Reward (last 100): 133.723
+Avg Episode Length: 300.0
+Actor Loss: 0.015261, Critic Loss: 0.596815, Entropy: 4.718
+Time Elapsed: 7992.4s
+------------------------
+Episode: 971/1000
+Tasks Completed: 300, Total Reward: 142.900
+Episode Length: 300, Avg Reward (last 100): 133.797
+Avg Episode Length: 300.0
+Actor Loss: -0.364686, Critic Loss: 0.741799, Entropy: 5.256
+Time Elapsed: 8074.1s
+------------------------
+Episode: 981/1000
+Tasks Completed: 300, Total Reward: 129.820
+Episode Length: 300, Avg Reward (last 100): 133.656
+Avg Episode Length: 300.0
+Actor Loss: -0.138177, Critic Loss: 0.722379, Entropy: 5.137
+Time Elapsed: 8157.0s
+------------------------
+Episode: 991/1000
+Tasks Completed: 300, Total Reward: 135.640
+Episode Length: 300, Avg Reward (last 100): 133.646
+Avg Episode Length: 300.0
+Actor Loss: 0.467237, Critic Loss: 0.676341, Entropy: 5.228
+Time Elapsed: 8240.2s
+------------------------
+Validation Score: 43.040

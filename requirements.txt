@@ -4,3 +4,5 @@ gymnasium
 torch
 matplotlib
 tensorboard
+seaborn
+scikit-learn
