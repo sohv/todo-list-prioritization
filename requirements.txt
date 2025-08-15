@@ -1,6 +1,6 @@
 numpy
 pandas
-gym
+gymnasium
 torch
 matplotlib
 tensorboard
