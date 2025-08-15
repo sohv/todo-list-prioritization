@@ -1,2600 +1,460 @@
 Episode: 1/4000
-Steps: 100, Total Reward: 7661.64
-Running Avg Reward: 7661.64, Epsilon: 1.000
-Status Rewards: completed=5377.63, in_progress=2084.48, todo=199.53
+Steps: 100, Total Reward: 6129.85
+Running Avg Reward: 6129.85, Epsilon: 1.000
+Status Rewards: completed=4175.65, in_progress=1659.31, todo=294.89
 ------------------------
 Episode: 2/4000
-Steps: 100, Total Reward: 7344.35
-Running Avg Reward: 7503.00, Epsilon: 0.997
-Status Rewards: completed=5039.39, in_progress=2094.44, todo=210.53
+Steps: 100, Total Reward: 6761.67
+Running Avg Reward: 6445.76, Epsilon: 0.997
+Status Rewards: completed=4505.67, in_progress=2009.01, todo=246.98
 ------------------------
 Episode: 3/4000
-Steps: 100, Total Reward: 6853.40
-Running Avg Reward: 7286.46, Epsilon: 0.994
-Status Rewards: completed=5059.14, in_progress=1470.38, todo=323.87
+Steps: 100, Total Reward: 7123.47
+Running Avg Reward: 6671.66, Epsilon: 0.994
+Status Rewards: completed=4867.35, in_progress=2055.36, todo=200.75
 ------------------------
 Episode: 4/4000
-Steps: 100, Total Reward: 6442.84
-Running Avg Reward: 7075.56, Epsilon: 0.991
-Status Rewards: completed=4353.73, in_progress=1814.72, todo=274.39
+Steps: 100, Total Reward: 7123.57
+Running Avg Reward: 6784.64, Epsilon: 0.991
+Status Rewards: completed=4893.94, in_progress=1878.45, todo=351.17
 ------------------------
 Episode: 5/4000
-Steps: 100, Total Reward: 6394.94
-Running Avg Reward: 6939.43, Epsilon: 0.988
-Status Rewards: completed=4526.86, in_progress=1564.28, todo=303.80
+Steps: 100, Total Reward: 6966.38
+Running Avg Reward: 6820.99, Epsilon: 0.988
+Status Rewards: completed=5147.21, in_progress=1526.05, todo=293.13
 ------------------------
 Episode: 6/4000
-Steps: 100, Total Reward: 6714.30
-Running Avg Reward: 6901.91, Epsilon: 0.985
-Status Rewards: completed=4503.50, in_progress=1949.83, todo=260.97
+Steps: 100, Total Reward: 6382.04
+Running Avg Reward: 6747.83, Epsilon: 0.985
+Status Rewards: completed=4441.24, in_progress=1640.19, todo=300.61
 ------------------------
 Episode: 7/4000
-Steps: 100, Total Reward: 6044.94
-Running Avg Reward: 6779.49, Epsilon: 0.982
-Status Rewards: completed=3986.18, in_progress=1707.41, todo=351.35
+Steps: 100, Total Reward: 6191.22
+Running Avg Reward: 6668.32, Epsilon: 0.982
+Status Rewards: completed=4040.89, in_progress=1748.07, todo=402.26
 ------------------------
 Episode: 8/4000
-Steps: 100, Total Reward: 6593.63
-Running Avg Reward: 6756.25, Epsilon: 0.979
-Status Rewards: completed=4802.47, in_progress=1509.94, todo=281.21
+Steps: 100, Total Reward: 7381.75
+Running Avg Reward: 6757.49, Epsilon: 0.979
+Status Rewards: completed=4995.03, in_progress=2177.12, todo=209.60
 ------------------------
 Episode: 9/4000
-Steps: 100, Total Reward: 6337.74
-Running Avg Reward: 6709.75, Epsilon: 0.976
-Status Rewards: completed=3939.59, in_progress=2117.00, todo=281.15
+Steps: 100, Total Reward: 6418.70
+Running Avg Reward: 6719.85, Epsilon: 0.976
+Status Rewards: completed=4316.01, in_progress=1826.09, todo=276.60
 ------------------------
 Episode: 10/4000
-Steps: 100, Total Reward: 7472.39
-Running Avg Reward: 6786.02, Epsilon: 0.973
-Status Rewards: completed=4881.58, in_progress=2421.88, todo=168.94
+Steps: 100, Total Reward: 5930.90
+Running Avg Reward: 6640.96, Epsilon: 0.973
+Status Rewards: completed=3815.11, in_progress=1872.94, todo=242.85
 ------------------------
 Episode: 11/4000
-Steps: 100, Total Reward: 5830.79
-Running Avg Reward: 6699.18, Epsilon: 0.970
-Status Rewards: completed=3582.79, in_progress=1892.21, todo=355.80
+Steps: 100, Total Reward: 6307.99
+Running Avg Reward: 6610.69, Epsilon: 0.970
+Status Rewards: completed=4465.95, in_progress=1548.07, todo=293.98
 ------------------------
 Episode: 12/4000
-Steps: 100, Total Reward: 6370.45
-Running Avg Reward: 6671.78, Epsilon: 0.967
-Status Rewards: completed=4133.32, in_progress=1918.81, todo=318.31
+Steps: 100, Total Reward: 6498.41
+Running Avg Reward: 6601.33, Epsilon: 0.967
+Status Rewards: completed=4496.69, in_progress=1726.68, todo=275.04
 ------------------------
 Episode: 13/4000
-Steps: 100, Total Reward: 6472.60
-Running Avg Reward: 6656.46, Epsilon: 0.965
-Status Rewards: completed=4611.29, in_progress=1536.56, todo=324.76
+Steps: 100, Total Reward: 6370.55
+Running Avg Reward: 6583.58, Epsilon: 0.965
+Status Rewards: completed=4244.26, in_progress=1805.00, todo=321.28
 ------------------------
 Episode: 14/4000
-Steps: 100, Total Reward: 5984.95
-Running Avg Reward: 6608.50, Epsilon: 0.962
-Status Rewards: completed=3790.71, in_progress=1894.01, todo=300.23
+Steps: 100, Total Reward: 6923.52
+Running Avg Reward: 6607.86, Epsilon: 0.962
+Status Rewards: completed=4747.47, in_progress=1930.20, todo=245.85
 ------------------------
 Episode: 15/4000
-Steps: 100, Total Reward: 6446.53
-Running Avg Reward: 6597.70, Epsilon: 0.959
-Status Rewards: completed=5114.25, in_progress=1055.28, todo=277.00
+Steps: 100, Total Reward: 6967.76
+Running Avg Reward: 6631.85, Epsilon: 0.959
+Status Rewards: completed=4860.13, in_progress=1936.78, todo=170.85
 ------------------------
 Episode: 16/4000
-Steps: 100, Total Reward: 5975.95
-Running Avg Reward: 6558.84, Epsilon: 0.956
-Status Rewards: completed=3279.94, in_progress=2438.67, todo=257.34
+Steps: 100, Total Reward: 7476.90
+Running Avg Reward: 6684.67, Epsilon: 0.956
+Status Rewards: completed=5646.31, in_progress=1643.97, todo=186.62
 ------------------------
 Episode: 17/4000
-Steps: 100, Total Reward: 6607.36
-Running Avg Reward: 6561.69, Epsilon: 0.953
-Status Rewards: completed=4323.73, in_progress=1990.53, todo=293.10
+Steps: 100, Total Reward: 6734.53
+Running Avg Reward: 6687.60, Epsilon: 0.953
+Status Rewards: completed=4522.38, in_progress=1983.83, todo=228.33
 ------------------------
 Episode: 18/4000
-Steps: 100, Total Reward: 6806.03
-Running Avg Reward: 6575.27, Epsilon: 0.950
-Status Rewards: completed=5158.86, in_progress=1287.79, todo=359.38
+Steps: 100, Total Reward: 7038.46
+Running Avg Reward: 6707.09, Epsilon: 0.950
+Status Rewards: completed=5106.89, in_progress=1641.72, todo=289.86
 ------------------------
 Episode: 19/4000
-Steps: 100, Total Reward: 6439.71
-Running Avg Reward: 6568.13, Epsilon: 0.947
-Status Rewards: completed=4323.39, in_progress=1870.68, todo=245.64
+Steps: 100, Total Reward: 6801.30
+Running Avg Reward: 6712.05, Epsilon: 0.947
+Status Rewards: completed=5036.24, in_progress=1549.59, todo=215.47
 ------------------------
 Episode: 20/4000
-Steps: 100, Total Reward: 5674.42
-Running Avg Reward: 6523.45, Epsilon: 0.945
-Status Rewards: completed=3504.73, in_progress=1796.72, todo=372.97
+Steps: 100, Total Reward: 6685.46
+Running Avg Reward: 6710.72, Epsilon: 0.945
+Status Rewards: completed=4297.85, in_progress=2101.00, todo=286.61
 ------------------------
 Episode: 21/4000
-Steps: 100, Total Reward: 7826.28
-Running Avg Reward: 6585.49, Epsilon: 0.942
-Status Rewards: completed=5710.22, in_progress=1942.45, todo=173.61
+Steps: 100, Total Reward: 5956.91
+Running Avg Reward: 6674.83, Epsilon: 0.942
+Status Rewards: completed=3476.79, in_progress=2211.78, todo=268.34
 ------------------------
 Episode: 22/4000
-Steps: 100, Total Reward: 5416.84
-Running Avg Reward: 6532.37, Epsilon: 0.939
-Status Rewards: completed=3799.78, in_progress=1227.92, todo=389.14
+Steps: 100, Total Reward: 6713.22
+Running Avg Reward: 6676.57, Epsilon: 0.939
+Status Rewards: completed=4423.41, in_progress=2011.38, todo=278.43
 ------------------------
 Episode: 23/4000
-Steps: 100, Total Reward: 6321.91
-Running Avg Reward: 6523.22, Epsilon: 0.936
-Status Rewards: completed=3973.67, in_progress=2029.84, todo=318.40
+Steps: 100, Total Reward: 8184.39
+Running Avg Reward: 6742.13, Epsilon: 0.936
+Status Rewards: completed=6472.64, in_progress=1555.49, todo=156.26
 ------------------------
 Episode: 24/4000
-Steps: 100, Total Reward: 6600.04
-Running Avg Reward: 6526.42, Epsilon: 0.933
-Status Rewards: completed=4415.63, in_progress=1925.92, todo=258.50
+Steps: 100, Total Reward: 7716.26
+Running Avg Reward: 6782.72, Epsilon: 0.933
+Status Rewards: completed=5655.77, in_progress=1876.70, todo=183.80
 ------------------------
 Episode: 25/4000
-Steps: 100, Total Reward: 5461.87
-Running Avg Reward: 6483.84, Epsilon: 0.930
-Status Rewards: completed=3019.02, in_progress=2074.01, todo=368.84
+Steps: 100, Total Reward: 6891.41
+Running Avg Reward: 6787.06, Epsilon: 0.930
+Status Rewards: completed=4826.99, in_progress=1818.36, todo=246.06
 ------------------------
 Episode: 26/4000
-Steps: 100, Total Reward: 6116.69
-Running Avg Reward: 6469.72, Epsilon: 0.928
-Status Rewards: completed=3857.54, in_progress=2000.06, todo=259.09
+Steps: 100, Total Reward: 7620.45
+Running Avg Reward: 6819.12, Epsilon: 0.928
+Status Rewards: completed=5914.98, in_progress=1527.53, todo=177.94
 ------------------------
 Episode: 27/4000
-Steps: 100, Total Reward: 7069.98
-Running Avg Reward: 6491.95, Epsilon: 0.925
-Status Rewards: completed=3855.85, in_progress=2790.73, todo=423.40
+Steps: 100, Total Reward: 6395.10
+Running Avg Reward: 6803.41, Epsilon: 0.925
+Status Rewards: completed=4467.77, in_progress=1628.13, todo=299.21
 ------------------------
 Episode: 28/4000
-Steps: 100, Total Reward: 5917.82
-Running Avg Reward: 6471.44, Epsilon: 0.922
-Status Rewards: completed=4102.74, in_progress=1459.21, todo=355.86
+Steps: 100, Total Reward: 6697.02
+Running Avg Reward: 6799.61, Epsilon: 0.922
+Status Rewards: completed=4968.58, in_progress=1481.42, todo=247.03
 ------------------------
 Episode: 29/4000
-Steps: 100, Total Reward: 5646.68
-Running Avg Reward: 6443.00, Epsilon: 0.919
-Status Rewards: completed=3300.74, in_progress=1956.83, todo=389.12
+Steps: 100, Total Reward: 7149.98
+Running Avg Reward: 6811.70, Epsilon: 0.919
+Status Rewards: completed=4717.94, in_progress=2190.14, todo=241.90
 ------------------------
 Episode: 30/4000
-Steps: 100, Total Reward: 6714.55
-Running Avg Reward: 6452.05, Epsilon: 0.917
-Status Rewards: completed=4327.95, in_progress=2075.78, todo=310.82
+Steps: 100, Total Reward: 7146.41
+Running Avg Reward: 6822.85, Epsilon: 0.917
+Status Rewards: completed=5176.26, in_progress=1724.77, todo=245.38
 ------------------------
 Episode: 31/4000
-Steps: 100, Total Reward: 6443.50
-Running Avg Reward: 6451.78, Epsilon: 0.914
-Status Rewards: completed=4251.58, in_progress=1902.47, todo=289.45
+Steps: 100, Total Reward: 6887.79
+Running Avg Reward: 6824.95, Epsilon: 0.914
+Status Rewards: completed=4603.36, in_progress=2112.66, todo=171.77
 ------------------------
 Episode: 32/4000
-Steps: 100, Total Reward: 5654.77
-Running Avg Reward: 6426.87, Epsilon: 0.911
-Status Rewards: completed=3328.99, in_progress=1965.93, todo=359.85
+Steps: 100, Total Reward: 6715.24
+Running Avg Reward: 6821.52, Epsilon: 0.911
+Status Rewards: completed=4405.92, in_progress=2118.89, todo=190.43
 ------------------------
 Episode: 33/4000
-Steps: 100, Total Reward: 6328.31
-Running Avg Reward: 6423.89, Epsilon: 0.908
-Status Rewards: completed=4498.42, in_progress=1526.09, todo=303.80
+Steps: 100, Total Reward: 7263.88
+Running Avg Reward: 6834.92, Epsilon: 0.908
+Status Rewards: completed=5143.46, in_progress=1968.09, todo=152.33
 ------------------------
 Episode: 34/4000
-Steps: 100, Total Reward: 5953.30
-Running Avg Reward: 6410.04, Epsilon: 0.906
-Status Rewards: completed=3762.30, in_progress=1781.91, todo=409.09
+Steps: 100, Total Reward: 7721.03
+Running Avg Reward: 6860.99, Epsilon: 0.906
+Status Rewards: completed=6019.30, in_progress=1460.25, todo=241.48
 ------------------------
 Episode: 35/4000
-Steps: 100, Total Reward: 5199.21
-Running Avg Reward: 6375.45, Epsilon: 0.903
-Status Rewards: completed=3656.81, in_progress=1217.84, todo=324.56
+Steps: 100, Total Reward: 6889.07
+Running Avg Reward: 6861.79, Epsilon: 0.903
+Status Rewards: completed=5088.44, in_progress=1614.03, todo=186.59
 ------------------------
 Episode: 36/4000
-Steps: 100, Total Reward: 5645.10
-Running Avg Reward: 6355.16, Epsilon: 0.900
-Status Rewards: completed=3880.07, in_progress=1432.13, todo=332.90
+Steps: 100, Total Reward: 7935.49
+Running Avg Reward: 6891.61, Epsilon: 0.900
+Status Rewards: completed=6410.34, in_progress=1360.85, todo=164.31
 ------------------------
 Episode: 37/4000
-Steps: 100, Total Reward: 7057.92
-Running Avg Reward: 6374.16, Epsilon: 0.897
-Status Rewards: completed=4941.31, in_progress=1774.19, todo=342.41
+Steps: 100, Total Reward: 6665.88
+Running Avg Reward: 6885.51, Epsilon: 0.897
+Status Rewards: completed=4908.16, in_progress=1464.18, todo=293.53
 ------------------------
 Episode: 38/4000
-Steps: 100, Total Reward: 7228.76
-Running Avg Reward: 6396.64, Epsilon: 0.895
-Status Rewards: completed=5180.93, in_progress=1792.97, todo=254.85
+Steps: 100, Total Reward: 6260.12
+Running Avg Reward: 6869.05, Epsilon: 0.895
+Status Rewards: completed=4162.02, in_progress=1712.23, todo=385.88
 ------------------------
 Episode: 39/4000
-Steps: 100, Total Reward: 5870.79
-Running Avg Reward: 6383.16, Epsilon: 0.892
-Status Rewards: completed=4044.40, in_progress=1461.71, todo=364.68
+Steps: 100, Total Reward: 7324.30
+Running Avg Reward: 6880.73, Epsilon: 0.892
+Status Rewards: completed=5605.91, in_progress=1561.61, todo=156.78
 ------------------------
 Episode: 40/4000
-Steps: 100, Total Reward: 6149.20
-Running Avg Reward: 6377.31, Epsilon: 0.889
-Status Rewards: completed=4512.05, in_progress=1281.32, todo=355.83
+Steps: 100, Total Reward: 7669.48
+Running Avg Reward: 6900.45, Epsilon: 0.889
+Status Rewards: completed=5763.43, in_progress=1726.31, todo=179.74
 ------------------------
 Episode: 41/4000
-Steps: 100, Total Reward: 5359.56
-Running Avg Reward: 6352.49, Epsilon: 0.887
-Status Rewards: completed=3238.43, in_progress=1689.52, todo=431.61
+Steps: 100, Total Reward: 6010.40
+Running Avg Reward: 6878.74, Epsilon: 0.887
+Status Rewards: completed=3620.60, in_progress=2099.89, todo=289.91
 ------------------------
 Episode: 42/4000
-Steps: 100, Total Reward: 6218.97
-Running Avg Reward: 6349.31, Epsilon: 0.884
-Status Rewards: completed=4700.44, in_progress=1224.45, todo=294.08
+Steps: 100, Total Reward: 7623.76
+Running Avg Reward: 6896.48, Epsilon: 0.884
+Status Rewards: completed=5932.19, in_progress=1522.95, todo=168.61
 ------------------------
 Episode: 43/4000
-Steps: 100, Total Reward: 6540.99
-Running Avg Reward: 6353.77, Epsilon: 0.881
-Status Rewards: completed=4418.97, in_progress=1647.14, todo=474.88
+Steps: 100, Total Reward: 6647.22
+Running Avg Reward: 6890.68, Epsilon: 0.881
+Status Rewards: completed=5154.01, in_progress=1166.80, todo=326.42
 ------------------------
 Episode: 44/4000
-Steps: 100, Total Reward: 5205.59
-Running Avg Reward: 6327.67, Epsilon: 0.879
-Status Rewards: completed=3567.05, in_progress=1052.01, todo=586.54
+Steps: 100, Total Reward: 6101.56
+Running Avg Reward: 6872.75, Epsilon: 0.879
+Status Rewards: completed=4164.31, in_progress=1692.71, todo=244.54
 ------------------------
 Episode: 45/4000
-Steps: 100, Total Reward: 5903.25
-Running Avg Reward: 6318.24, Epsilon: 0.876
-Status Rewards: completed=4079.71, in_progress=1438.49, todo=385.05
+Steps: 100, Total Reward: 7362.04
+Running Avg Reward: 6883.62, Epsilon: 0.876
+Status Rewards: completed=5314.47, in_progress=1774.40, todo=273.18
 ------------------------
 Episode: 46/4000
-Steps: 100, Total Reward: 5869.08
-Running Avg Reward: 6308.48, Epsilon: 0.874
-Status Rewards: completed=3710.71, in_progress=1790.74, todo=367.63
+Steps: 100, Total Reward: 7956.95
+Running Avg Reward: 6906.95, Epsilon: 0.874
+Status Rewards: completed=5639.49, in_progress=2128.70, todo=188.76
 ------------------------
 Episode: 47/4000
-Steps: 100, Total Reward: 6677.22
-Running Avg Reward: 6316.32, Epsilon: 0.871
-Status Rewards: completed=5029.68, in_progress=1303.40, todo=344.14
+Steps: 100, Total Reward: 7812.79
+Running Avg Reward: 6926.23, Epsilon: 0.871
+Status Rewards: completed=6460.18, in_progress=1236.85, todo=115.76
 ------------------------
 Episode: 48/4000
-Steps: 100, Total Reward: 5634.10
-Running Avg Reward: 6302.11, Epsilon: 0.868
-Status Rewards: completed=3533.57, in_progress=1739.36, todo=361.17
+Steps: 100, Total Reward: 7039.12
+Running Avg Reward: 6928.58, Epsilon: 0.868
+Status Rewards: completed=5085.34, in_progress=1784.21, todo=169.57
 ------------------------
 Episode: 49/4000
-Steps: 100, Total Reward: 5801.55
-Running Avg Reward: 6291.89, Epsilon: 0.866
-Status Rewards: completed=3462.46, in_progress=1840.73, todo=498.36
+Steps: 100, Total Reward: 7911.96
+Running Avg Reward: 6948.65, Epsilon: 0.866
+Status Rewards: completed=6172.13, in_progress=1613.33, todo=126.49
 ------------------------
 Episode: 50/4000
-Steps: 100, Total Reward: 5887.45
-Running Avg Reward: 6283.80, Epsilon: 0.863
-Status Rewards: completed=3341.15, in_progress=2129.19, todo=417.11
+Steps: 100, Total Reward: 7751.13
+Running Avg Reward: 6964.70, Epsilon: 0.863
+Status Rewards: completed=5285.18, in_progress=2382.64, todo=83.32
 ------------------------
 Episode: 51/4000
-Steps: 100, Total Reward: 5074.57
-Running Avg Reward: 6260.09, Epsilon: 0.861
-Status Rewards: completed=2587.84, in_progress=2093.61, todo=393.12
+Steps: 100, Total Reward: 7631.51
+Running Avg Reward: 6977.77, Epsilon: 0.861
+Status Rewards: completed=5778.07, in_progress=1694.04, todo=159.40
 ------------------------
 Episode: 52/4000
-Steps: 100, Total Reward: 5603.04
-Running Avg Reward: 6247.46, Epsilon: 0.858
-Status Rewards: completed=3564.20, in_progress=1612.20, todo=426.65
+Steps: 100, Total Reward: 7383.27
+Running Avg Reward: 6985.57, Epsilon: 0.858
+Status Rewards: completed=5621.90, in_progress=1586.13, todo=175.23
 ------------------------
 Episode: 53/4000
-Steps: 100, Total Reward: 6429.58
-Running Avg Reward: 6250.90, Epsilon: 0.855
-Status Rewards: completed=4830.15, in_progress=1232.07, todo=367.36
+Steps: 100, Total Reward: 7355.44
+Running Avg Reward: 6992.55, Epsilon: 0.855
+Status Rewards: completed=5151.19, in_progress=2050.56, todo=153.69
 ------------------------
 Episode: 54/4000
-Steps: 100, Total Reward: 6670.48
-Running Avg Reward: 6258.67, Epsilon: 0.853
-Status Rewards: completed=3741.96, in_progress=2659.08, todo=269.43
+Steps: 100, Total Reward: 7180.95
+Running Avg Reward: 6996.04, Epsilon: 0.853
+Status Rewards: completed=5183.94, in_progress=1778.61, todo=218.40
 ------------------------
 Episode: 55/4000
-Steps: 100, Total Reward: 6218.36
-Running Avg Reward: 6257.93, Epsilon: 0.850
-Status Rewards: completed=4299.58, in_progress=1595.92, todo=322.87
+Steps: 100, Total Reward: 7661.09
+Running Avg Reward: 7008.13, Epsilon: 0.850
+Status Rewards: completed=5234.97, in_progress=2242.97, todo=183.16
 ------------------------
 Episode: 56/4000
-Steps: 100, Total Reward: 6946.47
-Running Avg Reward: 6270.23, Epsilon: 0.848
-Status Rewards: completed=5275.80, in_progress=1356.44, todo=314.23
+Steps: 100, Total Reward: 6836.42
+Running Avg Reward: 7005.06, Epsilon: 0.848
+Status Rewards: completed=4971.33, in_progress=1551.18, todo=313.90
 ------------------------
 Episode: 57/4000
-Steps: 100, Total Reward: 5354.22
-Running Avg Reward: 6254.16, Epsilon: 0.845
-Status Rewards: completed=3508.56, in_progress=1465.64, todo=380.02
+Steps: 100, Total Reward: 8188.74
+Running Avg Reward: 7025.83, Epsilon: 0.845
+Status Rewards: completed=5872.29, in_progress=2154.69, todo=161.75
 ------------------------
 Episode: 58/4000
-Steps: 100, Total Reward: 6473.23
-Running Avg Reward: 6257.93, Epsilon: 0.843
-Status Rewards: completed=4509.04, in_progress=1704.47, todo=259.72
+Steps: 100, Total Reward: 6991.84
+Running Avg Reward: 7025.24, Epsilon: 0.843
+Status Rewards: completed=5273.67, in_progress=1475.12, todo=243.05
 ------------------------
 Episode: 59/4000
-Steps: 100, Total Reward: 5305.04
-Running Avg Reward: 6241.78, Epsilon: 0.840
-Status Rewards: completed=3040.58, in_progress=1889.47, todo=375.00
+Steps: 100, Total Reward: 6005.39
+Running Avg Reward: 7007.96, Epsilon: 0.840
+Status Rewards: completed=3947.73, in_progress=1777.02, todo=280.65
 ------------------------
 Episode: 60/4000
-Steps: 100, Total Reward: 5077.57
-Running Avg Reward: 6222.38, Epsilon: 0.838
-Status Rewards: completed=3140.75, in_progress=1383.70, todo=553.12
+Steps: 100, Total Reward: 7107.24
+Running Avg Reward: 7009.61, Epsilon: 0.838
+Status Rewards: completed=5051.45, in_progress=1701.03, todo=354.76
 ------------------------
 Episode: 61/4000
-Steps: 100, Total Reward: 6166.84
-Running Avg Reward: 6221.47, Epsilon: 0.835
-Status Rewards: completed=4303.04, in_progress=1455.50, todo=408.30
+Steps: 100, Total Reward: 6824.47
+Running Avg Reward: 7006.58, Epsilon: 0.835
+Status Rewards: completed=4818.36, in_progress=1784.81, todo=221.31
 ------------------------
 Episode: 62/4000
-Steps: 100, Total Reward: 5800.09
-Running Avg Reward: 6214.67, Epsilon: 0.833
-Status Rewards: completed=3825.67, in_progress=1631.74, todo=342.69
+Steps: 100, Total Reward: 7505.24
+Running Avg Reward: 7014.62, Epsilon: 0.833
+Status Rewards: completed=5733.36, in_progress=1580.55, todo=191.33
 ------------------------
 Episode: 63/4000
-Steps: 100, Total Reward: 5908.85
-Running Avg Reward: 6209.82, Epsilon: 0.830
-Status Rewards: completed=3312.31, in_progress=2311.53, todo=285.02
+Steps: 100, Total Reward: 7894.63
+Running Avg Reward: 7028.59, Epsilon: 0.830
+Status Rewards: completed=5233.59, in_progress=2504.40, todo=156.64
 ------------------------
 Episode: 64/4000
-Steps: 100, Total Reward: 5847.80
-Running Avg Reward: 6204.16, Epsilon: 0.828
-Status Rewards: completed=3706.69, in_progress=1746.83, todo=394.28
+Steps: 100, Total Reward: 8128.65
+Running Avg Reward: 7045.78, Epsilon: 0.828
+Status Rewards: completed=5643.26, in_progress=2322.78, todo=162.61
 ------------------------
 Episode: 65/4000
-Steps: 100, Total Reward: 4876.11
-Running Avg Reward: 6183.73, Epsilon: 0.825
-Status Rewards: completed=2859.99, in_progress=1542.59, todo=473.54
+Steps: 100, Total Reward: 7130.37
+Running Avg Reward: 7047.08, Epsilon: 0.825
+Status Rewards: completed=5692.70, in_progress=1233.85, todo=203.83
 ------------------------
 Episode: 66/4000
-Steps: 100, Total Reward: 5812.53
-Running Avg Reward: 6178.11, Epsilon: 0.823
-Status Rewards: completed=3274.34, in_progress=2148.78, todo=389.41
+Steps: 100, Total Reward: 7149.81
+Running Avg Reward: 7048.63, Epsilon: 0.823
+Status Rewards: completed=5316.19, in_progress=1693.66, todo=139.96
 ------------------------
 Episode: 67/4000
-Steps: 100, Total Reward: 5515.35
-Running Avg Reward: 6168.21, Epsilon: 0.820
-Status Rewards: completed=3003.38, in_progress=2133.45, todo=378.53
+Steps: 100, Total Reward: 7227.86
+Running Avg Reward: 7051.31, Epsilon: 0.820
+Status Rewards: completed=5545.27, in_progress=1411.59, todo=271.00
 ------------------------
 Episode: 68/4000
-Steps: 100, Total Reward: 5192.53
-Running Avg Reward: 6153.87, Epsilon: 0.818
-Status Rewards: completed=3305.78, in_progress=1498.46, todo=388.29
+Steps: 100, Total Reward: 6647.20
+Running Avg Reward: 7045.37, Epsilon: 0.818
+Status Rewards: completed=4610.40, in_progress=1798.46, todo=238.35
 ------------------------
 Episode: 69/4000
-Steps: 100, Total Reward: 5371.51
-Running Avg Reward: 6142.53, Epsilon: 0.815
-Status Rewards: completed=3537.42, in_progress=1316.17, todo=517.92
+Steps: 100, Total Reward: 7256.64
+Running Avg Reward: 7048.43, Epsilon: 0.815
+Status Rewards: completed=4977.86, in_progress=1985.07, todo=293.71
 ------------------------
 Episode: 70/4000
-Steps: 100, Total Reward: 5058.59
-Running Avg Reward: 6127.04, Epsilon: 0.813
-Status Rewards: completed=3146.25, in_progress=1408.84, todo=503.49
+Steps: 100, Total Reward: 7556.25
+Running Avg Reward: 7055.68, Epsilon: 0.813
+Status Rewards: completed=5537.27, in_progress=1728.67, todo=290.31
 ------------------------
 Episode: 71/4000
-Steps: 100, Total Reward: 5521.44
-Running Avg Reward: 6118.51, Epsilon: 0.810
-Status Rewards: completed=3446.39, in_progress=1607.42, todo=467.64
+Steps: 100, Total Reward: 6964.22
+Running Avg Reward: 7054.39, Epsilon: 0.810
+Status Rewards: completed=5134.85, in_progress=1609.55, todo=219.82
 ------------------------
 Episode: 72/4000
-Steps: 100, Total Reward: 5549.51
-Running Avg Reward: 6110.61, Epsilon: 0.808
-Status Rewards: completed=3881.49, in_progress=1186.01, todo=482.01
+Steps: 100, Total Reward: 7274.12
+Running Avg Reward: 7057.45, Epsilon: 0.808
+Status Rewards: completed=5793.68, in_progress=1264.57, todo=215.87
 ------------------------
 Episode: 73/4000
-Steps: 100, Total Reward: 6327.84
-Running Avg Reward: 6113.59, Epsilon: 0.805
-Status Rewards: completed=4445.53, in_progress=1478.33, todo=403.98
+Steps: 100, Total Reward: 8296.68
+Running Avg Reward: 7074.42, Epsilon: 0.805
+Status Rewards: completed=6144.69, in_progress=1986.85, todo=165.14
 ------------------------
 Episode: 74/4000
-Steps: 100, Total Reward: 6003.99
-Running Avg Reward: 6112.11, Epsilon: 0.803
-Status Rewards: completed=3714.39, in_progress=1820.47, todo=469.13
+Steps: 100, Total Reward: 7428.00
+Running Avg Reward: 7079.20, Epsilon: 0.803
+Status Rewards: completed=5557.06, in_progress=1620.29, todo=250.65
 ------------------------
 Episode: 75/4000
-Steps: 100, Total Reward: 5455.40
-Running Avg Reward: 6103.35, Epsilon: 0.801
-Status Rewards: completed=4268.42, in_progress=747.04, todo=439.94
+Steps: 100, Total Reward: 7230.29
+Running Avg Reward: 7081.21, Epsilon: 0.801
+Status Rewards: completed=5229.71, in_progress=1819.62, todo=180.96
 ------------------------
 Episode: 76/4000
-Steps: 100, Total Reward: 5736.18
-Running Avg Reward: 6098.52, Epsilon: 0.798
-Status Rewards: completed=3031.38, in_progress=2326.90, todo=377.90
+Steps: 100, Total Reward: 6985.64
+Running Avg Reward: 7079.96, Epsilon: 0.798
+Status Rewards: completed=4787.72, in_progress=1876.02, todo=321.90
 ------------------------
 Episode: 77/4000
-Steps: 100, Total Reward: 4913.47
-Running Avg Reward: 6083.13, Epsilon: 0.796
-Status Rewards: completed=2942.12, in_progress=1443.89, todo=527.46
+Steps: 100, Total Reward: 6737.26
+Running Avg Reward: 7075.51, Epsilon: 0.796
+Status Rewards: completed=5151.56, in_progress=1316.51, todo=269.19
 ------------------------
 Episode: 78/4000
-Steps: 100, Total Reward: 6173.21
-Running Avg Reward: 6084.28, Epsilon: 0.793
-Status Rewards: completed=4331.90, in_progress=1442.44, todo=398.88
+Steps: 100, Total Reward: 7808.74
+Running Avg Reward: 7084.91, Epsilon: 0.793
+Status Rewards: completed=6048.29, in_progress=1521.97, todo=238.48
 ------------------------
 Episode: 79/4000
-Steps: 100, Total Reward: 5540.07
-Running Avg Reward: 6077.39, Epsilon: 0.791
-Status Rewards: completed=3996.47, in_progress=990.70, todo=552.90
+Steps: 100, Total Reward: 6716.37
+Running Avg Reward: 7080.24, Epsilon: 0.791
+Status Rewards: completed=4948.92, in_progress=1450.26, todo=317.19
 ------------------------
 Episode: 80/4000
-Steps: 100, Total Reward: 5795.42
-Running Avg Reward: 6073.87, Epsilon: 0.789
-Status Rewards: completed=3920.96, in_progress=1406.24, todo=468.21
+Steps: 100, Total Reward: 8107.22
+Running Avg Reward: 7093.08, Epsilon: 0.789
+Status Rewards: completed=6703.78, in_progress=1282.82, todo=120.62
 ------------------------
 Episode: 81/4000
-Steps: 100, Total Reward: 7098.65
-Running Avg Reward: 6086.52, Epsilon: 0.786
-Status Rewards: completed=4943.08, in_progress=1925.17, todo=230.41
+Steps: 100, Total Reward: 7682.18
+Running Avg Reward: 7100.35, Epsilon: 0.786
+Status Rewards: completed=5976.42, in_progress=1432.37, todo=273.39
 ------------------------
 Episode: 82/4000
-Steps: 100, Total Reward: 8087.74
-Running Avg Reward: 6110.93, Epsilon: 0.784
-Status Rewards: completed=6159.81, in_progress=1764.54, todo=163.40
+Steps: 100, Total Reward: 7740.59
+Running Avg Reward: 7108.16, Epsilon: 0.784
+Status Rewards: completed=5728.11, in_progress=1827.98, todo=184.50
 ------------------------
 Episode: 83/4000
-Steps: 100, Total Reward: 6664.76
-Running Avg Reward: 6117.60, Epsilon: 0.782
-Status Rewards: completed=5050.77, in_progress=1263.15, todo=350.84
+Steps: 100, Total Reward: 7024.96
+Running Avg Reward: 7107.16, Epsilon: 0.782
+Status Rewards: completed=5813.73, in_progress=977.07, todo=234.15
 ------------------------
 Episode: 84/4000
-Steps: 100, Total Reward: 7021.45
-Running Avg Reward: 6128.36, Epsilon: 0.779
-Status Rewards: completed=5147.99, in_progress=1552.62, todo=320.84
+Steps: 100, Total Reward: 7180.36
+Running Avg Reward: 7108.03, Epsilon: 0.779
+Status Rewards: completed=5459.56, in_progress=1481.12, todo=239.68
 ------------------------
 Episode: 85/4000
-Steps: 100, Total Reward: 7627.34
-Running Avg Reward: 6145.99, Epsilon: 0.777
-Status Rewards: completed=5913.96, in_progress=1502.51, todo=210.87
+Steps: 100, Total Reward: 7327.16
+Running Avg Reward: 7110.61, Epsilon: 0.777
+Status Rewards: completed=5396.86, in_progress=1676.54, todo=253.75
 ------------------------
 Episode: 86/4000
-Steps: 100, Total Reward: 7417.96
-Running Avg Reward: 6160.78, Epsilon: 0.775
-Status Rewards: completed=5434.68, in_progress=1728.36, todo=254.92
+Steps: 100, Total Reward: 7544.79
+Running Avg Reward: 7115.66, Epsilon: 0.775
+Status Rewards: completed=6023.79, in_progress=1325.83, todo=195.18
 ------------------------
 Episode: 87/4000
-Steps: 100, Total Reward: 7934.84
-Running Avg Reward: 6181.18, Epsilon: 0.772
-Status Rewards: completed=6332.35, in_progress=1394.06, todo=208.43
+Steps: 100, Total Reward: 7984.25
+Running Avg Reward: 7125.64, Epsilon: 0.772
+Status Rewards: completed=6506.07, in_progress=1268.57, todo=209.61
 ------------------------
 Episode: 88/4000
-Steps: 100, Total Reward: 7265.19
-Running Avg Reward: 6193.49, Epsilon: 0.770
-Status Rewards: completed=5745.39, in_progress=1247.08, todo=272.72
+Steps: 100, Total Reward: 7770.49
+Running Avg Reward: 7132.97, Epsilon: 0.770
+Status Rewards: completed=5868.83, in_progress=1645.56, todo=256.10
 ------------------------
 Episode: 89/4000
-Steps: 100, Total Reward: 7423.18
-Running Avg Reward: 6207.31, Epsilon: 0.768
-Status Rewards: completed=6202.26, in_progress=921.77, todo=299.15
+Steps: 100, Total Reward: 7292.09
+Running Avg Reward: 7134.76, Epsilon: 0.768
+Status Rewards: completed=5673.09, in_progress=1440.19, todo=178.80
 ------------------------
 Episode: 90/4000
-Steps: 100, Total Reward: 7685.78
-Running Avg Reward: 6223.74, Epsilon: 0.765
-Status Rewards: completed=6355.82, in_progress=1105.28, todo=224.68
+Steps: 100, Total Reward: 7626.20
+Running Avg Reward: 7140.22, Epsilon: 0.765
+Status Rewards: completed=6135.83, in_progress=1290.98, todo=199.39
 ------------------------
 Episode: 91/4000
-Steps: 100, Total Reward: 7861.00
-Running Avg Reward: 6241.73, Epsilon: 0.763
-Status Rewards: completed=6550.82, in_progress=1169.09, todo=141.10
+Steps: 100, Total Reward: 7455.52
+Running Avg Reward: 7143.68, Epsilon: 0.763
+Status Rewards: completed=5359.88, in_progress=1971.40, todo=124.25
 ------------------------
 Episode: 92/4000
-Steps: 100, Total Reward: 7277.66
-Running Avg Reward: 6252.99, Epsilon: 0.761
-Status Rewards: completed=5846.78, in_progress=1214.68, todo=216.20
-------------------------
-Episode: 93/4000
-Steps: 100, Total Reward: 7976.15
-Running Avg Reward: 6271.52, Epsilon: 0.758
-Status Rewards: completed=6368.79, in_progress=1438.26, todo=169.09
-------------------------
-Episode: 94/4000
-Steps: 100, Total Reward: 7921.08
-Running Avg Reward: 6289.07, Epsilon: 0.756
-Status Rewards: completed=6434.79, in_progress=1336.08, todo=150.20
-------------------------
-Episode: 95/4000
-Steps: 100, Total Reward: 7149.23
-Running Avg Reward: 6298.12, Epsilon: 0.754
-Status Rewards: completed=5676.03, in_progress=1246.67, todo=226.53
-------------------------
-Episode: 96/4000
-Steps: 100, Total Reward: 7488.37
-Running Avg Reward: 6310.52, Epsilon: 0.752
-Status Rewards: completed=6177.61, in_progress=1095.06, todo=215.70
-------------------------
-Episode: 97/4000
-Steps: 100, Total Reward: 7190.68
-Running Avg Reward: 6319.59, Epsilon: 0.749
-Status Rewards: completed=3730.18, in_progress=3308.67, todo=151.83
-------------------------
-Episode: 98/4000
-Steps: 100, Total Reward: 5614.14
-Running Avg Reward: 6312.40, Epsilon: 0.747
-Status Rewards: completed=3701.25, in_progress=1421.65, todo=491.25
-------------------------
-Episode: 99/4000
-Steps: 100, Total Reward: 5155.23
-Running Avg Reward: 6300.71, Epsilon: 0.745
-Status Rewards: completed=3674.52, in_progress=987.18, todo=493.52
-------------------------
-Episode: 100/4000
-Steps: 100, Total Reward: 4589.96
-Running Avg Reward: 6283.60, Epsilon: 0.743
-Status Rewards: completed=2911.14, in_progress=1174.83, todo=504.00
-------------------------
-Episode: 101/4000
-Steps: 100, Total Reward: 4579.97
-Running Avg Reward: 6252.78, Epsilon: 0.740
-Status Rewards: completed=2548.02, in_progress=1475.04, todo=556.91
-------------------------
-Episode: 102/4000
-Steps: 100, Total Reward: 6497.43
-Running Avg Reward: 6244.31, Epsilon: 0.738
-Status Rewards: completed=3946.25, in_progress=2426.69, todo=124.49
-------------------------
-Episode: 103/4000
-Steps: 100, Total Reward: 6231.14
-Running Avg Reward: 6238.09, Epsilon: 0.736
-Status Rewards: completed=3514.45, in_progress=2538.14, todo=178.56
-------------------------
-Episode: 104/4000
-Steps: 100, Total Reward: 6608.47
-Running Avg Reward: 6239.75, Epsilon: 0.734
-Status Rewards: completed=3406.89, in_progress=3068.58, todo=132.99
-------------------------
-Episode: 105/4000
-Steps: 100, Total Reward: 5692.17
-Running Avg Reward: 6232.72, Epsilon: 0.732
-Status Rewards: completed=3086.05, in_progress=2314.83, todo=291.29
-------------------------
-Episode: 106/4000
-Steps: 100, Total Reward: 5777.75
-Running Avg Reward: 6223.35, Epsilon: 0.729
-Status Rewards: completed=3595.67, in_progress=1955.66, todo=226.43
-------------------------
-Episode: 107/4000
-Steps: 100, Total Reward: 6261.88
-Running Avg Reward: 6225.52, Epsilon: 0.727
-Status Rewards: completed=3311.26, in_progress=2754.02, todo=196.59
-------------------------
-Episode: 108/4000
-Steps: 100, Total Reward: 5876.34
-Running Avg Reward: 6218.35, Epsilon: 0.725
-Status Rewards: completed=3019.84, in_progress=2699.02, todo=157.48
-------------------------
-Episode: 109/4000
-Steps: 100, Total Reward: 5728.36
-Running Avg Reward: 6212.26, Epsilon: 0.723
-Status Rewards: completed=2577.83, in_progress=2964.81, todo=185.72
-------------------------
-Episode: 110/4000
-Steps: 100, Total Reward: 6847.03
-Running Avg Reward: 6206.00, Epsilon: 0.721
-Status Rewards: completed=3907.17, in_progress=2760.81, todo=179.05
-------------------------
-Episode: 111/4000
-Steps: 100, Total Reward: 6399.57
-Running Avg Reward: 6211.69, Epsilon: 0.719
-Status Rewards: completed=3635.03, in_progress=2591.24, todo=173.29
-------------------------
-Episode: 112/4000
-Steps: 100, Total Reward: 5815.17
-Running Avg Reward: 6206.14, Epsilon: 0.716
-Status Rewards: completed=2765.28, in_progress=2839.38, todo=210.51
-------------------------
-Episode: 113/4000
-Steps: 100, Total Reward: 7331.06
-Running Avg Reward: 6214.72, Epsilon: 0.714
-Status Rewards: completed=5459.05, in_progress=1678.48, todo=193.53
-------------------------
-Episode: 114/4000
-Steps: 100, Total Reward: 7498.48
-Running Avg Reward: 6229.86, Epsilon: 0.712
-Status Rewards: completed=5998.27, in_progress=1207.74, todo=292.46
-------------------------
-Episode: 115/4000
-Steps: 100, Total Reward: 8264.27
-Running Avg Reward: 6248.04, Epsilon: 0.710
-Status Rewards: completed=6543.99, in_progress=1576.80, todo=143.48
-------------------------
-Episode: 116/4000
-Steps: 100, Total Reward: 7910.78
-Running Avg Reward: 6267.38, Epsilon: 0.708
-Status Rewards: completed=6717.34, in_progress=1024.65, todo=168.79
-------------------------
-Episode: 117/4000
-Steps: 100, Total Reward: 7636.95
-Running Avg Reward: 6277.68, Epsilon: 0.706
-Status Rewards: completed=6028.43, in_progress=1413.69, todo=194.83
-------------------------
-Episode: 118/4000
-Steps: 100, Total Reward: 8221.27
-Running Avg Reward: 6291.83, Epsilon: 0.704
-Status Rewards: completed=6708.68, in_progress=1344.03, todo=168.56
-------------------------
-Episode: 119/4000
-Steps: 100, Total Reward: 8224.97
-Running Avg Reward: 6309.68, Epsilon: 0.702
-Status Rewards: completed=6826.45, in_progress=1228.00, todo=170.52
-------------------------
-Episode: 120/4000
-Steps: 100, Total Reward: 7630.73
-Running Avg Reward: 6329.25, Epsilon: 0.699
-Status Rewards: completed=5838.05, in_progress=1641.47, todo=151.20
-------------------------
-Episode: 121/4000
-Steps: 100, Total Reward: 7570.19
-Running Avg Reward: 6326.69, Epsilon: 0.697
-Status Rewards: completed=6224.32, in_progress=1199.37, todo=146.50
-------------------------
-Episode: 122/4000
-Steps: 100, Total Reward: 8068.58
-Running Avg Reward: 6353.20, Epsilon: 0.695
-Status Rewards: completed=6709.57, in_progress=1221.66, todo=137.35
-------------------------
-Episode: 123/4000
-Steps: 100, Total Reward: 8617.70
-Running Avg Reward: 6376.16, Epsilon: 0.693
-Status Rewards: completed=7273.15, in_progress=1218.56, todo=125.99
-------------------------
-Episode: 124/4000
-Steps: 100, Total Reward: 8357.54
-Running Avg Reward: 6393.74, Epsilon: 0.691
-Status Rewards: completed=6686.30, in_progress=1560.10, todo=111.14
-------------------------
-Episode: 125/4000
-Steps: 100, Total Reward: 7660.75
-Running Avg Reward: 6415.73, Epsilon: 0.689
-Status Rewards: completed=6207.04, in_progress=1238.41, todo=215.30
-------------------------
-Episode: 126/4000
-Steps: 100, Total Reward: 7220.82
-Running Avg Reward: 6426.77, Epsilon: 0.687
-Status Rewards: completed=5888.66, in_progress=1181.13, todo=151.03
-------------------------
-Episode: 127/4000
-Steps: 100, Total Reward: 8006.57
-Running Avg Reward: 6436.13, Epsilon: 0.685
-Status Rewards: completed=6072.45, in_progress=1795.21, todo=138.91
-------------------------
-Episode: 128/4000
-Steps: 100, Total Reward: 8397.40
-Running Avg Reward: 6460.93, Epsilon: 0.683
-Status Rewards: completed=7033.92, in_progress=1250.89, todo=112.60
-------------------------
-Episode: 129/4000
-Steps: 100, Total Reward: 8026.43
-Running Avg Reward: 6484.73, Epsilon: 0.681
-Status Rewards: completed=6187.12, in_progress=1697.79, todo=141.52
-------------------------
-Episode: 130/4000
-Steps: 100, Total Reward: 6883.79
-Running Avg Reward: 6486.42, Epsilon: 0.679
-Status Rewards: completed=5353.08, in_progress=1305.96, todo=224.74
-------------------------
-Episode: 131/4000
-Steps: 100, Total Reward: 8500.18
-Running Avg Reward: 6506.99, Epsilon: 0.677
-Status Rewards: completed=7150.65, in_progress=1266.46, todo=83.07
-------------------------
-Episode: 132/4000
-Steps: 100, Total Reward: 7970.48
-Running Avg Reward: 6530.14, Epsilon: 0.675
-Status Rewards: completed=7046.72, in_progress=732.42, todo=191.33
-------------------------
-Episode: 133/4000
-Steps: 100, Total Reward: 7879.87
-Running Avg Reward: 6545.66, Epsilon: 0.673
-Status Rewards: completed=6426.68, in_progress=1270.16, todo=183.03
-------------------------
-Episode: 134/4000
-Steps: 100, Total Reward: 7414.22
-Running Avg Reward: 6560.27, Epsilon: 0.671
-Status Rewards: completed=6065.52, in_progress=1088.40, todo=260.30
-------------------------
-Episode: 135/4000
-Steps: 100, Total Reward: 8249.40
-Running Avg Reward: 6590.77, Epsilon: 0.669
-Status Rewards: completed=6549.02, in_progress=1565.15, todo=135.23
-------------------------
-Episode: 136/4000
-Steps: 100, Total Reward: 7922.32
-Running Avg Reward: 6613.54, Epsilon: 0.667
-Status Rewards: completed=5874.24, in_progress=1902.78, todo=145.30
-------------------------
-Episode: 137/4000
-Steps: 100, Total Reward: 8094.88
-Running Avg Reward: 6623.91, Epsilon: 0.665
-Status Rewards: completed=6466.41, in_progress=1468.73, todo=159.74
-------------------------
-Episode: 138/4000
-Steps: 100, Total Reward: 8105.99
-Running Avg Reward: 6632.68, Epsilon: 0.663
-Status Rewards: completed=6478.00, in_progress=1542.72, todo=85.27
-------------------------
-Episode: 139/4000
-Steps: 100, Total Reward: 8154.19
-Running Avg Reward: 6655.52, Epsilon: 0.661
-Status Rewards: completed=6603.22, in_progress=1435.41, todo=115.55
-------------------------
-Episode: 140/4000
-Steps: 100, Total Reward: 8976.66
-Running Avg Reward: 6683.79, Epsilon: 0.659
-Status Rewards: completed=7555.81, in_progress=1278.74, todo=142.11
-------------------------
-Episode: 141/4000
-Steps: 100, Total Reward: 8327.93
-Running Avg Reward: 6713.48, Epsilon: 0.657
-Status Rewards: completed=6921.01, in_progress=1258.53, todo=148.40
-------------------------
-Episode: 142/4000
-Steps: 100, Total Reward: 7225.75
-Running Avg Reward: 6723.54, Epsilon: 0.655
-Status Rewards: completed=5230.09, in_progress=1749.12, todo=246.54
-------------------------
-Episode: 143/4000
-Steps: 100, Total Reward: 7814.73
-Running Avg Reward: 6736.28, Epsilon: 0.653
-Status Rewards: completed=6590.56, in_progress=986.78, todo=237.38
-------------------------
-Episode: 144/4000
-Steps: 100, Total Reward: 8314.80
-Running Avg Reward: 6767.37, Epsilon: 0.651
-Status Rewards: completed=6783.49, in_progress=1377.63, todo=153.69
-------------------------
-Episode: 145/4000
-Steps: 100, Total Reward: 7327.18
-Running Avg Reward: 6781.61, Epsilon: 0.649
-Status Rewards: completed=5862.07, in_progress=1301.94, todo=163.17
-------------------------
-Episode: 146/4000
-Steps: 100, Total Reward: 8414.84
-Running Avg Reward: 6807.07, Epsilon: 0.647
-Status Rewards: completed=7087.42, in_progress=1186.00, todo=141.42
-------------------------
-Episode: 147/4000
-Steps: 100, Total Reward: 7758.09
-Running Avg Reward: 6817.88, Epsilon: 0.645
-Status Rewards: completed=6060.16, in_progress=1543.84, todo=154.09
-------------------------
-Episode: 148/4000
-Steps: 100, Total Reward: 8654.21
-Running Avg Reward: 6848.08, Epsilon: 0.643
-Status Rewards: completed=7463.31, in_progress=1146.58, todo=44.32
-------------------------
-Episode: 149/4000
-Steps: 100, Total Reward: 8270.23
-Running Avg Reward: 6872.77, Epsilon: 0.641
-Status Rewards: completed=7111.41, in_progress=946.30, todo=212.52
-------------------------
-Episode: 150/4000
-Steps: 100, Total Reward: 8074.22
-Running Avg Reward: 6894.63, Epsilon: 0.639
-Status Rewards: completed=6548.28, in_progress=1352.57, todo=173.37
-------------------------
-Episode: 151/4000
-Steps: 100, Total Reward: 7670.24
-Running Avg Reward: 6920.59, Epsilon: 0.637
-Status Rewards: completed=6548.32, in_progress=879.98, todo=241.95
-------------------------
-Episode: 152/4000
-Steps: 100, Total Reward: 8242.77
-Running Avg Reward: 6946.99, Epsilon: 0.635
-Status Rewards: completed=6937.51, in_progress=1068.90, todo=236.36
-------------------------
-Episode: 153/4000
-Steps: 100, Total Reward: 7560.88
-Running Avg Reward: 6958.30, Epsilon: 0.633
-Status Rewards: completed=5581.90, in_progress=1814.15, todo=164.82
-------------------------
-Episode: 154/4000
-Steps: 100, Total Reward: 8432.92
-Running Avg Reward: 6975.93, Epsilon: 0.631
-Status Rewards: completed=6970.24, in_progress=1308.53, todo=154.14
-------------------------
-Episode: 155/4000
-Steps: 100, Total Reward: 7942.35
-Running Avg Reward: 6993.17, Epsilon: 0.630
-Status Rewards: completed=6676.00, in_progress=1088.08, todo=178.27
-------------------------
-Episode: 156/4000
-Steps: 100, Total Reward: 8273.60
-Running Avg Reward: 7006.44, Epsilon: 0.628
-Status Rewards: completed=6431.10, in_progress=1752.13, todo=90.38
-------------------------
-Episode: 157/4000
-Steps: 100, Total Reward: 8582.15
-Running Avg Reward: 7038.72, Epsilon: 0.626
-Status Rewards: completed=7377.77, in_progress=1087.88, todo=116.51
-------------------------
-Episode: 158/4000
-Steps: 100, Total Reward: 7373.50
-Running Avg Reward: 7047.72, Epsilon: 0.624
-Status Rewards: completed=6008.76, in_progress=1197.87, todo=166.88
-------------------------
-Episode: 159/4000
-Steps: 100, Total Reward: 7744.40
-Running Avg Reward: 7072.11, Epsilon: 0.622
-Status Rewards: completed=6258.26, in_progress=1296.41, todo=189.73
-------------------------
-Episode: 160/4000
-Steps: 100, Total Reward: 8283.58
-Running Avg Reward: 7104.17, Epsilon: 0.620
-Status Rewards: completed=6804.84, in_progress=1337.24, todo=141.49
-------------------------
-Episode: 161/4000
-Steps: 100, Total Reward: 7899.54
-Running Avg Reward: 7121.50, Epsilon: 0.618
-Status Rewards: completed=6729.35, in_progress=1009.28, todo=160.92
-------------------------
-Episode: 162/4000
-Steps: 100, Total Reward: 8009.97
-Running Avg Reward: 7143.60, Epsilon: 0.616
-Status Rewards: completed=6437.41, in_progress=1384.59, todo=187.96
-------------------------
-Episode: 163/4000
-Steps: 100, Total Reward: 8480.26
-Running Avg Reward: 7169.31, Epsilon: 0.615
-Status Rewards: completed=7342.94, in_progress=1028.44, todo=108.87
-------------------------
-Episode: 164/4000
-Steps: 100, Total Reward: 7643.57
-Running Avg Reward: 7187.27, Epsilon: 0.613
-Status Rewards: completed=6285.47, in_progress=1128.96, todo=229.14
-------------------------
-Episode: 165/4000
-Steps: 100, Total Reward: 8104.94
-Running Avg Reward: 7219.56, Epsilon: 0.611
-Status Rewards: completed=6736.77, in_progress=1221.77, todo=146.41
-------------------------
-Episode: 166/4000
-Steps: 100, Total Reward: 7809.56
-Running Avg Reward: 7239.53, Epsilon: 0.609
-Status Rewards: completed=6521.46, in_progress=1142.29, todo=145.81
-------------------------
-Episode: 167/4000
-Steps: 100, Total Reward: 7682.76
-Running Avg Reward: 7261.20, Epsilon: 0.607
-Status Rewards: completed=6597.54, in_progress=865.96, todo=219.26
-------------------------
-Episode: 168/4000
-Steps: 100, Total Reward: 8464.87
-Running Avg Reward: 7293.93, Epsilon: 0.605
-Status Rewards: completed=7303.78, in_progress=937.29, todo=223.80
-------------------------
-Episode: 169/4000
-Steps: 100, Total Reward: 8610.89
-Running Avg Reward: 7326.32, Epsilon: 0.604
-Status Rewards: completed=7462.44, in_progress=1056.86, todo=91.60
-------------------------
-Episode: 170/4000
-Steps: 100, Total Reward: 8234.15
-Running Avg Reward: 7358.08, Epsilon: 0.602
-Status Rewards: completed=6617.95, in_progress=1471.67, todo=144.53
-------------------------
-Episode: 171/4000
-Steps: 100, Total Reward: 8848.96
-Running Avg Reward: 7391.35, Epsilon: 0.600
-Status Rewards: completed=7612.55, in_progress=1002.09, todo=234.32
-------------------------
-Episode: 172/4000
-Steps: 100, Total Reward: 8415.40
-Running Avg Reward: 7420.01, Epsilon: 0.598
-Status Rewards: completed=6881.07, in_progress=1398.88, todo=135.46
-------------------------
-Episode: 173/4000
-Steps: 100, Total Reward: 7672.33
-Running Avg Reward: 7433.45, Epsilon: 0.596
-Status Rewards: completed=6551.71, in_progress=958.45, todo=162.18
-------------------------
-Episode: 174/4000
-Steps: 100, Total Reward: 8441.00
-Running Avg Reward: 7457.82, Epsilon: 0.595
-Status Rewards: completed=7354.45, in_progress=996.35, todo=90.21
-------------------------
-Episode: 175/4000
-Steps: 100, Total Reward: 7731.81
-Running Avg Reward: 7480.59, Epsilon: 0.593
-Status Rewards: completed=6376.12, in_progress=1154.97, todo=200.71
-------------------------
-Episode: 176/4000
-Steps: 100, Total Reward: 8486.00
-Running Avg Reward: 7508.09, Epsilon: 0.591
-Status Rewards: completed=7429.68, in_progress=897.65, todo=158.67
-------------------------
-Episode: 177/4000
-Steps: 100, Total Reward: 8156.69
-Running Avg Reward: 7540.52, Epsilon: 0.589
-Status Rewards: completed=6411.07, in_progress=1580.93, todo=164.69
-------------------------
-Episode: 178/4000
-Steps: 100, Total Reward: 7651.20
-Running Avg Reward: 7555.30, Epsilon: 0.588
-Status Rewards: completed=6192.98, in_progress=1303.98, todo=154.23
-------------------------
-Episode: 179/4000
-Steps: 100, Total Reward: 7863.85
-Running Avg Reward: 7578.54, Epsilon: 0.586
-Status Rewards: completed=6934.79, in_progress=697.05, todo=232.00
-------------------------
-Episode: 180/4000
-Steps: 100, Total Reward: 7826.58
-Running Avg Reward: 7598.85, Epsilon: 0.584
-Status Rewards: completed=6600.91, in_progress=1074.84, todo=150.84
-------------------------
-Episode: 181/4000
-Steps: 100, Total Reward: 8334.68
-Running Avg Reward: 7611.21, Epsilon: 0.582
-Status Rewards: completed=6830.88, in_progress=1369.34, todo=134.46
-------------------------
-Episode: 182/4000
-Steps: 100, Total Reward: 8685.35
-Running Avg Reward: 7617.18, Epsilon: 0.581
-Status Rewards: completed=7220.15, in_progress=1378.09, todo=87.11
-------------------------
-Episode: 183/4000
-Steps: 100, Total Reward: 8391.06
-Running Avg Reward: 7634.45, Epsilon: 0.579
-Status Rewards: completed=7294.64, in_progress=966.11, todo=130.31
-------------------------
-Episode: 184/4000
-Steps: 100, Total Reward: 7992.41
-Running Avg Reward: 7644.16, Epsilon: 0.577
-Status Rewards: completed=6855.19, in_progress=1018.33, todo=118.89
-------------------------
-Episode: 185/4000
-Steps: 100, Total Reward: 8167.19
-Running Avg Reward: 7649.56, Epsilon: 0.575
-Status Rewards: completed=6511.81, in_progress=1525.06, todo=130.31
-------------------------
-Episode: 186/4000
-Steps: 100, Total Reward: 8642.62
-Running Avg Reward: 7661.80, Epsilon: 0.574
-Status Rewards: completed=7723.49, in_progress=744.99, todo=174.13
-------------------------
-Episode: 187/4000
-Steps: 100, Total Reward: 8352.14
-Running Avg Reward: 7665.98, Epsilon: 0.572
-Status Rewards: completed=7248.63, in_progress=975.88, todo=127.63
-------------------------
-Episode: 188/4000
-Steps: 100, Total Reward: 8574.99
-Running Avg Reward: 7679.07, Epsilon: 0.570
-Status Rewards: completed=7591.35, in_progress=788.57, todo=195.06
-------------------------
-Episode: 189/4000
-Steps: 100, Total Reward: 8318.34
-Running Avg Reward: 7688.02, Epsilon: 0.568
-Status Rewards: completed=6637.99, in_progress=1526.49, todo=153.87
-------------------------
-Episode: 190/4000
-Steps: 100, Total Reward: 8306.04
-Running Avg Reward: 7694.23, Epsilon: 0.567
-Status Rewards: completed=7118.37, in_progress=993.57, todo=194.10
-------------------------
-Episode: 191/4000
-Steps: 100, Total Reward: 9359.51
-Running Avg Reward: 7709.21, Epsilon: 0.565
-Status Rewards: completed=7965.02, in_progress=1289.66, todo=104.84
-------------------------
-Episode: 192/4000
-Steps: 100, Total Reward: 8465.57
-Running Avg Reward: 7721.09, Epsilon: 0.563
-Status Rewards: completed=7460.56, in_progress=853.57, todo=151.44
-------------------------
-Episode: 193/4000
-Steps: 100, Total Reward: 7943.53
-Running Avg Reward: 7720.77, Epsilon: 0.562
-Status Rewards: completed=6298.08, in_progress=1467.61, todo=177.84
-------------------------
-Episode: 194/4000
-Steps: 100, Total Reward: 8882.86
-Running Avg Reward: 7730.38, Epsilon: 0.560
-Status Rewards: completed=7908.61, in_progress=887.30, todo=86.95
-------------------------
-Episode: 195/4000
-Steps: 100, Total Reward: 7663.15
-Running Avg Reward: 7735.52, Epsilon: 0.558
-Status Rewards: completed=6779.17, in_progress=659.08, todo=224.90
-------------------------
-Episode: 196/4000
-Steps: 100, Total Reward: 8623.60
-Running Avg Reward: 7746.87, Epsilon: 0.557
-Status Rewards: completed=7819.75, in_progress=614.88, todo=188.97
-------------------------
-Episode: 197/4000
-Steps: 100, Total Reward: 8199.51
-Running Avg Reward: 7756.96, Epsilon: 0.555
-Status Rewards: completed=7175.94, in_progress=933.93, todo=89.63
-------------------------
-Episode: 198/4000
-Steps: 100, Total Reward: 8888.67
-Running Avg Reward: 7789.71, Epsilon: 0.553
-Status Rewards: completed=7710.67, in_progress=1093.64, todo=84.36
-------------------------
-Episode: 199/4000
-Steps: 100, Total Reward: 8394.22
-Running Avg Reward: 7822.10, Epsilon: 0.552
-Status Rewards: completed=7457.41, in_progress=794.38, todo=142.44
-------------------------
-Episode: 200/4000
-Steps: 100, Total Reward: 7464.23
-Running Avg Reward: 7850.84, Epsilon: 0.550
-Status Rewards: completed=6740.06, in_progress=470.71, todo=253.46
-------------------------
-Episode: 201/4000
-Steps: 100, Total Reward: 8630.80
-Running Avg Reward: 7891.35, Epsilon: 0.548
-Status Rewards: completed=7168.06, in_progress=1362.57, todo=100.17
-------------------------
-Episode: 202/4000
-Steps: 100, Total Reward: 9241.45
-Running Avg Reward: 7918.79, Epsilon: 0.547
-Status Rewards: completed=8429.23, in_progress=723.58, todo=88.64
-------------------------
-Episode: 203/4000
-Steps: 100, Total Reward: 8028.51
-Running Avg Reward: 7936.76, Epsilon: 0.545
-Status Rewards: completed=6744.10, in_progress=1069.79, todo=214.62
-------------------------
-Episode: 204/4000
-Steps: 100, Total Reward: 8605.47
-Running Avg Reward: 7956.73, Epsilon: 0.543
-Status Rewards: completed=7766.73, in_progress=714.93, todo=123.81
-------------------------
-Episode: 205/4000
-Steps: 100, Total Reward: 8704.13
-Running Avg Reward: 7986.85, Epsilon: 0.542
-Status Rewards: completed=7426.84, in_progress=1183.37, todo=93.92
-------------------------
-Episode: 206/4000
-Steps: 100, Total Reward: 8404.48
-Running Avg Reward: 8013.12, Epsilon: 0.540
-Status Rewards: completed=7414.52, in_progress=808.08, todo=181.88
-------------------------
-Episode: 207/4000
-Steps: 100, Total Reward: 8999.39
-Running Avg Reward: 8040.50, Epsilon: 0.539
-Status Rewards: completed=7735.67, in_progress=1134.22, todo=129.50
-------------------------
-Episode: 208/4000
-Steps: 100, Total Reward: 8402.26
-Running Avg Reward: 8065.75, Epsilon: 0.537
-Status Rewards: completed=7419.81, in_progress=852.67, todo=129.79
-------------------------
-Episode: 209/4000
-Steps: 100, Total Reward: 8690.30
-Running Avg Reward: 8095.37, Epsilon: 0.535
-Status Rewards: completed=7290.17, in_progress=1248.07, todo=152.06
-------------------------
-Episode: 210/4000
-Steps: 100, Total Reward: 7617.56
-Running Avg Reward: 8103.08, Epsilon: 0.534
-Status Rewards: completed=5929.83, in_progress=1559.95, todo=127.78
-------------------------
-Episode: 211/4000
-Steps: 100, Total Reward: 8573.34
-Running Avg Reward: 8124.82, Epsilon: 0.532
-Status Rewards: completed=6617.52, in_progress=1861.41, todo=94.41
-------------------------
-Episode: 212/4000
-Steps: 100, Total Reward: 8397.46
-Running Avg Reward: 8150.64, Epsilon: 0.530
-Status Rewards: completed=7266.37, in_progress=971.79, todo=159.30
-------------------------
-Episode: 213/4000
-Steps: 100, Total Reward: 9066.18
-Running Avg Reward: 8167.99, Epsilon: 0.529
-Status Rewards: completed=8062.91, in_progress=896.92, todo=106.35
-------------------------
-Episode: 214/4000
-Steps: 100, Total Reward: 8925.19
-Running Avg Reward: 8182.26, Epsilon: 0.527
-Status Rewards: completed=7944.87, in_progress=862.95, todo=117.37
-------------------------
-Episode: 215/4000
-Steps: 100, Total Reward: 8082.11
-Running Avg Reward: 8180.44, Epsilon: 0.526
-Status Rewards: completed=6936.65, in_progress=951.88, todo=193.57
-------------------------
-Episode: 216/4000
-Steps: 100, Total Reward: 9120.31
-Running Avg Reward: 8192.53, Epsilon: 0.524
-Status Rewards: completed=8096.79, in_progress=933.91, todo=89.60
-------------------------
-Episode: 217/4000
-Steps: 100, Total Reward: 8152.46
-Running Avg Reward: 8197.69, Epsilon: 0.523
-Status Rewards: completed=6941.62, in_progress=1033.88, todo=176.95
-------------------------
-Episode: 218/4000
-Steps: 100, Total Reward: 8375.08
-Running Avg Reward: 8199.23, Epsilon: 0.521
-Status Rewards: completed=7207.61, in_progress=1053.19, todo=114.29
-------------------------
-Episode: 219/4000
-Steps: 100, Total Reward: 8244.57
-Running Avg Reward: 8199.42, Epsilon: 0.519
-Status Rewards: completed=7069.43, in_progress=1078.96, todo=96.19
-------------------------
-Episode: 220/4000
-Steps: 100, Total Reward: 7247.92
-Running Avg Reward: 8195.59, Epsilon: 0.518
-Status Rewards: completed=6044.59, in_progress=986.32, todo=217.01
-------------------------
-Episode: 221/4000
-Steps: 100, Total Reward: 8494.63
-Running Avg Reward: 8204.84, Epsilon: 0.516
-Status Rewards: completed=7560.17, in_progress=715.82, todo=218.64
-------------------------
-Episode: 222/4000
-Steps: 100, Total Reward: 8174.40
-Running Avg Reward: 8205.90, Epsilon: 0.515
-Status Rewards: completed=7217.75, in_progress=749.33, todo=207.33
-------------------------
-Episode: 223/4000
-Steps: 100, Total Reward: 7737.50
-Running Avg Reward: 8197.09, Epsilon: 0.513
-Status Rewards: completed=6446.81, in_progress=1160.07, todo=130.62
-------------------------
-Episode: 224/4000
-Steps: 100, Total Reward: 8580.45
-Running Avg Reward: 8199.32, Epsilon: 0.512
-Status Rewards: completed=7280.46, in_progress=1153.56, todo=146.43
-------------------------
-Episode: 225/4000
-Steps: 100, Total Reward: 8392.57
-Running Avg Reward: 8206.64, Epsilon: 0.510
-Status Rewards: completed=7467.67, in_progress=814.04, todo=110.86
-------------------------
-Episode: 226/4000
-Steps: 100, Total Reward: 8548.97
-Running Avg Reward: 8219.92, Epsilon: 0.509
-Status Rewards: completed=7430.29, in_progress=968.82, todo=149.86
-------------------------
-Episode: 227/4000
-Steps: 100, Total Reward: 8749.19
-Running Avg Reward: 8227.35, Epsilon: 0.507
-Status Rewards: completed=7583.73, in_progress=1100.69, todo=64.77
-------------------------
-Episode: 228/4000
-Steps: 100, Total Reward: 7712.74
-Running Avg Reward: 8220.50, Epsilon: 0.506
-Status Rewards: completed=6313.43, in_progress=1222.84, todo=176.47
-------------------------
-Episode: 229/4000
-Steps: 100, Total Reward: 8757.48
-Running Avg Reward: 8227.81, Epsilon: 0.504
-Status Rewards: completed=7361.16, in_progress=1253.21, todo=143.11
-------------------------
-Episode: 230/4000
-Steps: 100, Total Reward: 8536.37
-Running Avg Reward: 8244.34, Epsilon: 0.503
-Status Rewards: completed=7064.46, in_progress=1337.10, todo=134.81
-------------------------
-Episode: 231/4000
-Steps: 100, Total Reward: 8576.98
-Running Avg Reward: 8245.11, Epsilon: 0.501
-Status Rewards: completed=7504.37, in_progress=960.91, todo=111.70
-------------------------
-Episode: 232/4000
-Steps: 100, Total Reward: 8580.24
-Running Avg Reward: 8251.20, Epsilon: 0.500
-Status Rewards: completed=7994.75, in_progress=465.52, todo=119.97
-------------------------
-Episode: 233/4000
-Steps: 100, Total Reward: 8527.93
-Running Avg Reward: 8257.68, Epsilon: 0.498
-Status Rewards: completed=7458.42, in_progress=911.12, todo=158.39
-------------------------
-Episode: 234/4000
-Steps: 100, Total Reward: 8446.40
-Running Avg Reward: 8268.01, Epsilon: 0.497
-Status Rewards: completed=7442.79, in_progress=855.56, todo=148.05
-------------------------
-Episode: 235/4000
-Steps: 100, Total Reward: 8217.18
-Running Avg Reward: 8267.68, Epsilon: 0.495
-Status Rewards: completed=6861.92, in_progress=1117.72, todo=237.53
-------------------------
-Episode: 236/4000
-Steps: 100, Total Reward: 8269.85
-Running Avg Reward: 8271.16, Epsilon: 0.494
-Status Rewards: completed=6772.74, in_progress=1340.17, todo=156.95
-------------------------
-Episode: 237/4000
-Steps: 100, Total Reward: 8901.05
-Running Avg Reward: 8279.22, Epsilon: 0.492
-Status Rewards: completed=7729.22, in_progress=1047.80, todo=124.03
-------------------------
-Episode: 238/4000
-Steps: 100, Total Reward: 8922.77
-Running Avg Reward: 8287.39, Epsilon: 0.491
-Status Rewards: completed=8158.19, in_progress=611.18, todo=153.40
-------------------------
-Episode: 239/4000
-Steps: 100, Total Reward: 8915.83
-Running Avg Reward: 8295.01, Epsilon: 0.489
-Status Rewards: completed=7878.90, in_progress=949.15, todo=87.79
-------------------------
-Episode: 240/4000
-Steps: 100, Total Reward: 8591.32
-Running Avg Reward: 8291.15, Epsilon: 0.488
-Status Rewards: completed=7744.33, in_progress=748.02, todo=98.97
-------------------------
-Episode: 241/4000
-Steps: 100, Total Reward: 8712.58
-Running Avg Reward: 8295.00, Epsilon: 0.486
-Status Rewards: completed=7105.83, in_progress=1446.82, todo=159.94
-------------------------
-Episode: 242/4000
-Steps: 100, Total Reward: 8358.50
-Running Avg Reward: 8306.33, Epsilon: 0.485
-Status Rewards: completed=7148.55, in_progress=1071.95, todo=137.99
-------------------------
-Episode: 243/4000
-Steps: 100, Total Reward: 8705.16
-Running Avg Reward: 8315.23, Epsilon: 0.483
-Status Rewards: completed=7830.94, in_progress=748.18, todo=126.04
-------------------------
-Episode: 244/4000
-Steps: 100, Total Reward: 8561.95
-Running Avg Reward: 8317.70, Epsilon: 0.482
-Status Rewards: completed=7292.26, in_progress=1145.93, todo=123.75
-------------------------
-Episode: 245/4000
-Steps: 100, Total Reward: 9056.29
-Running Avg Reward: 8334.99, Epsilon: 0.480
-Status Rewards: completed=8260.40, in_progress=679.03, todo=116.86
-------------------------
-Episode: 246/4000
-Steps: 100, Total Reward: 8745.94
-Running Avg Reward: 8338.30, Epsilon: 0.479
-Status Rewards: completed=7597.68, in_progress=948.34, todo=199.92
-------------------------
-Episode: 247/4000
-Steps: 100, Total Reward: 8555.03
-Running Avg Reward: 8346.27, Epsilon: 0.478
-Status Rewards: completed=7455.64, in_progress=953.02, todo=146.37
-------------------------
-Episode: 248/4000
-Steps: 100, Total Reward: 8767.68
-Running Avg Reward: 8347.41, Epsilon: 0.476
-Status Rewards: completed=8076.04, in_progress=486.14, todo=205.50
-------------------------
-Episode: 249/4000
-Steps: 100, Total Reward: 8561.73
-Running Avg Reward: 8350.32, Epsilon: 0.475
-Status Rewards: completed=7796.35, in_progress=584.14, todo=181.24
-------------------------
-Episode: 250/4000
-Steps: 100, Total Reward: 9020.62
-Running Avg Reward: 8359.79, Epsilon: 0.473
-Status Rewards: completed=7833.52, in_progress=1059.46, todo=127.64
-------------------------
-Episode: 251/4000
-Steps: 100, Total Reward: 8299.87
-Running Avg Reward: 8366.08, Epsilon: 0.472
-Status Rewards: completed=7144.05, in_progress=1038.22, todo=117.60
-------------------------
-Episode: 252/4000
-Steps: 100, Total Reward: 8965.91
-Running Avg Reward: 8373.31, Epsilon: 0.470
-Status Rewards: completed=8120.58, in_progress=676.00, todo=169.33
-------------------------
-Episode: 253/4000
-Steps: 100, Total Reward: 9138.18
-Running Avg Reward: 8389.09, Epsilon: 0.469
-Status Rewards: completed=8065.01, in_progress=948.21, todo=124.96
-------------------------
-Episode: 254/4000
-Steps: 100, Total Reward: 8212.98
-Running Avg Reward: 8386.89, Epsilon: 0.468
-Status Rewards: completed=6921.60, in_progress=1116.39, todo=174.99
-------------------------
-Episode: 255/4000
-Steps: 100, Total Reward: 8575.68
-Running Avg Reward: 8393.22, Epsilon: 0.466
-Status Rewards: completed=7748.66, in_progress=689.70, todo=137.32
-------------------------
-Episode: 256/4000
-Steps: 100, Total Reward: 9314.66
-Running Avg Reward: 8403.63, Epsilon: 0.465
-Status Rewards: completed=8515.16, in_progress=715.85, todo=83.65
-------------------------
-Episode: 257/4000
-Steps: 100, Total Reward: 9176.68
-Running Avg Reward: 8409.58, Epsilon: 0.463
-Status Rewards: completed=8304.59, in_progress=798.14, todo=73.95
-------------------------
-Episode: 258/4000
-Steps: 100, Total Reward: 8751.64
-Running Avg Reward: 8423.36, Epsilon: 0.462
-Status Rewards: completed=7855.91, in_progress=783.69, todo=112.05
-------------------------
-Episode: 259/4000
-Steps: 100, Total Reward: 9066.09
-Running Avg Reward: 8436.58, Epsilon: 0.461
-Status Rewards: completed=8111.13, in_progress=841.55, todo=113.40
-------------------------
-Episode: 260/4000
-Steps: 100, Total Reward: 9009.31
-Running Avg Reward: 8443.83, Epsilon: 0.459
-Status Rewards: completed=7618.65, in_progress=1321.30, todo=69.35
-------------------------
-Episode: 261/4000
-Steps: 100, Total Reward: 8799.46
-Running Avg Reward: 8452.83, Epsilon: 0.458
-Status Rewards: completed=8197.03, in_progress=485.62, todo=116.81
-------------------------
-Episode: 262/4000
-Steps: 100, Total Reward: 9145.49
-Running Avg Reward: 8464.19, Epsilon: 0.456
-Status Rewards: completed=8109.85, in_progress=939.48, todo=96.16
-------------------------
-Episode: 263/4000
-Steps: 100, Total Reward: 8854.94
-Running Avg Reward: 8467.93, Epsilon: 0.455
-Status Rewards: completed=7588.71, in_progress=1215.57, todo=50.67
-------------------------
-Episode: 264/4000
-Steps: 100, Total Reward: 8926.57
-Running Avg Reward: 8480.76, Epsilon: 0.454
-Status Rewards: completed=7823.32, in_progress=921.48, todo=181.77
-------------------------
-Episode: 265/4000
-Steps: 100, Total Reward: 9114.86
-Running Avg Reward: 8490.86, Epsilon: 0.452
-Status Rewards: completed=8129.82, in_progress=916.34, todo=68.69
-------------------------
-Episode: 266/4000
-Steps: 100, Total Reward: 9722.25
-Running Avg Reward: 8509.99, Epsilon: 0.451
-Status Rewards: completed=8724.43, in_progress=919.26, todo=78.56
-------------------------
-Episode: 267/4000
-Steps: 100, Total Reward: 9084.10
-Running Avg Reward: 8524.00, Epsilon: 0.450
-Status Rewards: completed=8216.20, in_progress=781.81, todo=86.09
-------------------------
-Episode: 268/4000
-Steps: 100, Total Reward: 7853.36
-Running Avg Reward: 8517.89, Epsilon: 0.448
-Status Rewards: completed=6847.01, in_progress=814.11, todo=192.24
-------------------------
-Episode: 269/4000
-Steps: 100, Total Reward: 9218.02
-Running Avg Reward: 8523.96, Epsilon: 0.447
-Status Rewards: completed=8081.16, in_progress=1064.17, todo=72.69
-------------------------
-Episode: 270/4000
-Steps: 100, Total Reward: 9655.04
-Running Avg Reward: 8538.17, Epsilon: 0.446
-Status Rewards: completed=9117.24, in_progress=488.80, todo=49.00
-------------------------
-Episode: 271/4000
-Steps: 100, Total Reward: 9044.67
-Running Avg Reward: 8540.13, Epsilon: 0.444
-Status Rewards: completed=8480.53, in_progress=437.79, todo=126.34
-------------------------
-Episode: 272/4000
-Steps: 100, Total Reward: 8870.99
-Running Avg Reward: 8544.68, Epsilon: 0.443
-Status Rewards: completed=7896.62, in_progress=873.15, todo=101.22
-------------------------
-Episode: 273/4000
-Steps: 100, Total Reward: 8768.08
-Running Avg Reward: 8555.64, Epsilon: 0.442
-Status Rewards: completed=8055.32, in_progress=569.92, todo=142.84
-------------------------
-Episode: 274/4000
-Steps: 100, Total Reward: 9138.13
-Running Avg Reward: 8562.61, Epsilon: 0.440
-Status Rewards: completed=8322.06, in_progress=739.97, todo=76.10
-------------------------
-Episode: 275/4000
-Steps: 100, Total Reward: 8262.05
-Running Avg Reward: 8567.91, Epsilon: 0.439
-Status Rewards: completed=7101.74, in_progress=1069.27, todo=91.04
-------------------------
-Episode: 276/4000
-Steps: 100, Total Reward: 8774.43
-Running Avg Reward: 8570.80, Epsilon: 0.438
-Status Rewards: completed=7812.59, in_progress=856.03, todo=105.81
-------------------------
-Episode: 277/4000
-Steps: 100, Total Reward: 8662.01
-Running Avg Reward: 8575.85, Epsilon: 0.436
-Status Rewards: completed=7744.22, in_progress=775.49, todo=142.31
-------------------------
-Episode: 278/4000
-Steps: 100, Total Reward: 9635.73
-Running Avg Reward: 8595.70, Epsilon: 0.435
-Status Rewards: completed=9167.24, in_progress=342.57, todo=125.93
-------------------------
-Episode: 279/4000
-Steps: 100, Total Reward: 9515.12
-Running Avg Reward: 8612.21, Epsilon: 0.434
-Status Rewards: completed=8592.50, in_progress=896.51, todo=26.12
-------------------------
-Episode: 280/4000
-Steps: 100, Total Reward: 9329.23
-Running Avg Reward: 8627.24, Epsilon: 0.432
-Status Rewards: completed=8724.54, in_progress=472.63, todo=132.06
-------------------------
-Episode: 281/4000
-Steps: 100, Total Reward: 8389.84
-Running Avg Reward: 8627.79, Epsilon: 0.431
-Status Rewards: completed=7362.71, in_progress=924.17, todo=102.96
-------------------------
-Episode: 282/4000
-Steps: 100, Total Reward: 9517.92
-Running Avg Reward: 8636.11, Epsilon: 0.430
-Status Rewards: completed=8352.88, in_progress=1129.77, todo=35.27
-------------------------
-Episode: 283/4000
-Steps: 100, Total Reward: 8550.39
-Running Avg Reward: 8637.71, Epsilon: 0.429
-Status Rewards: completed=7225.09, in_progress=1137.44, todo=187.86
-------------------------
-Episode: 284/4000
-Steps: 100, Total Reward: 8637.37
-Running Avg Reward: 8644.16, Epsilon: 0.427
-Status Rewards: completed=7544.00, in_progress=982.27, todo=111.10
-------------------------
-Episode: 285/4000
-Steps: 100, Total Reward: 8914.82
-Running Avg Reward: 8651.63, Epsilon: 0.426
-Status Rewards: completed=8135.41, in_progress=600.76, todo=178.65
-------------------------
-Episode: 286/4000
-Steps: 100, Total Reward: 9160.96
-Running Avg Reward: 8656.82, Epsilon: 0.425
-Status Rewards: completed=8508.95, in_progress=572.51, todo=79.51
-------------------------
-Episode: 287/4000
-Steps: 100, Total Reward: 9235.66
-Running Avg Reward: 8665.65, Epsilon: 0.423
-Status Rewards: completed=8155.87, in_progress=1031.42, todo=48.37
-------------------------
-Episode: 288/4000
-Steps: 100, Total Reward: 9590.63
-Running Avg Reward: 8675.81, Epsilon: 0.422
-Status Rewards: completed=8859.28, in_progress=665.96, todo=65.39
-------------------------
-Episode: 289/4000
-Steps: 100, Total Reward: 9290.09
-Running Avg Reward: 8685.52, Epsilon: 0.421
-Status Rewards: completed=8728.15, in_progress=448.22, todo=113.71
-------------------------
-Episode: 290/4000
-Steps: 100, Total Reward: 8474.42
-Running Avg Reward: 8687.21, Epsilon: 0.420
-Status Rewards: completed=7550.30, in_progress=793.35, todo=130.77
-------------------------
-Episode: 291/4000
-Steps: 100, Total Reward: 9441.32
-Running Avg Reward: 8688.03, Epsilon: 0.418
-Status Rewards: completed=9011.92, in_progress=367.72, todo=61.69
-------------------------
-Episode: 292/4000
-Steps: 100, Total Reward: 8796.50
-Running Avg Reward: 8691.34, Epsilon: 0.417
-Status Rewards: completed=7893.03, in_progress=781.64, todo=121.83
-------------------------
-Episode: 293/4000
-Steps: 100, Total Reward: 8654.05
-Running Avg Reward: 8698.44, Epsilon: 0.416
-Status Rewards: completed=7562.69, in_progress=999.82, todo=91.54
-------------------------
-Episode: 294/4000
-Steps: 100, Total Reward: 9019.72
-Running Avg Reward: 8699.81, Epsilon: 0.415
-Status Rewards: completed=8094.94, in_progress=803.71, todo=121.07
-------------------------
-Episode: 295/4000
-Steps: 100, Total Reward: 8798.25
-Running Avg Reward: 8711.16, Epsilon: 0.413
-Status Rewards: completed=7702.44, in_progress=967.29, todo=128.52
-------------------------
-Episode: 296/4000
-Steps: 100, Total Reward: 9283.65
-Running Avg Reward: 8717.76, Epsilon: 0.412
-Status Rewards: completed=8536.25, in_progress=675.73, todo=71.68
-------------------------
-Episode: 297/4000
-Steps: 100, Total Reward: 8960.09
-Running Avg Reward: 8725.37, Epsilon: 0.411
-Status Rewards: completed=8220.43, in_progress=640.95, todo=98.72
-------------------------
-Episode: 298/4000
-Steps: 100, Total Reward: 9294.91
-Running Avg Reward: 8729.43, Epsilon: 0.410
-Status Rewards: completed=8240.74, in_progress=976.98, todo=77.20
-------------------------
-Episode: 299/4000
-Steps: 100, Total Reward: 9172.82
-Running Avg Reward: 8737.22, Epsilon: 0.408
-Status Rewards: completed=7808.73, in_progress=1264.29, todo=99.80
-------------------------
-Episode: 300/4000
-Steps: 100, Total Reward: 8425.20
-Running Avg Reward: 8746.83, Epsilon: 0.407
-Status Rewards: completed=7552.00, in_progress=760.21, todo=113.00
-------------------------
-Episode: 301/4000
-Steps: 100, Total Reward: 8115.90
-Running Avg Reward: 8741.68, Epsilon: 0.406
-Status Rewards: completed=7221.16, in_progress=742.72, todo=152.02
-------------------------
-Episode: 302/4000
-Steps: 100, Total Reward: 8560.99
-Running Avg Reward: 8734.87, Epsilon: 0.405
-Status Rewards: completed=7553.46, in_progress=912.41, todo=95.11
-------------------------
-Episode: 303/4000
-Steps: 100, Total Reward: 8999.82
-Running Avg Reward: 8744.58, Epsilon: 0.404
-Status Rewards: completed=7697.04, in_progress=1285.62, todo=17.15
-------------------------
-Episode: 304/4000
-Steps: 100, Total Reward: 8713.51
-Running Avg Reward: 8745.66, Epsilon: 0.402
-Status Rewards: completed=7900.16, in_progress=669.94, todo=143.40
-------------------------
-Episode: 305/4000
-Steps: 100, Total Reward: 9071.50
-Running Avg Reward: 8749.34, Epsilon: 0.401
-Status Rewards: completed=8577.27, in_progress=418.63, todo=75.60
-------------------------
-Episode: 306/4000
-Steps: 100, Total Reward: 8944.67
-Running Avg Reward: 8754.74, Epsilon: 0.400
-Status Rewards: completed=7682.66, in_progress=1219.42, todo=42.60
-------------------------
-Episode: 307/4000
-Steps: 100, Total Reward: 8698.72
-Running Avg Reward: 8751.73, Epsilon: 0.399
-Status Rewards: completed=7764.50, in_progress=823.53, todo=110.69
-------------------------
-Episode: 308/4000
-Steps: 100, Total Reward: 7943.67
-Running Avg Reward: 8747.15, Epsilon: 0.398
-Status Rewards: completed=6987.62, in_progress=811.14, todo=144.91
-------------------------
-Episode: 309/4000
-Steps: 100, Total Reward: 8897.34
-Running Avg Reward: 8749.22, Epsilon: 0.396
-Status Rewards: completed=8016.84, in_progress=799.25, todo=81.25
-------------------------
-Episode: 310/4000
-Steps: 100, Total Reward: 8857.78
-Running Avg Reward: 8761.62, Epsilon: 0.395
-Status Rewards: completed=8365.17, in_progress=382.15, todo=110.46
-------------------------
-Episode: 311/4000
-Steps: 100, Total Reward: 8865.03
-Running Avg Reward: 8764.54, Epsilon: 0.394
-Status Rewards: completed=7987.55, in_progress=764.05, todo=113.43
-------------------------
-Episode: 312/4000
-Steps: 100, Total Reward: 9225.90
-Running Avg Reward: 8772.82, Epsilon: 0.393
-Status Rewards: completed=8469.73, in_progress=660.96, todo=95.20
-------------------------
-Episode: 313/4000
-Steps: 100, Total Reward: 9438.09
-Running Avg Reward: 8776.54, Epsilon: 0.392
-Status Rewards: completed=8904.81, in_progress=474.74, todo=58.54
-------------------------
-Episode: 314/4000
-Steps: 100, Total Reward: 8463.37
-Running Avg Reward: 8771.92, Epsilon: 0.390
-Status Rewards: completed=8032.58, in_progress=239.90, todo=190.88
-------------------------
-Episode: 315/4000
-Steps: 100, Total Reward: 8261.79
-Running Avg Reward: 8773.72, Epsilon: 0.389
-Status Rewards: completed=7374.85, in_progress=774.40, todo=112.54
-------------------------
-Episode: 316/4000
-Steps: 100, Total Reward: 8743.20
-Running Avg Reward: 8769.95, Epsilon: 0.388
-Status Rewards: completed=8331.44, in_progress=260.95, todo=150.81
-------------------------
-Episode: 317/4000
-Steps: 100, Total Reward: 8963.65
-Running Avg Reward: 8778.06, Epsilon: 0.387
-Status Rewards: completed=8302.98, in_progress=593.87, todo=66.80
-------------------------
-Episode: 318/4000
-Steps: 100, Total Reward: 9386.52
-Running Avg Reward: 8788.17, Epsilon: 0.386
-Status Rewards: completed=8368.55, in_progress=977.90, todo=40.07
-------------------------
-Episode: 319/4000
-Steps: 100, Total Reward: 8561.16
-Running Avg Reward: 8791.34, Epsilon: 0.385
-Status Rewards: completed=7680.09, in_progress=743.04, todo=138.03
-------------------------
-Episode: 320/4000
-Steps: 100, Total Reward: 8710.54
-Running Avg Reward: 8805.97, Epsilon: 0.383
-Status Rewards: completed=8073.71, in_progress=528.34, todo=108.49
-------------------------
-Episode: 321/4000
-Steps: 100, Total Reward: 8651.10
-Running Avg Reward: 8807.53, Epsilon: 0.382
-Status Rewards: completed=7715.38, in_progress=829.96, todo=105.76
-------------------------
-Episode: 322/4000
-Steps: 100, Total Reward: 8736.08
-Running Avg Reward: 8813.15, Epsilon: 0.381
-Status Rewards: completed=7205.77, in_progress=1408.96, todo=121.35
-------------------------
-Episode: 323/4000
-Steps: 100, Total Reward: 8856.92
-Running Avg Reward: 8824.34, Epsilon: 0.380
-Status Rewards: completed=8161.74, in_progress=571.46, todo=123.73
-------------------------
-Episode: 324/4000
-Steps: 100, Total Reward: 8689.10
-Running Avg Reward: 8825.43, Epsilon: 0.379
-Status Rewards: completed=7959.74, in_progress=588.29, todo=141.07
-------------------------
-Episode: 325/4000
-Steps: 100, Total Reward: 8743.17
-Running Avg Reward: 8828.93, Epsilon: 0.378
-Status Rewards: completed=7641.71, in_progress=1012.44, todo=89.03
-------------------------
-Episode: 326/4000
-Steps: 100, Total Reward: 9227.87
-Running Avg Reward: 8835.72, Epsilon: 0.377
-Status Rewards: completed=8387.24, in_progress=756.72, todo=83.91
-------------------------
-Episode: 327/4000
-Steps: 100, Total Reward: 9023.75
-Running Avg Reward: 8838.47, Epsilon: 0.376
-Status Rewards: completed=7746.37, in_progress=1106.10, todo=171.29
-------------------------
-Episode: 328/4000
-Steps: 100, Total Reward: 9176.54
-Running Avg Reward: 8853.11, Epsilon: 0.374
-Status Rewards: completed=8058.82, in_progress=1053.75, todo=63.97
-------------------------
-Episode: 329/4000
-Steps: 100, Total Reward: 9132.36
-Running Avg Reward: 8856.86, Epsilon: 0.373
-Status Rewards: completed=8560.33, in_progress=450.06, todo=121.97
-------------------------
-Episode: 330/4000
-Steps: 100, Total Reward: 9671.40
-Running Avg Reward: 8868.21, Epsilon: 0.372
-Status Rewards: completed=8923.03, in_progress=699.08, todo=49.29
-------------------------
-Episode: 331/4000
-Steps: 100, Total Reward: 9125.66
-Running Avg Reward: 8873.69, Epsilon: 0.371
-Status Rewards: completed=8409.96, in_progress=653.58, todo=62.12
-------------------------
-Episode: 332/4000
-Steps: 100, Total Reward: 8880.40
-Running Avg Reward: 8876.69, Epsilon: 0.370
-Status Rewards: completed=7927.34, in_progress=818.07, todo=134.99
-------------------------
-Episode: 333/4000
-Steps: 100, Total Reward: 9243.35
-Running Avg Reward: 8883.85, Epsilon: 0.369
-Status Rewards: completed=8593.86, in_progress=595.88, todo=53.61
-------------------------
-Episode: 334/4000
-Steps: 100, Total Reward: 8966.02
-Running Avg Reward: 8889.05, Epsilon: 0.368
-Status Rewards: completed=8418.29, in_progress=507.03, todo=40.69
-------------------------
-Episode: 335/4000
-Steps: 100, Total Reward: 9480.92
-Running Avg Reward: 8901.68, Epsilon: 0.367
-Status Rewards: completed=9066.38, in_progress=368.73, todo=45.81
-------------------------
-Episode: 336/4000
-Steps: 100, Total Reward: 8878.55
-Running Avg Reward: 8907.77, Epsilon: 0.365
-Status Rewards: completed=8007.99, in_progress=715.26, todo=155.29
-------------------------
-Episode: 337/4000
-Steps: 100, Total Reward: 9249.29
-Running Avg Reward: 8911.25, Epsilon: 0.364
-Status Rewards: completed=8780.81, in_progress=329.60, todo=138.88
-------------------------
-Episode: 338/4000
-Steps: 100, Total Reward: 8445.62
-Running Avg Reward: 8906.48, Epsilon: 0.363
-Status Rewards: completed=7029.56, in_progress=1315.00, todo=101.06
-------------------------
-Episode: 339/4000
-Steps: 100, Total Reward: 9540.99
-Running Avg Reward: 8912.73, Epsilon: 0.362
-Status Rewards: completed=8425.63, in_progress=1017.14, todo=98.21
-------------------------
-Episode: 340/4000
-Steps: 100, Total Reward: 8860.52
-Running Avg Reward: 8915.42, Epsilon: 0.361
-Status Rewards: completed=8058.00, in_progress=631.92, todo=170.61
-------------------------
-Episode: 341/4000
-Steps: 100, Total Reward: 8758.06
-Running Avg Reward: 8915.88, Epsilon: 0.360
-Status Rewards: completed=7706.09, in_progress=909.56, todo=142.41
-------------------------
-Episode: 342/4000
-Steps: 100, Total Reward: 8765.12
-Running Avg Reward: 8919.95, Epsilon: 0.359
-Status Rewards: completed=7858.43, in_progress=779.74, todo=126.96
-------------------------
-Episode: 343/4000
-Steps: 100, Total Reward: 8733.86
-Running Avg Reward: 8920.23, Epsilon: 0.358
-Status Rewards: completed=7942.13, in_progress=649.38, todo=142.35
-------------------------
-Episode: 344/4000
-Steps: 100, Total Reward: 9156.79
-Running Avg Reward: 8926.18, Epsilon: 0.357
-Status Rewards: completed=8239.84, in_progress=773.85, todo=143.09
-------------------------
-Episode: 345/4000
-Steps: 100, Total Reward: 9493.11
-Running Avg Reward: 8930.55, Epsilon: 0.356
-Status Rewards: completed=8427.62, in_progress=1005.74, todo=59.75
-------------------------
-Episode: 346/4000
-Steps: 100, Total Reward: 8978.03
-Running Avg Reward: 8932.87, Epsilon: 0.355
-Status Rewards: completed=8150.34, in_progress=728.18, todo=99.50
-------------------------
-Episode: 347/4000
-Steps: 100, Total Reward: 9401.61
-Running Avg Reward: 8941.34, Epsilon: 0.354
-Status Rewards: completed=8812.65, in_progress=521.57, todo=67.39
-------------------------
-Episode: 348/4000
-Steps: 100, Total Reward: 9296.55
-Running Avg Reward: 8946.62, Epsilon: 0.353
-Status Rewards: completed=8700.88, in_progress=466.92, todo=128.74
-------------------------
-Episode: 349/4000
-Steps: 100, Total Reward: 9250.44
-Running Avg Reward: 8953.51, Epsilon: 0.351
-Status Rewards: completed=8428.56, in_progress=760.22, todo=61.66
-------------------------
-Episode: 350/4000
-Steps: 100, Total Reward: 9252.32
-Running Avg Reward: 8955.83, Epsilon: 0.350
-Status Rewards: completed=8649.49, in_progress=496.46, todo=106.37
-------------------------
-Episode: 351/4000
-Steps: 100, Total Reward: 9330.11
-Running Avg Reward: 8966.13, Epsilon: 0.349
-Status Rewards: completed=8529.16, in_progress=742.60, todo=58.35
-------------------------
-Episode: 352/4000
-Steps: 100, Total Reward: 9250.84
-Running Avg Reward: 8968.98, Epsilon: 0.348
-Status Rewards: completed=8431.44, in_progress=720.89, todo=98.51
-------------------------
-Episode: 353/4000
-Steps: 100, Total Reward: 8903.91
-Running Avg Reward: 8966.64, Epsilon: 0.347
-Status Rewards: completed=8300.17, in_progress=487.88, todo=115.85
-------------------------
-Episode: 354/4000
-Steps: 100, Total Reward: 8977.38
-Running Avg Reward: 8974.28, Epsilon: 0.346
-Status Rewards: completed=8543.49, in_progress=270.63, todo=163.26
-------------------------
-Episode: 355/4000
-Steps: 100, Total Reward: 9188.91
-Running Avg Reward: 8980.41, Epsilon: 0.345
-Status Rewards: completed=8521.02, in_progress=635.92, todo=31.97
-------------------------
-Episode: 356/4000
-Steps: 100, Total Reward: 8861.01
-Running Avg Reward: 8975.88, Epsilon: 0.344
-Status Rewards: completed=8091.50, in_progress=612.32, todo=157.19
-------------------------
-Episode: 357/4000
-Steps: 100, Total Reward: 9608.70
-Running Avg Reward: 8980.20, Epsilon: 0.343
-Status Rewards: completed=9059.76, in_progress=493.12, todo=55.83
-------------------------
-Episode: 358/4000
-Steps: 100, Total Reward: 9186.58
-Running Avg Reward: 8984.55, Epsilon: 0.342
-Status Rewards: completed=8075.81, in_progress=987.36, todo=123.40
-------------------------
-Episode: 359/4000
-Steps: 100, Total Reward: 9181.08
-Running Avg Reward: 8985.70, Epsilon: 0.341
-Status Rewards: completed=8155.07, in_progress=960.15, todo=65.86
-------------------------
-Episode: 360/4000
-Steps: 100, Total Reward: 8770.19
-Running Avg Reward: 8983.31, Epsilon: 0.340
-Status Rewards: completed=7988.81, in_progress=702.56, todo=78.82
-------------------------
-Episode: 361/4000
-Steps: 100, Total Reward: 9378.04
-Running Avg Reward: 8989.09, Epsilon: 0.339
-Status Rewards: completed=8884.71, in_progress=397.73, todo=95.61
-------------------------
-Episode: 362/4000
-Steps: 100, Total Reward: 9056.98
-Running Avg Reward: 8988.21, Epsilon: 0.338
-Status Rewards: completed=8312.89, in_progress=622.32, todo=121.76
-------------------------
-Episode: 363/4000
-Steps: 100, Total Reward: 9155.12
-Running Avg Reward: 8991.21, Epsilon: 0.337
-Status Rewards: completed=8157.17, in_progress=949.36, todo=48.59
-------------------------
-Episode: 364/4000
-Steps: 100, Total Reward: 9285.26
-Running Avg Reward: 8994.79, Epsilon: 0.336
-Status Rewards: completed=8762.68, in_progress=477.96, todo=44.62
-------------------------
-Episode: 365/4000
-Steps: 100, Total Reward: 9499.82
-Running Avg Reward: 8998.64, Epsilon: 0.335
-Status Rewards: completed=9022.46, in_progress=409.70, todo=67.65
-------------------------
-Episode: 366/4000
-Steps: 100, Total Reward: 8729.13
-Running Avg Reward: 8988.71, Epsilon: 0.334
-Status Rewards: completed=8008.79, in_progress=583.49, todo=136.84
-------------------------
-Episode: 367/4000
-Steps: 100, Total Reward: 8948.77
-Running Avg Reward: 8987.36, Epsilon: 0.333
-Status Rewards: completed=7860.20, in_progress=952.84, todo=135.73
-------------------------
-Episode: 368/4000
-Steps: 100, Total Reward: 9313.20
-Running Avg Reward: 9001.96, Epsilon: 0.332
-Status Rewards: completed=8803.56, in_progress=432.03, todo=77.61
-------------------------
-Episode: 369/4000
-Steps: 100, Total Reward: 9576.42
-Running Avg Reward: 9005.54, Epsilon: 0.331
-Status Rewards: completed=9009.60, in_progress=489.77, todo=77.05
-------------------------
-Episode: 370/4000
-Steps: 100, Total Reward: 8557.98
-Running Avg Reward: 8994.57, Epsilon: 0.330
-Status Rewards: completed=8137.68, in_progress=290.70, todo=129.60
-------------------------
-Episode: 371/4000
-Steps: 100, Total Reward: 9835.36
-Running Avg Reward: 9002.48, Epsilon: 0.329
-Status Rewards: completed=9301.08, in_progress=524.61, todo=9.67
-------------------------
-Episode: 372/4000
-Steps: 100, Total Reward: 8660.82
-Running Avg Reward: 9000.38, Epsilon: 0.328
-Status Rewards: completed=8065.09, in_progress=490.62, todo=105.11
-------------------------
-Episode: 373/4000
-Steps: 100, Total Reward: 9856.10
-Running Avg Reward: 9011.26, Epsilon: 0.327
-Status Rewards: completed=9179.22, in_progress=636.97, todo=39.92
-------------------------
-Episode: 374/4000
-Steps: 100, Total Reward: 9136.88
-Running Avg Reward: 9011.24, Epsilon: 0.326
-Status Rewards: completed=8480.70, in_progress=582.77, todo=73.41
-------------------------
-Episode: 375/4000
-Steps: 100, Total Reward: 9789.00
-Running Avg Reward: 9026.51, Epsilon: 0.325
-Status Rewards: completed=9501.25, in_progress=233.34, todo=54.41
-------------------------
-Episode: 376/4000
-Steps: 100, Total Reward: 9484.22
-Running Avg Reward: 9033.61, Epsilon: 0.324
-Status Rewards: completed=8473.81, in_progress=963.42, todo=46.99
-------------------------
-Episode: 377/4000
-Steps: 100, Total Reward: 8994.56
-Running Avg Reward: 9036.94, Epsilon: 0.323
-Status Rewards: completed=7960.74, in_progress=853.73, todo=180.09
-------------------------
-Episode: 378/4000
-Steps: 100, Total Reward: 9567.52
-Running Avg Reward: 9036.26, Epsilon: 0.322
-Status Rewards: completed=8964.83, in_progress=538.32, todo=64.36
-------------------------
-Episode: 379/4000
-Steps: 100, Total Reward: 9457.38
-Running Avg Reward: 9035.68, Epsilon: 0.321
-Status Rewards: completed=8443.75, in_progress=966.38, todo=47.25
-------------------------
-Episode: 380/4000
-Steps: 100, Total Reward: 9279.85
-Running Avg Reward: 9035.18, Epsilon: 0.320
-Status Rewards: completed=8505.56, in_progress=638.69, todo=135.60
-------------------------
-Episode: 381/4000
-Steps: 100, Total Reward: 8830.51
-Running Avg Reward: 9039.59, Epsilon: 0.319
-Status Rewards: completed=8335.35, in_progress=325.72, todo=169.44
-------------------------
-Episode: 382/4000
-Steps: 100, Total Reward: 9226.34
-Running Avg Reward: 9036.67, Epsilon: 0.318
-Status Rewards: completed=8600.46, in_progress=552.13, todo=73.76
-------------------------
-Episode: 383/4000
-Steps: 100, Total Reward: 9454.12
-Running Avg Reward: 9045.71, Epsilon: 0.317
-Status Rewards: completed=8617.62, in_progress=766.68, todo=69.82
-------------------------
-Episode: 384/4000
-Steps: 100, Total Reward: 9340.57
-Running Avg Reward: 9052.74, Epsilon: 0.316
-Status Rewards: completed=8690.85, in_progress=560.10, todo=89.62
-------------------------
-Episode: 385/4000
-Steps: 100, Total Reward: 9872.77
-Running Avg Reward: 9062.32, Epsilon: 0.315
-Status Rewards: completed=9293.49, in_progress=525.79, todo=53.49
-------------------------
-Episode: 386/4000
-Steps: 100, Total Reward: 8744.82
-Running Avg Reward: 9058.16, Epsilon: 0.315
-Status Rewards: completed=7987.24, in_progress=612.19, todo=145.39
-------------------------
-Episode: 387/4000
-Steps: 100, Total Reward: 9726.10
-Running Avg Reward: 9063.07, Epsilon: 0.314
-Status Rewards: completed=9025.31, in_progress=637.04, todo=63.75
-------------------------
-Episode: 388/4000
-Steps: 100, Total Reward: 9519.87
-Running Avg Reward: 9062.36, Epsilon: 0.313
-Status Rewards: completed=8943.37, in_progress=535.10, todo=41.40
-------------------------
-Episode: 389/4000
-Steps: 100, Total Reward: 9104.53
-Running Avg Reward: 9060.50, Epsilon: 0.312
-Status Rewards: completed=8302.31, in_progress=721.56, todo=80.66
-------------------------
-Episode: 390/4000
-Steps: 100, Total Reward: 9547.58
-Running Avg Reward: 9071.23, Epsilon: 0.311
-Status Rewards: completed=8978.66, in_progress=540.20, todo=28.72
-------------------------
-Episode: 391/4000
-Steps: 100, Total Reward: 9343.94
-Running Avg Reward: 9070.26, Epsilon: 0.310
-Status Rewards: completed=8606.88, in_progress=619.37, todo=117.69
-------------------------
-Episode: 392/4000
-Steps: 100, Total Reward: 9556.67
-Running Avg Reward: 9077.86, Epsilon: 0.309
-Status Rewards: completed=9195.80, in_progress=321.40, todo=39.47
-------------------------
-Episode: 393/4000
-Steps: 100, Total Reward: 9446.53
-Running Avg Reward: 9085.79, Epsilon: 0.308
-Status Rewards: completed=8472.37, in_progress=927.32, todo=46.84
-------------------------
-Episode: 394/4000
-Steps: 100, Total Reward: 9817.58
-Running Avg Reward: 9093.77, Epsilon: 0.307
-Status Rewards: completed=9067.65, in_progress=706.57, todo=43.36
-------------------------
-Episode: 395/4000
-Steps: 100, Total Reward: 9377.14
-Running Avg Reward: 9099.55, Epsilon: 0.306
-Status Rewards: completed=8397.59, in_progress=900.55, todo=79.00
-------------------------
-Episode: 396/4000
-Steps: 100, Total Reward: 9019.95
-Running Avg Reward: 9096.92, Epsilon: 0.305
-Status Rewards: completed=8010.59, in_progress=925.98, todo=83.37
-------------------------
-Episode: 397/4000
-Steps: 100, Total Reward: 7518.62
-Running Avg Reward: 9082.50, Epsilon: 0.304
-Status Rewards: completed=1264.89, in_progress=6177.28, todo=76.44
-------------------------
-Episode: 398/4000
-Steps: 100, Total Reward: 7961.75
-Running Avg Reward: 9069.17, Epsilon: 0.303
-Status Rewards: completed=1249.03, in_progress=6673.78, todo=38.94
-------------------------
-Episode: 399/4000
-Steps: 100, Total Reward: 9094.33
-Running Avg Reward: 9068.39, Epsilon: 0.302
-Status Rewards: completed=8276.11, in_progress=720.50, todo=97.72
-------------------------
-Episode: 400/4000
-Steps: 100, Total Reward: 9322.68
-Running Avg Reward: 9077.36, Epsilon: 0.302
-Status Rewards: completed=8867.60, in_progress=377.35, todo=77.74
-------------------------
-Episode: 401/4000
-Steps: 100, Total Reward: 10294.58
-Running Avg Reward: 9099.15, Epsilon: 0.301
-Status Rewards: completed=9165.62, in_progress=1074.03, todo=54.93
-------------------------
-Episode: 402/4000
-Steps: 100, Total Reward: 9675.99
-Running Avg Reward: 9110.30, Epsilon: 0.300
-Status Rewards: completed=9077.86, in_progress=539.15, todo=58.98
-------------------------
-Episode: 403/4000
-Steps: 100, Total Reward: 9389.96
-Running Avg Reward: 9114.20, Epsilon: 0.299
-Status Rewards: completed=8864.63, in_progress=421.82, todo=103.51
-------------------------
-Episode: 404/4000
-Steps: 100, Total Reward: 9313.13
-Running Avg Reward: 9120.20, Epsilon: 0.298
-Status Rewards: completed=8825.72, in_progress=395.13, todo=92.28
-------------------------
-Episode: 405/4000
-Steps: 100, Total Reward: 10055.33
-Running Avg Reward: 9130.03, Epsilon: 0.297
-Status Rewards: completed=9335.69, in_progress=640.41, todo=79.23
-------------------------
-Episode: 406/4000
-Steps: 100, Total Reward: 9364.92
-Running Avg Reward: 9134.24, Epsilon: 0.296
-Status Rewards: completed=8495.08, in_progress=755.60, todo=114.24
-------------------------
-Episode: 407/4000
-Steps: 100, Total Reward: 10079.02
-Running Avg Reward: 9148.04, Epsilon: 0.295
-Status Rewards: completed=9432.48, in_progress=595.57, todo=50.96
-------------------------
-Episode: 408/4000
-Steps: 100, Total Reward: 9403.59
-Running Avg Reward: 9162.64, Epsilon: 0.294
-Status Rewards: completed=8918.09, in_progress=418.72, todo=66.78
-------------------------
-Episode: 409/4000
-Steps: 100, Total Reward: 9081.36
-Running Avg Reward: 9164.48, Epsilon: 0.294
-Status Rewards: completed=8517.92, in_progress=489.49, todo=73.95
-------------------------
-Episode: 410/4000
-Steps: 100, Total Reward: 9326.11
-Running Avg Reward: 9169.16, Epsilon: 0.293
-Status Rewards: completed=8453.66, in_progress=727.27, todo=145.18
-------------------------
-Episode: 411/4000
-Steps: 100, Total Reward: 9404.17
-Running Avg Reward: 9174.55, Epsilon: 0.292
-Status Rewards: completed=8895.47, in_progress=424.69, todo=84.01
-------------------------
-Episode: 412/4000
-Steps: 100, Total Reward: 9523.99
-Running Avg Reward: 9177.53, Epsilon: 0.291
-Status Rewards: completed=8743.63, in_progress=658.32, todo=122.04
-------------------------
-Episode: 413/4000
-Steps: 100, Total Reward: 9857.69
-Running Avg Reward: 9181.73, Epsilon: 0.290
-Status Rewards: completed=9232.40, in_progress=590.59, todo=34.70
-------------------------
-Episode: 414/4000
-Steps: 100, Total Reward: 9595.87
-Running Avg Reward: 9193.06, Epsilon: 0.289
-Status Rewards: completed=9206.00, in_progress=332.50, todo=57.37
-------------------------
-Episode: 415/4000
-Steps: 100, Total Reward: 9596.67
-Running Avg Reward: 9206.40, Epsilon: 0.288
-Status Rewards: completed=9150.17, in_progress=368.82, todo=77.68
-------------------------
-Episode: 416/4000
-Steps: 100, Total Reward: 9111.02
-Running Avg Reward: 9210.08, Epsilon: 0.287
-Status Rewards: completed=8135.29, in_progress=865.81, todo=109.92
-------------------------
-Episode: 417/4000
-Steps: 100, Total Reward: 9421.30
-Running Avg Reward: 9214.66, Epsilon: 0.287
-Status Rewards: completed=8654.34, in_progress=717.11, todo=49.86
-------------------------
-Episode: 418/4000
-Steps: 100, Total Reward: 9529.14
-Running Avg Reward: 9216.09, Epsilon: 0.286
-Status Rewards: completed=8916.99, in_progress=541.54, todo=70.60
-------------------------
-Episode: 419/4000
-Steps: 100, Total Reward: 10134.48
-Running Avg Reward: 9231.82, Epsilon: 0.285
-Status Rewards: completed=9809.54, in_progress=264.20, todo=60.74
-------------------------
-Episode: 420/4000
-Steps: 100, Total Reward: 9413.50
-Running Avg Reward: 9238.85, Epsilon: 0.284
-Status Rewards: completed=8566.93, in_progress=808.87, todo=37.70
-------------------------
-Episode: 421/4000
-Steps: 100, Total Reward: 9259.81
-Running Avg Reward: 9244.94, Epsilon: 0.283
-Status Rewards: completed=8419.67, in_progress=730.86, todo=109.29
-------------------------
-Episode: 422/4000
-Steps: 100, Total Reward: 9391.85
-Running Avg Reward: 9251.49, Epsilon: 0.282
-Status Rewards: completed=8459.61, in_progress=837.01, todo=95.24
-------------------------
-Episode: 423/4000
-Steps: 100, Total Reward: 9088.45
-Running Avg Reward: 9253.81, Epsilon: 0.281
-Status Rewards: completed=8433.27, in_progress=470.95, todo=184.23
-------------------------
-Episode: 424/4000
-Steps: 100, Total Reward: 9734.40
-Running Avg Reward: 9264.26, Epsilon: 0.281
-Status Rewards: completed=9199.71, in_progress=483.42, todo=51.26
-------------------------
-Episode: 425/4000
-Steps: 100, Total Reward: 9621.12
-Running Avg Reward: 9273.04, Epsilon: 0.280
-Status Rewards: completed=8800.72, in_progress=699.49, todo=120.91
-------------------------
-Episode: 426/4000
-Steps: 100, Total Reward: 9172.25
-Running Avg Reward: 9272.48, Epsilon: 0.279
-Status Rewards: completed=8265.47, in_progress=831.94, todo=74.84
-------------------------
-Episode: 427/4000
-Steps: 100, Total Reward: 9364.22
-Running Avg Reward: 9275.89, Epsilon: 0.278
-Status Rewards: completed=8545.39, in_progress=704.50, todo=114.33
-------------------------
-Episode: 428/4000
-Steps: 100, Total Reward: 9449.90
-Running Avg Reward: 9278.62, Epsilon: 0.277
-Status Rewards: completed=8715.88, in_progress=668.74, todo=65.28
-------------------------
-Episode: 429/4000
-Steps: 100, Total Reward: 9558.51
-Running Avg Reward: 9282.88, Epsilon: 0.276
-Status Rewards: completed=9135.53, in_progress=359.51, todo=63.47
-------------------------
-Episode: 430/4000
-Steps: 100, Total Reward: 9572.25
-Running Avg Reward: 9281.89, Epsilon: 0.276
-Status Rewards: completed=8949.24, in_progress=582.02, todo=40.98
-------------------------
-Episode: 431/4000
-Steps: 100, Total Reward: 9468.76
-Running Avg Reward: 9285.32, Epsilon: 0.275
-Status Rewards: completed=8777.37, in_progress=657.40, todo=33.99
-------------------------
-Episode: 432/4000
-Steps: 100, Total Reward: 9702.60
-Running Avg Reward: 9293.55, Epsilon: 0.274
-Status Rewards: completed=9098.95, in_progress=491.03, todo=112.62
-------------------------
-Episode: 433/4000
-Steps: 100, Total Reward: 9758.40
-Running Avg Reward: 9298.70, Epsilon: 0.273
-Status Rewards: completed=9336.00, in_progress=271.86, todo=150.54
-------------------------
-Episode: 434/4000
-Steps: 100, Total Reward: 10395.56
-Running Avg Reward: 9312.99, Epsilon: 0.272
-Status Rewards: completed=9843.99, in_progress=521.45, todo=30.13
-------------------------
-Episode: 435/4000
-Steps: 100, Total Reward: 10064.13
-Running Avg Reward: 9318.82, Epsilon: 0.271
-Status Rewards: completed=9498.15, in_progress=494.69, todo=71.29
-------------------------
-Episode: 436/4000
-Steps: 100, Total Reward: 9598.92
-Running Avg Reward: 9326.03, Epsilon: 0.271
-Status Rewards: completed=8759.42, in_progress=758.28, todo=81.21
-------------------------
-Episode: 437/4000
-Steps: 100, Total Reward: 9950.21
-Running Avg Reward: 9333.04, Epsilon: 0.270
-Status Rewards: completed=9478.85, in_progress=407.10, todo=64.26
-------------------------
-Episode: 438/4000
-Steps: 100, Total Reward: 10203.80
-Running Avg Reward: 9350.62, Epsilon: 0.269
-Status Rewards: completed=9938.24, in_progress=217.97, todo=47.59
-------------------------
-Episode: 439/4000
-Steps: 100, Total Reward: 10152.92
-Running Avg Reward: 9356.74, Epsilon: 0.268
-Status Rewards: completed=9442.57, in_progress=671.94, todo=38.42
-------------------------
-Episode: 440/4000
-Steps: 100, Total Reward: 10319.46
-Running Avg Reward: 9371.33, Epsilon: 0.267
-Status Rewards: completed=9809.06, in_progress=458.48, todo=51.92
-------------------------
-Episode: 441/4000
-Steps: 100, Total Reward: 10099.59
-Running Avg Reward: 9384.74, Epsilon: 0.267
-Status Rewards: completed=9607.71, in_progress=399.05, todo=92.84
-------------------------
-Episode: 442/4000
-Steps: 100, Total Reward: 10149.18
-Running Avg Reward: 9398.58, Epsilon: 0.266
-Status Rewards: completed=9798.72, in_progress=311.88, todo=38.58
-------------------------
-Episode: 443/4000
-Steps: 100, Total Reward: 9551.40
-Running Avg Reward: 9406.76, Epsilon: 0.265
-Status Rewards: completed=8794.48, in_progress=684.76, todo=72.16
-------------------------
-Episode: 444/4000
-Steps: 100, Total Reward: 10335.70
-Running Avg Reward: 9418.55, Epsilon: 0.264
-Status Rewards: completed=9873.99, in_progress=423.86, todo=37.86
-------------------------
-Episode: 445/4000
-Steps: 100, Total Reward: 9617.62
-Running Avg Reward: 9419.79, Epsilon: 0.263
-Status Rewards: completed=8955.35, in_progress=560.21, todo=102.05
-------------------------
-Episode: 446/4000
-Steps: 100, Total Reward: 10303.72
-Running Avg Reward: 9433.05, Epsilon: 0.263
-Status Rewards: completed=9647.32, in_progress=583.80, todo=72.60
-------------------------
-Episode: 447/4000
-Steps: 100, Total Reward: 10023.60
-Running Avg Reward: 9439.27, Epsilon: 0.262
-Status Rewards: completed=9518.39, in_progress=464.65, todo=40.55
-------------------------
-Episode: 448/4000
-Steps: 100, Total Reward: 10500.45
-Running Avg Reward: 9451.31, Epsilon: 0.261
-Status Rewards: completed=10094.20, in_progress=355.00, todo=51.26
-------------------------
-Episode: 449/4000
-Steps: 100, Total Reward: 9978.06
-Running Avg Reward: 9458.58, Epsilon: 0.260
-Status Rewards: completed=9761.25, in_progress=160.94, todo=55.87
-------------------------
-Episode: 450/4000
-Steps: 100, Total Reward: 10068.13
-Running Avg Reward: 9466.74, Epsilon: 0.259
-Status Rewards: completed=9485.46, in_progress=523.85, todo=58.82
-------------------------
-Episode: 451/4000
-Steps: 100, Total Reward: 9982.36
-Running Avg Reward: 9473.27, Epsilon: 0.259
-Status Rewards: completed=9392.00, in_progress=528.41, todo=61.95
-------------------------
-Episode: 452/4000
-Steps: 100, Total Reward: 10104.60
-Running Avg Reward: 9481.80, Epsilon: 0.258
-Status Rewards: completed=9739.57, in_progress=311.10, todo=53.94
-------------------------
-Episode: 453/4000
-Steps: 100, Total Reward: 9754.53
-Running Avg Reward: 9490.31, Epsilon: 0.257
-Status Rewards: completed=9350.79, in_progress=297.55, todo=106.19
-------------------------
-Episode: 454/4000
-Steps: 100, Total Reward: 9477.05
-Running Avg Reward: 9495.31, Epsilon: 0.256
-Status Rewards: completed=8476.67, in_progress=941.60, todo=58.78
-------------------------
-Episode: 455/4000
-Steps: 100, Total Reward: 10324.97
-Running Avg Reward: 9506.67, Epsilon: 0.256
-Status Rewards: completed=10062.11, in_progress=193.75, todo=69.10
-------------------------
-Episode: 456/4000
-Steps: 100, Total Reward: 9997.88
-Running Avg Reward: 9518.04, Epsilon: 0.255
-Status Rewards: completed=9442.31, in_progress=488.46, todo=67.11
-------------------------
-Episode: 457/4000
-Steps: 100, Total Reward: 10283.97
-Running Avg Reward: 9524.79, Epsilon: 0.254
-Status Rewards: completed=9591.85, in_progress=662.06, todo=30.06
-------------------------
-Episode: 458/4000
-Steps: 100, Total Reward: 10166.62
-Running Avg Reward: 9534.59, Epsilon: 0.253
-Status Rewards: completed=9475.42, in_progress=608.11, todo=83.09
-------------------------
-Episode: 459/4000
-Steps: 100, Total Reward: 10202.07
-Running Avg Reward: 9544.80, Epsilon: 0.253
-Status Rewards: completed=9712.44, in_progress=446.63, todo=43.00
-------------------------
-Episode: 460/4000
-Steps: 100, Total Reward: 9920.20
-Running Avg Reward: 9556.30, Epsilon: 0.252
-Status Rewards: completed=9433.30, in_progress=438.14, todo=48.76
-------------------------
-Episode: 461/4000
-Steps: 100, Total Reward: 10378.14
-Running Avg Reward: 9566.30, Epsilon: 0.251
-Status Rewards: completed=9742.09, in_progress=571.58, todo=64.47
-------------------------
-Episode: 462/4000
-Steps: 100, Total Reward: 10408.68
-Running Avg Reward: 9579.82, Epsilon: 0.250
-Status Rewards: completed=10299.34, in_progress=72.41, todo=36.93
-------------------------
-Episode: 463/4000
-Steps: 100, Total Reward: 10443.94
-Running Avg Reward: 9592.70, Epsilon: 0.250
-Status Rewards: completed=10075.79, in_progress=338.93, todo=29.22
-------------------------
-Episode: 464/4000
-Steps: 100, Total Reward: 9590.71
-Running Avg Reward: 9595.76, Epsilon: 0.249
-Status Rewards: completed=8876.29, in_progress=643.35, todo=71.07
-------------------------
-Episode: 465/4000
-Steps: 100, Total Reward: 9901.19
-Running Avg Reward: 9599.77, Epsilon: 0.248
-Status Rewards: completed=9478.57, in_progress=351.45, todo=71.18
-------------------------
-Episode: 466/4000
-Steps: 100, Total Reward: 10170.35
-Running Avg Reward: 9614.19, Epsilon: 0.247
-Status Rewards: completed=9640.40, in_progress=449.82, todo=80.13
-------------------------
-Episode: 467/4000
-Steps: 100, Total Reward: 9715.96
-Running Avg Reward: 9621.86, Epsilon: 0.247
-Status Rewards: completed=9243.49, in_progress=370.89, todo=101.58
-------------------------
-Episode: 468/4000
-Steps: 100, Total Reward: 10116.79
-Running Avg Reward: 9629.89, Epsilon: 0.246
-Status Rewards: completed=9581.91, in_progress=414.15, todo=120.73
-------------------------
-Episode: 469/4000
-Steps: 100, Total Reward: 10137.12
-Running Avg Reward: 9635.50, Epsilon: 0.245
-Status Rewards: completed=9670.37, in_progress=398.17, todo=68.59
-------------------------
-Episode: 470/4000
-Steps: 100, Total Reward: 10540.19
-Running Avg Reward: 9655.32, Epsilon: 0.244
-Status Rewards: completed=10398.38, in_progress=118.95, todo=22.87
-------------------------
-Episode: 471/4000
-Steps: 100, Total Reward: 10163.51
-Running Avg Reward: 9658.60, Epsilon: 0.244
-Status Rewards: completed=9762.55, in_progress=356.32, todo=44.64
-------------------------
-Episode: 472/4000
-Steps: 100, Total Reward: 10099.70
-Running Avg Reward: 9672.99, Epsilon: 0.243
-Status Rewards: completed=9547.26, in_progress=485.71, todo=66.73
-------------------------
-Episode: 473/4000
-Steps: 100, Total Reward: 9209.41
-Running Avg Reward: 9666.53, Epsilon: 0.242
-Status Rewards: completed=8400.72, in_progress=715.70, todo=92.98
-------------------------
-Episode: 474/4000
-Steps: 100, Total Reward: 10411.44
-Running Avg Reward: 9679.27, Epsilon: 0.241
-Status Rewards: completed=9949.69, in_progress=391.08, todo=70.67
-------------------------
-Episode: 475/4000
-Steps: 100, Total Reward: 10048.72
-Running Avg Reward: 9681.87, Epsilon: 0.241
-Status Rewards: completed=8963.11, in_progress=1042.53, todo=43.08
-------------------------
-Episode: 476/4000
-Steps: 100, Total Reward: 10637.74
-Running Avg Reward: 9693.40, Epsilon: 0.240
-Status Rewards: completed=10292.15, in_progress=287.58, todo=58.01
-------------------------
-Episode: 477/4000
-Steps: 100, Total Reward: 10345.22
-Running Avg Reward: 9706.91, Epsilon: 0.239
-Status Rewards: completed=9871.91, in_progress=439.47, todo=33.84
-------------------------
-Episode: 478/4000
-Steps: 100, Total Reward: 9935.84
-Running Avg Reward: 9710.59, Epsilon: 0.239
-Status Rewards: completed=9591.38, in_progress=278.75, todo=65.71
-------------------------
-Episode: 479/4000
-Steps: 100, Total Reward: 10157.14
-Running Avg Reward: 9717.59, Epsilon: 0.238
-Status Rewards: completed=9517.90, in_progress=601.56, todo=37.69
-------------------------
-Episode: 480/4000
-Steps: 100, Total Reward: 10360.48
-Running Avg Reward: 9728.40, Epsilon: 0.237
-Status Rewards: completed=9933.32, in_progress=410.69, todo=16.48
-------------------------
-Episode: 481/4000
-Steps: 100, Total Reward: 10076.38
-Running Avg Reward: 9740.86, Epsilon: 0.236
-Status Rewards: completed=9664.63, in_progress=364.67, todo=47.08
-------------------------
-Episode: 482/4000
-Steps: 100, Total Reward: 10582.43
-Running Avg Reward: 9754.42, Epsilon: 0.236
-Status Rewards: completed=10044.65, in_progress=508.33, todo=29.44
-------------------------
-Episode: 483/4000
-Steps: 100, Total Reward: 10347.55
-Running Avg Reward: 9763.35, Epsilon: 0.235
-Status Rewards: completed=9902.48, in_progress=403.02, todo=42.05
-------------------------
-Episode: 484/4000
-Steps: 100, Total Reward: 10496.33
-Running Avg Reward: 9774.91, Epsilon: 0.234
-Status Rewards: completed=9970.08, in_progress=484.72, todo=41.53
-------------------------
-Episode: 485/4000
-Steps: 100, Total Reward: 10051.92
-Running Avg Reward: 9776.70, Epsilon: 0.234
-Status Rewards: completed=9612.13, in_progress=414.14, todo=25.65
-------------------------
-Episode: 486/4000
-Steps: 100, Total Reward: 10169.24
-Running Avg Reward: 9790.94, Epsilon: 0.233
-Status Rewards: completed=9822.44, in_progress=291.01, todo=55.79
-------------------------
-Episode: 487/4000
-Steps: 100, Total Reward: 9715.68
-Running Avg Reward: 9790.84, Epsilon: 0.232
-Status Rewards: completed=9000.66, in_progress=607.23, todo=107.79
-------------------------
-Episode: 488/4000
-Steps: 100, Total Reward: 9902.14
-Running Avg Reward: 9794.66, Epsilon: 0.231
-Status Rewards: completed=9353.04, in_progress=469.20, todo=79.90
-------------------------
-Episode: 489/4000
-Steps: 100, Total Reward: 9938.84
-Running Avg Reward: 9803.01, Epsilon: 0.231
-Status Rewards: completed=9241.89, in_progress=612.30, todo=84.66
-------------------------
-Episode: 490/4000
-Steps: 100, Total Reward: 9803.29
-Running Avg Reward: 9805.56, Epsilon: 0.230
-Status Rewards: completed=9004.01, in_progress=740.75, todo=58.54
-------------------------
-Episode: 491/4000
-Steps: 100, Total Reward: 9950.90
-Running Avg Reward: 9811.63, Epsilon: 0.229
-Status Rewards: completed=9453.26, in_progress=429.84, todo=67.80
-------------------------
-Episode: 492/4000
-Steps: 100, Total Reward: 10649.64
-Running Avg Reward: 9822.56, Epsilon: 0.229
-Status Rewards: completed=10234.23, in_progress=388.72, todo=26.69
-------------------------
-Episode: 493/4000
-Steps: 100, Total Reward: 10214.24
-Running Avg Reward: 9830.24, Epsilon: 0.228
-Status Rewards: completed=9542.74, in_progress=636.78, todo=34.71
-------------------------
-Episode: 494/4000
-Steps: 100, Total Reward: 10411.70
-Running Avg Reward: 9836.18, Epsilon: 0.227
-Status Rewards: completed=9921.32, in_progress=471.34, todo=19.03
-------------------------
-Episode: 495/4000
-Steps: 100, Total Reward: 9876.27
-Running Avg Reward: 9841.17, Epsilon: 0.227
-Status Rewards: completed=9454.08, in_progress=346.58, todo=75.61
-------------------------
-Episode: 496/4000
-Steps: 100, Total Reward: 10406.74
-Running Avg Reward: 9855.04, Epsilon: 0.226
-Status Rewards: completed=9980.86, in_progress=410.10, todo=15.79
-------------------------
-Episode: 497/4000
-Steps: 100, Total Reward: 10337.54
-Running Avg Reward: 9883.23, Epsilon: 0.225
-Status Rewards: completed=10035.11, in_progress=257.90, todo=44.53
-------------------------
-Episode: 498/4000
-Steps: 100, Total Reward: 9941.81
-Running Avg Reward: 9903.03, Epsilon: 0.225
-Status Rewards: completed=9266.77, in_progress=611.52, todo=63.51
-------------------------
-Episode: 499/4000
-Steps: 100, Total Reward: 10438.00
-Running Avg Reward: 9916.47, Epsilon: 0.224
-Status Rewards: completed=10066.76, in_progress=283.48, todo=87.76
-------------------------
-Episode: 500/4000
-Steps: 100, Total Reward: 10433.26
-Running Avg Reward: 9927.57, Epsilon: 0.223
-Status Rewards: completed=9650.40, in_progress=759.14, todo=23.72
-------------------------
-Episode: 501/4000
-Steps: 100, Total Reward: 10331.46
-Running Avg Reward: 9927.94, Epsilon: 0.223
-Status Rewards: completed=9943.32, in_progress=351.62, todo=36.52
-------------------------
-Episode: 502/4000
-Steps: 100, Total Reward: 9730.00
-Running Avg Reward: 9928.48, Epsilon: 0.222
-Status Rewards: completed=8626.26, in_progress=1033.03, todo=70.72
-------------------------
-Episode: 503/4000
-Steps: 100, Total Reward: 10111.11
-Running Avg Reward: 9935.69, Epsilon: 0.221
-Status Rewards: completed=9568.62, in_progress=481.38, todo=61.11
-------------------------
-Episode: 504/4000
-Steps: 100, Total Reward: 10200.87
-Running Avg Reward: 9944.57, Epsilon: 0.221
-Status Rewards: completed=9898.49, in_progress=285.08, todo=17.29
-------------------------
-Episode: 505/4000
-Steps: 100, Total Reward: 10058.47
-Running Avg Reward: 9944.60, Epsilon: 0.220
-Status Rewards: completed=9918.62, in_progress=77.77, todo=62.09
-------------------------
-Episode: 506/4000
-Steps: 100, Total Reward: 10275.18
-Running Avg Reward: 9953.70, Epsilon: 0.219
-Status Rewards: completed=9423.01, in_progress=807.67, todo=44.51
-------------------------
-Episode: 507/4000
-Steps: 100, Total Reward: 10108.90
-Running Avg Reward: 9954.00, Epsilon: 0.219
-Status Rewards: completed=9440.09, in_progress=560.96, todo=107.85
-------------------------
-Episode: 508/4000
-Steps: 100, Total Reward: 10202.71
-Running Avg Reward: 9961.99, Epsilon: 0.218
-Status Rewards: completed=9463.10, in_progress=676.45, todo=63.16
-------------------------
-Episode: 509/4000
-Steps: 100, Total Reward: 10609.11
-Running Avg Reward: 9977.27, Epsilon: 0.217
-Status Rewards: completed=10443.30, in_progress=114.54, todo=51.27
-------------------------
-Episode: 510/4000
-Steps: 100, Total Reward: 10513.15
-Running Avg Reward: 9989.14, Epsilon: 0.217
-Status Rewards: completed=10286.80, in_progress=172.04, todo=54.31
-------------------------
-Episode: 511/4000
-Steps: 100, Total Reward: 10789.12
-Running Avg Reward: 10002.99, Epsilon: 0.216
-Status Rewards: completed=10501.22, in_progress=264.42, todo=23.48
-------------------------
-Episode: 512/4000
-Steps: 100, Total Reward: 10157.31
-Running Avg Reward: 10009.32, Epsilon: 0.215
-Status Rewards: completed=9762.03, in_progress=310.58, todo=84.70
-------------------------
-Episode: 513/4000
-Steps: 100, Total Reward: 10223.07
-Running Avg Reward: 10012.98, Epsilon: 0.215
-Status Rewards: completed=9872.53, in_progress=289.54, todo=61.00
-------------------------
-Episode: 514/4000
-Steps: 100, Total Reward: 10341.73
-Running Avg Reward: 10020.44, Epsilon: 0.214
-Status Rewards: completed=9923.57, in_progress=398.21, todo=19.94
-------------------------
-Episode: 515/4000
-Steps: 100, Total Reward: 10100.66
-Running Avg Reward: 10025.48, Epsilon: 0.213
-Status Rewards: completed=9524.09, in_progress=489.08, todo=87.49
-------------------------
-Episode: 516/4000
-Steps: 100, Total Reward: 10270.20
-Running Avg Reward: 10037.07, Epsilon: 0.213
-Status Rewards: completed=9785.22, in_progress=457.04, todo=27.94
-------------------------
-Episode: 517/4000
-Steps: 100, Total Reward: 10538.15
-Running Avg Reward: 10048.24, Epsilon: 0.212
-Status Rewards: completed=10265.94, in_progress=271.88, todo=0.32
-------------------------
-Episode: 518/4000
-Steps: 100, Total Reward: 9674.53
-Running Avg Reward: 10049.69, Epsilon: 0.212
-Status Rewards: completed=9050.05, in_progress=549.09, todo=75.38
-------------------------
-Episode: 519/4000
-Steps: 100, Total Reward: 9813.36
-Running Avg Reward: 10046.48, Epsilon: 0.211
-Status Rewards: completed=9266.54, in_progress=467.68, todo=79.14
-------------------------
-Episode: 520/4000
-Steps: 100, Total Reward: 10069.59
-Running Avg Reward: 10053.04, Epsilon: 0.210
-Status Rewards: completed=9567.04, in_progress=436.99, todo=65.56
+Steps: 100, Total Reward: 7537.28
+Running Avg Reward: 7147.96, Epsilon: 0.761
+Status Rewards: completed=5599.84, in_progress=1682.97, todo=254.47
 ------------------------
