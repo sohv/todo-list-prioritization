@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
 import torch
-from gym import Env, spaces
+import gymnasium as gym
+from gymnasium import Env, spaces
 from datetime import datetime
 
 from reward_function import calculate_reward
