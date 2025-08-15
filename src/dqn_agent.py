@@ -136,17 +136,17 @@ class DQNAgent:
         self.state_size = state_size
         self.action_size = action_size
         
-        # Improved replay buffer with prioritized experience replay
-        self.memory = PrioritizedReplayBuffer(50000, alpha=0.6)
+        # Improved replay buffer with prioritized experience replay - reduced bias
+        self.memory = PrioritizedReplayBuffer(50000, alpha=0.5)
         
-        # Hyperparameters
+        # Hyperparameters - Stabilized for better training
         self.gamma = 0.99  
         self.epsilon = 1.0 
-        self.epsilon_min = 0.01
-        self.epsilon_decay = 0.995  # Slower decay for better exploration
-        self.learning_rate = 0.0001  # Lower learning rate for stability
-        self.tau = 0.005  # Faster target network updates
-        self.update_frequency = 4  # Update every N steps
+        self.epsilon_min = 0.05  # Increased for more exploration
+        self.epsilon_decay = 0.998  # Slower decay to maintain exploration longer
+        self.learning_rate = 0.00005  # Reduced learning rate for stability
+        self.tau = 0.001  # Slower soft updates for stability
+        self.update_frequency = 8  # Update every N steps
         self.target_update_frequency = 1000  # Hard update target network
         
         # Training metrics

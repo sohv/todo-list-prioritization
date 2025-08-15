@@ -1,49 +1,770 @@
-Episode: 1/2000
-Tasks Completed: 1000, Total Reward: -493.792
-Episode Length: 1000, Avg Reward (last 1): -493.792
-Avg Episode Length: 1000.0
-Epsilon: 0.308, Memory: 1000
-Avg Loss: 0.055248
+Episode: 1/1000
+Tasks Completed: 300, Total Reward: 126.600
+Episode Length: 300, Avg Reward (last 1): 126.600
+Avg Episode Length: 300.0
+Epsilon: 0.896, Memory: 300
+Avg Loss: 0.198629
 ------------------------
-Episode: 2/2000
-Tasks Completed: 1000, Total Reward: -503.205
-Episode Length: 1000, Avg Reward (last 2): -498.498
-Avg Episode Length: 1000.0
-Epsilon: 0.088, Memory: 2000
-Avg Loss: 0.041683
+Episode: 2/1000
+Tasks Completed: 300, Total Reward: 128.260
+Episode Length: 300, Avg Reward (last 2): 127.430
+Avg Episode Length: 300.0
+Epsilon: 0.740, Memory: 600
+Avg Loss: 0.135499
 ------------------------
-Episode: 3/2000
-Tasks Completed: 1000, Total Reward: -486.746
-Episode Length: 1000, Avg Reward (last 3): -494.581
-Avg Episode Length: 1000.0
-Epsilon: 0.025, Memory: 3000
-Avg Loss: 0.037126
+Episode: 3/1000
+Tasks Completed: 300, Total Reward: 134.760
+Episode Length: 300, Avg Reward (last 3): 129.873
+Avg Episode Length: 300.0
+Epsilon: 0.615, Memory: 900
+Avg Loss: 0.115349
 ------------------------
-Episode: 4/2000
-Tasks Completed: 1000, Total Reward: -490.402
-Episode Length: 1000, Avg Reward (last 4): -493.536
-Avg Episode Length: 1000.0
-Epsilon: 0.010, Memory: 4000
-Avg Loss: 0.035339
+Episode: 4/1000
+Tasks Completed: 300, Total Reward: 133.580
+Episode Length: 300, Avg Reward (last 4): 130.800
+Avg Episode Length: 300.0
+Epsilon: 0.508, Memory: 1200
+Avg Loss: 0.103769
 ------------------------
-Episode: 5/2000
-Tasks Completed: 1000, Total Reward: -488.554
-Episode Length: 1000, Avg Reward (last 5): -492.540
-Avg Episode Length: 1000.0
-Epsilon: 0.010, Memory: 5000
-Avg Loss: 0.030246
+Episode: 5/1000
+Tasks Completed: 300, Total Reward: 140.940
+Episode Length: 300, Avg Reward (last 5): 132.828
+Avg Episode Length: 300.0
+Epsilon: 0.422, Memory: 1500
+Avg Loss: 0.092877
 ------------------------
-Episode: 6/2000
-Tasks Completed: 1000, Total Reward: -486.399
-Episode Length: 1000, Avg Reward (last 6): -491.516
-Avg Episode Length: 1000.0
-Epsilon: 0.010, Memory: 6000
-Avg Loss: 0.032143
+Episode: 6/1000
+Tasks Completed: 300, Total Reward: 122.960
+Episode Length: 300, Avg Reward (last 6): 131.183
+Avg Episode Length: 300.0
+Epsilon: 0.349, Memory: 1800
+Avg Loss: 0.085330
 ------------------------
-Episode: 7/2000
-Tasks Completed: 1000, Total Reward: -495.921
-Episode Length: 1000, Avg Reward (last 7): -492.146
-Avg Episode Length: 1000.0
-Epsilon: 0.010, Memory: 7000
-Avg Loss: 0.034851
+Episode: 7/1000
+Tasks Completed: 300, Total Reward: 133.820
+Episode Length: 300, Avg Reward (last 7): 131.560
+Avg Episode Length: 300.0
+Epsilon: 0.290, Memory: 2100
+Avg Loss: 0.080633
+------------------------
+Episode: 8/1000
+Tasks Completed: 300, Total Reward: 123.460
+Episode Length: 300, Avg Reward (last 8): 130.548
+Avg Episode Length: 300.0
+Epsilon: 0.240, Memory: 2400
+Avg Loss: 0.076472
+------------------------
+Episode: 9/1000
+Tasks Completed: 300, Total Reward: 127.960
+Episode Length: 300, Avg Reward (last 9): 130.260
+Avg Episode Length: 300.0
+Epsilon: 0.199, Memory: 2700
+Avg Loss: 0.072551
+------------------------
+Episode: 10/1000
+Tasks Completed: 300, Total Reward: 126.820
+Episode Length: 300, Avg Reward (last 10): 129.916
+Avg Episode Length: 300.0
+Epsilon: 0.165, Memory: 3000
+Avg Loss: 0.069583
+------------------------
+Episode: 11/1000
+Tasks Completed: 300, Total Reward: 132.300
+Episode Length: 300, Avg Reward (last 11): 130.133
+Avg Episode Length: 300.0
+Epsilon: 0.137, Memory: 3300
+Avg Loss: 0.067362
+------------------------
+Episode: 12/1000
+Tasks Completed: 300, Total Reward: 145.940
+Episode Length: 300, Avg Reward (last 12): 131.450
+Avg Episode Length: 300.0
+Epsilon: 0.113, Memory: 3600
+Avg Loss: 0.065350
+------------------------
+Episode: 13/1000
+Tasks Completed: 300, Total Reward: 128.600
+Episode Length: 300, Avg Reward (last 13): 131.231
+Avg Episode Length: 300.0
+Epsilon: 0.094, Memory: 3900
+Avg Loss: 0.063707
+------------------------
+Episode: 14/1000
+Tasks Completed: 300, Total Reward: 131.620
+Episode Length: 300, Avg Reward (last 14): 131.259
+Avg Episode Length: 300.0
+Epsilon: 0.078, Memory: 4200
+Avg Loss: 0.062726
+------------------------
+Episode: 15/1000
+Tasks Completed: 300, Total Reward: 132.780
+Episode Length: 300, Avg Reward (last 15): 131.360
+Avg Episode Length: 300.0
+Epsilon: 0.064, Memory: 4500
+Avg Loss: 0.061420
+------------------------
+Episode: 16/1000
+Tasks Completed: 300, Total Reward: 133.940
+Episode Length: 300, Avg Reward (last 16): 131.521
+Avg Episode Length: 300.0
+Epsilon: 0.053, Memory: 4800
+Avg Loss: 0.060051
+------------------------
+Episode: 17/1000
+Tasks Completed: 300, Total Reward: 138.020
+Episode Length: 300, Avg Reward (last 17): 131.904
+Avg Episode Length: 300.0
+Epsilon: 0.044, Memory: 5100
+Avg Loss: 0.059434
+------------------------
+Episode: 18/1000
+Tasks Completed: 300, Total Reward: 133.660
+Episode Length: 300, Avg Reward (last 18): 132.001
+Avg Episode Length: 300.0
+Epsilon: 0.037, Memory: 5400
+Avg Loss: 0.058785
+------------------------
+Episode: 19/1000
+Tasks Completed: 300, Total Reward: 130.920
+Episode Length: 300, Avg Reward (last 19): 131.944
+Avg Episode Length: 300.0
+Epsilon: 0.030, Memory: 5700
+Avg Loss: 0.058145
+------------------------
+Episode: 20/1000
+Tasks Completed: 300, Total Reward: 127.060
+Episode Length: 300, Avg Reward (last 20): 131.700
+Avg Episode Length: 300.0
+Epsilon: 0.025, Memory: 6000
+Avg Loss: 0.057443
+------------------------
+Episode: 21/1000
+Tasks Completed: 300, Total Reward: 132.740
+Episode Length: 300, Avg Reward (last 21): 131.750
+Avg Episode Length: 300.0
+Epsilon: 0.021, Memory: 6300
+Avg Loss: 0.057160
+------------------------
+Episode: 22/1000
+Tasks Completed: 300, Total Reward: 137.160
+Episode Length: 300, Avg Reward (last 22): 131.995
+Avg Episode Length: 300.0
+Epsilon: 0.017, Memory: 6600
+Avg Loss: 0.056910
+------------------------
+Episode: 23/1000
+Tasks Completed: 300, Total Reward: 125.640
+Episode Length: 300, Avg Reward (last 23): 131.719
+Avg Episode Length: 300.0
+Epsilon: 0.014, Memory: 6900
+Avg Loss: 0.056446
+------------------------
+Episode: 24/1000
+Tasks Completed: 300, Total Reward: 133.600
+Episode Length: 300, Avg Reward (last 24): 131.798
+Avg Episode Length: 300.0
+Epsilon: 0.012, Memory: 7200
+Avg Loss: 0.056179
+------------------------
+Episode: 25/1000
+Tasks Completed: 300, Total Reward: 139.360
+Episode Length: 300, Avg Reward (last 25): 132.100
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 7500
+Avg Loss: 0.055889
+------------------------
+Episode: 26/1000
+Tasks Completed: 300, Total Reward: 129.480
+Episode Length: 300, Avg Reward (last 26): 131.999
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 7800
+Avg Loss: 0.055691
+------------------------
+Episode: 27/1000
+Tasks Completed: 300, Total Reward: 124.100
+Episode Length: 300, Avg Reward (last 27): 131.707
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 8100
+Avg Loss: 0.055510
+------------------------
+Episode: 28/1000
+Tasks Completed: 300, Total Reward: 128.680
+Episode Length: 300, Avg Reward (last 28): 131.599
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 8400
+Avg Loss: 0.051488
+------------------------
+Episode: 29/1000
+Tasks Completed: 300, Total Reward: 131.480
+Episode Length: 300, Avg Reward (last 29): 131.594
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 8700
+Avg Loss: 0.050120
+------------------------
+Episode: 30/1000
+Tasks Completed: 300, Total Reward: 130.740
+Episode Length: 300, Avg Reward (last 30): 131.566
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 9000
+Avg Loss: 0.049061
+------------------------
+Episode: 31/1000
+Tasks Completed: 300, Total Reward: 141.060
+Episode Length: 300, Avg Reward (last 31): 131.872
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 9300
+Avg Loss: 0.048589
+------------------------
+Episode: 32/1000
+Tasks Completed: 300, Total Reward: 128.040
+Episode Length: 300, Avg Reward (last 32): 131.753
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 9600
+Avg Loss: 0.048310
+------------------------
+Episode: 33/1000
+Tasks Completed: 300, Total Reward: 123.880
+Episode Length: 300, Avg Reward (last 33): 131.514
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 9900
+Avg Loss: 0.048471
+------------------------
+Episode: 34/1000
+Tasks Completed: 300, Total Reward: 132.520
+Episode Length: 300, Avg Reward (last 34): 131.544
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 10200
+Avg Loss: 0.048695
+------------------------
+Episode: 35/1000
+Tasks Completed: 300, Total Reward: 138.980
+Episode Length: 300, Avg Reward (last 35): 131.756
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 10500
+Avg Loss: 0.049036
+------------------------
+Episode: 36/1000
+Tasks Completed: 300, Total Reward: 136.160
+Episode Length: 300, Avg Reward (last 36): 131.878
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 10800
+Avg Loss: 0.049358
+------------------------
+Episode: 37/1000
+Tasks Completed: 300, Total Reward: 135.240
+Episode Length: 300, Avg Reward (last 37): 131.969
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 11100
+Avg Loss: 0.049995
+------------------------
+Episode: 38/1000
+Tasks Completed: 300, Total Reward: 125.200
+Episode Length: 300, Avg Reward (last 38): 131.791
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 11400
+Avg Loss: 0.050360
+------------------------
+Episode: 39/1000
+Tasks Completed: 300, Total Reward: 128.320
+Episode Length: 300, Avg Reward (last 39): 131.702
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 11700
+Avg Loss: 0.051074
+------------------------
+Episode: 40/1000
+Tasks Completed: 300, Total Reward: 134.700
+Episode Length: 300, Avg Reward (last 40): 131.777
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 12000
+Avg Loss: 0.051577
+------------------------
+Episode: 41/1000
+Tasks Completed: 300, Total Reward: 143.480
+Episode Length: 300, Avg Reward (last 41): 132.062
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 12300
+Avg Loss: 0.051990
+------------------------
+Episode: 42/1000
+Tasks Completed: 300, Total Reward: 133.420
+Episode Length: 300, Avg Reward (last 42): 132.095
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 12600
+Avg Loss: 0.052544
+------------------------
+Episode: 43/1000
+Tasks Completed: 300, Total Reward: 131.780
+Episode Length: 300, Avg Reward (last 43): 132.087
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 12900
+Avg Loss: 0.053302
+------------------------
+Episode: 44/1000
+Tasks Completed: 300, Total Reward: 136.620
+Episode Length: 300, Avg Reward (last 44): 132.190
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 13200
+Avg Loss: 0.053703
+------------------------
+Episode: 45/1000
+Tasks Completed: 300, Total Reward: 140.960
+Episode Length: 300, Avg Reward (last 45): 132.385
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 13500
+Avg Loss: 0.054367
+------------------------
+Episode: 46/1000
+Tasks Completed: 300, Total Reward: 127.540
+Episode Length: 300, Avg Reward (last 46): 132.280
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 13800
+Avg Loss: 0.055117
+------------------------
+Episode: 47/1000
+Tasks Completed: 300, Total Reward: 137.000
+Episode Length: 300, Avg Reward (last 47): 132.380
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 14100
+Avg Loss: 0.055793
+------------------------
+Episode: 48/1000
+Tasks Completed: 300, Total Reward: 130.640
+Episode Length: 300, Avg Reward (last 48): 132.344
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 14400
+Avg Loss: 0.056391
+------------------------
+Episode: 49/1000
+Tasks Completed: 300, Total Reward: 130.560
+Episode Length: 300, Avg Reward (last 49): 132.308
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 14700
+Avg Loss: 0.056715
+------------------------
+Episode: 50/1000
+Tasks Completed: 300, Total Reward: 127.940
+Episode Length: 300, Avg Reward (last 50): 132.220
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 15000
+Avg Loss: 0.057287
+------------------------
+Episode: 51/1000
+Tasks Completed: 300, Total Reward: 132.580
+Episode Length: 300, Avg Reward (last 51): 132.227
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 15300
+Avg Loss: 0.057876
+------------------------
+Episode: 52/1000
+Tasks Completed: 300, Total Reward: 119.860
+Episode Length: 300, Avg Reward (last 52): 131.990
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 15600
+Avg Loss: 0.058693
+------------------------
+Episode: 53/1000
+Tasks Completed: 300, Total Reward: 129.680
+Episode Length: 300, Avg Reward (last 53): 131.946
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 15900
+Avg Loss: 0.059412
+------------------------
+Episode: 54/1000
+Tasks Completed: 300, Total Reward: 139.680
+Episode Length: 300, Avg Reward (last 54): 132.089
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 16200
+Avg Loss: 0.060242
+------------------------
+Episode: 55/1000
+Tasks Completed: 300, Total Reward: 131.960
+Episode Length: 300, Avg Reward (last 55): 132.087
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 16500
+Avg Loss: 0.060916
+------------------------
+Episode: 56/1000
+Tasks Completed: 300, Total Reward: 122.200
+Episode Length: 300, Avg Reward (last 56): 131.910
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 16800
+Avg Loss: 0.061491
+------------------------
+Episode: 57/1000
+Tasks Completed: 300, Total Reward: 133.920
+Episode Length: 300, Avg Reward (last 57): 131.946
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 17100
+Avg Loss: 0.062301
+------------------------
+Episode: 58/1000
+Tasks Completed: 300, Total Reward: 139.840
+Episode Length: 300, Avg Reward (last 58): 132.082
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 17400
+Avg Loss: 0.063057
+------------------------
+Episode: 59/1000
+Tasks Completed: 300, Total Reward: 128.660
+Episode Length: 300, Avg Reward (last 59): 132.024
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 17700
+Avg Loss: 0.063726
+------------------------
+Episode: 60/1000
+Tasks Completed: 300, Total Reward: 131.040
+Episode Length: 300, Avg Reward (last 60): 132.007
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 18000
+Avg Loss: 0.064461
+------------------------
+Episode: 61/1000
+Tasks Completed: 300, Total Reward: 130.200
+Episode Length: 300, Avg Reward (last 61): 131.978
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 18300
+Avg Loss: 0.065032
+------------------------
+Episode: 62/1000
+Tasks Completed: 300, Total Reward: 130.560
+Episode Length: 300, Avg Reward (last 62): 131.955
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 18600
+Avg Loss: 0.065680
+------------------------
+Episode: 63/1000
+Tasks Completed: 300, Total Reward: 140.180
+Episode Length: 300, Avg Reward (last 63): 132.085
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 18900
+Avg Loss: 0.066424
+------------------------
+Episode: 64/1000
+Tasks Completed: 300, Total Reward: 131.000
+Episode Length: 300, Avg Reward (last 64): 132.068
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 19200
+Avg Loss: 0.067144
+------------------------
+Episode: 65/1000
+Tasks Completed: 300, Total Reward: 124.720
+Episode Length: 300, Avg Reward (last 65): 131.955
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 19500
+Avg Loss: 0.067935
+------------------------
+Episode: 66/1000
+Tasks Completed: 300, Total Reward: 129.720
+Episode Length: 300, Avg Reward (last 66): 131.922
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 19800
+Avg Loss: 0.068377
+------------------------
+Episode: 67/1000
+Tasks Completed: 300, Total Reward: 131.600
+Episode Length: 300, Avg Reward (last 67): 131.917
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 20100
+Avg Loss: 0.068862
+------------------------
+Episode: 68/1000
+Tasks Completed: 300, Total Reward: 140.420
+Episode Length: 300, Avg Reward (last 68): 132.042
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 20400
+Avg Loss: 0.069579
+------------------------
+Episode: 69/1000
+Tasks Completed: 300, Total Reward: 140.060
+Episode Length: 300, Avg Reward (last 69): 132.158
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 20700
+Avg Loss: 0.070193
+------------------------
+Episode: 70/1000
+Tasks Completed: 300, Total Reward: 138.000
+Episode Length: 300, Avg Reward (last 70): 132.241
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 21000
+Avg Loss: 0.070910
+------------------------
+Episode: 71/1000
+Tasks Completed: 300, Total Reward: 142.400
+Episode Length: 300, Avg Reward (last 71): 132.385
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 21300
+Avg Loss: 0.071358
+------------------------
+Episode: 72/1000
+Tasks Completed: 300, Total Reward: 124.900
+Episode Length: 300, Avg Reward (last 72): 132.281
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 21600
+Avg Loss: 0.072339
+------------------------
+Episode: 73/1000
+Tasks Completed: 300, Total Reward: 138.120
+Episode Length: 300, Avg Reward (last 73): 132.361
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 21900
+Avg Loss: 0.072715
+------------------------
+Episode: 74/1000
+Tasks Completed: 300, Total Reward: 133.760
+Episode Length: 300, Avg Reward (last 74): 132.379
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 22200
+Avg Loss: 0.073404
+------------------------
+Episode: 75/1000
+Tasks Completed: 300, Total Reward: 126.400
+Episode Length: 300, Avg Reward (last 75): 132.300
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 22500
+Avg Loss: 0.074104
+------------------------
+Episode: 76/1000
+Tasks Completed: 300, Total Reward: 136.620
+Episode Length: 300, Avg Reward (last 76): 132.357
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 22800
+Avg Loss: 0.074949
+------------------------
+Episode: 77/1000
+Tasks Completed: 300, Total Reward: 131.760
+Episode Length: 300, Avg Reward (last 77): 132.349
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 23100
+Avg Loss: 0.075590
+------------------------
+Episode: 78/1000
+Tasks Completed: 300, Total Reward: 134.780
+Episode Length: 300, Avg Reward (last 78): 132.380
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 23400
+Avg Loss: 0.076349
+------------------------
+Episode: 79/1000
+Tasks Completed: 300, Total Reward: 124.060
+Episode Length: 300, Avg Reward (last 79): 132.275
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 23700
+Avg Loss: 0.076927
+------------------------
+Episode: 80/1000
+Tasks Completed: 300, Total Reward: 139.640
+Episode Length: 300, Avg Reward (last 80): 132.367
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 24000
+Avg Loss: 0.077583
+------------------------
+Episode: 81/1000
+Tasks Completed: 300, Total Reward: 130.200
+Episode Length: 300, Avg Reward (last 81): 132.340
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 24300
+Avg Loss: 0.077788
+------------------------
+Episode: 82/1000
+Tasks Completed: 300, Total Reward: 138.080
+Episode Length: 300, Avg Reward (last 82): 132.410
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 24600
+Avg Loss: 0.078067
+------------------------
+Episode: 83/1000
+Tasks Completed: 300, Total Reward: 131.000
+Episode Length: 300, Avg Reward (last 83): 132.393
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 24900
+Avg Loss: 0.078967
+------------------------
+Episode: 84/1000
+Tasks Completed: 300, Total Reward: 128.660
+Episode Length: 300, Avg Reward (last 84): 132.349
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 25200
+Avg Loss: 0.079406
+------------------------
+Episode: 85/1000
+Tasks Completed: 300, Total Reward: 130.400
+Episode Length: 300, Avg Reward (last 85): 132.326
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 25500
+Avg Loss: 0.079891
+------------------------
+Episode: 86/1000
+Tasks Completed: 300, Total Reward: 126.960
+Episode Length: 300, Avg Reward (last 86): 132.263
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 25800
+Avg Loss: 0.080538
+------------------------
+Episode: 87/1000
+Tasks Completed: 300, Total Reward: 125.040
+Episode Length: 300, Avg Reward (last 87): 132.180
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 26100
+Avg Loss: 0.081072
+------------------------
+Episode: 88/1000
+Tasks Completed: 300, Total Reward: 131.240
+Episode Length: 300, Avg Reward (last 88): 132.170
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 26400
+Avg Loss: 0.082025
+------------------------
+Episode: 89/1000
+Tasks Completed: 300, Total Reward: 133.120
+Episode Length: 300, Avg Reward (last 89): 132.180
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 26700
+Avg Loss: 0.082523
+------------------------
+Episode: 90/1000
+Tasks Completed: 300, Total Reward: 136.900
+Episode Length: 300, Avg Reward (last 90): 132.233
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 27000
+Avg Loss: 0.083207
+------------------------
+Episode: 91/1000
+Tasks Completed: 300, Total Reward: 133.600
+Episode Length: 300, Avg Reward (last 91): 132.248
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 27300
+Avg Loss: 0.083436
+------------------------
+Episode: 92/1000
+Tasks Completed: 300, Total Reward: 132.520
+Episode Length: 300, Avg Reward (last 92): 132.251
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 27600
+Avg Loss: 0.084010
+------------------------
+Episode: 93/1000
+Tasks Completed: 300, Total Reward: 133.880
+Episode Length: 300, Avg Reward (last 93): 132.268
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 27900
+Avg Loss: 0.084473
+------------------------
+Episode: 94/1000
+Tasks Completed: 300, Total Reward: 138.240
+Episode Length: 300, Avg Reward (last 94): 132.332
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 28200
+Avg Loss: 0.085021
+------------------------
+Episode: 95/1000
+Tasks Completed: 300, Total Reward: 131.780
+Episode Length: 300, Avg Reward (last 95): 132.326
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 28500
+Avg Loss: 0.085495
+------------------------
+Episode: 96/1000
+Tasks Completed: 300, Total Reward: 136.220
+Episode Length: 300, Avg Reward (last 96): 132.366
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 28800
+Avg Loss: 0.085788
+------------------------
+Episode: 97/1000
+Tasks Completed: 300, Total Reward: 124.320
+Episode Length: 300, Avg Reward (last 97): 132.284
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 29100
+Avg Loss: 0.086086
+------------------------
+Episode: 98/1000
+Tasks Completed: 300, Total Reward: 136.040
+Episode Length: 300, Avg Reward (last 98): 132.322
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 29400
+Avg Loss: 0.086742
+------------------------
+Episode: 99/1000
+Tasks Completed: 300, Total Reward: 130.900
+Episode Length: 300, Avg Reward (last 99): 132.307
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 29700
+Avg Loss: 0.086967
+------------------------
+Episode: 100/1000
+Tasks Completed: 300, Total Reward: 129.800
+Episode Length: 300, Avg Reward (last 100): 132.282
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 30000
+Avg Loss: 0.087682
+------------------------
+Episode: 101/1000
+Tasks Completed: 300, Total Reward: 127.840
+Episode Length: 300, Avg Reward (last 100): 132.295
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 30300
+Avg Loss: 0.087875
+------------------------
+Episode: 102/1000
+Tasks Completed: 300, Total Reward: 129.420
+Episode Length: 300, Avg Reward (last 100): 132.306
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 30600
+Avg Loss: 0.088171
+------------------------
+Episode: 103/1000
+Tasks Completed: 300, Total Reward: 132.220
+Episode Length: 300, Avg Reward (last 100): 132.281
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 30900
+Avg Loss: 0.088521
+------------------------
+Episode: 104/1000
+Tasks Completed: 300, Total Reward: 132.700
+Episode Length: 300, Avg Reward (last 100): 132.272
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 31200
+Avg Loss: 0.089131
+------------------------
+Episode: 105/1000
+Tasks Completed: 300, Total Reward: 126.740
+Episode Length: 300, Avg Reward (last 100): 132.130
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 31500
+Avg Loss: 0.089265
+------------------------
+Episode: 106/1000
+Tasks Completed: 300, Total Reward: 120.580
+Episode Length: 300, Avg Reward (last 100): 132.106
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 31800
+Avg Loss: 0.089307
+------------------------
+Episode: 107/1000
+Tasks Completed: 300, Total Reward: 132.040
+Episode Length: 300, Avg Reward (last 100): 132.089
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 32100
+Avg Loss: 0.089567
+------------------------
+Episode: 108/1000
+Tasks Completed: 300, Total Reward: 134.680
+Episode Length: 300, Avg Reward (last 100): 132.201
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 32400
+Avg Loss: 0.089891
+------------------------
+Episode: 109/1000
+Tasks Completed: 300, Total Reward: 129.860
+Episode Length: 300, Avg Reward (last 100): 132.220
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 32700
+Avg Loss: 0.090617
+------------------------
+Episode: 110/1000
+Tasks Completed: 300, Total Reward: 132.360
+Episode Length: 300, Avg Reward (last 100): 132.275
+Avg Episode Length: 300.0
+Epsilon: 0.010, Memory: 33000
+Avg Loss: 0.090647
 ------------------------
